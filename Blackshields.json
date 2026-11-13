@@ -15,37 +15,43 @@
         "id": "c2fd-27d7-96c1-290b",
         "importRootEntries": true,
         "targetId": "9b32-f350-6aa9-9c09",
-        "type": "catalogue"
+        "type": "catalogue",
+        "categoryLinks": []
       },
       {
         "name": "Special Rules",
         "id": "d16d-3512-4e61-2e6f",
         "targetId": "106b-693b-99f2-00c3",
-        "type": "catalogue"
+        "type": "catalogue",
+        "categoryLinks": []
       },
       {
         "name": "Weapons",
         "id": "55f9-970b-9a16-bd1d",
         "targetId": "a22d-4dd0-c59d-57d3",
-        "type": "catalogue"
+        "type": "catalogue",
+        "categoryLinks": []
       },
       {
         "name": "Wargear",
         "id": "1397-7864-8b0a-b3af",
         "targetId": "fcc7-4319-bb04-2c25",
-        "type": "catalogue"
+        "type": "catalogue",
+        "categoryLinks": []
       },
       {
         "name": "Traits",
         "id": "1aca-0cc9-47e1-f620",
         "targetId": "df17-7a05-0826-6e22",
-        "type": "catalogue"
+        "type": "catalogue",
+        "categoryLinks": []
       },
       {
         "name": "Mechanicum",
         "id": "c620-7423-ea4e-dcf2",
         "targetId": "2f57-6e9d-8a7b-5c2e",
-        "type": "catalogue"
+        "type": "catalogue",
+        "categoryLinks": []
       }
     ],
     "entryLinks": [
@@ -61,7 +67,8 @@
             "name": "High Command",
             "id": "7944-f1c8-2aa2-9abc",
             "primary": true,
-            "targetId": "d9a6-9b5f-b18a-4d63"
+            "targetId": "d9a6-9b5f-b18a-4d63",
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -82,7 +89,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -92,7 +100,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -101,7 +110,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -109,11 +119,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ]
       },
@@ -129,7 +142,8 @@
             "name": "Army Configuration",
             "id": "15f7-fa10-ec8e-7dbf",
             "primary": true,
-            "targetId": "abfa-86ab-1726-077a"
+            "targetId": "abfa-86ab-1726-077a",
+            "categoryLinks": []
           }
         ]
       },
@@ -145,7 +159,8 @@
             "name": "Army Configuration",
             "id": "82e8-72dc-b031-283f",
             "primary": true,
-            "targetId": "abfa-86ab-1726-077a"
+            "targetId": "abfa-86ab-1726-077a",
+            "categoryLinks": []
           }
         ]
       },
@@ -161,7 +176,8 @@
             "name": "Support - Castellax Battle Maniple Only",
             "id": "b0f5-8811-b797-71b7",
             "primary": true,
-            "targetId": "61eb-11e2-1592-3161"
+            "targetId": "61eb-11e2-1592-3161",
+            "categoryLinks": []
           }
         ],
         "infoLinks": [
@@ -170,7 +186,8 @@
             "id": "3f7b-70e7-758a-a2db",
             "hidden": false,
             "targetId": "b713-a3cb-67da-5bb6",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           }
         ],
         "modifierGroups": [
@@ -186,26 +203,31 @@
                 "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "modifiers": [
               {
                 "field": "category",
                 "type": "remove",
-                "value": "df10-4634-c1aa-f6e0"
+                "value": "df10-4634-c1aa-f6e0",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "add",
-                "value": "a59f-578b-8e20-efa1"
+                "value": "a59f-578b-8e20-efa1",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "set-primary",
-                "value": "61eb-11e2-1592-3161"
+                "value": "61eb-11e2-1592-3161",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -226,7 +248,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -236,7 +259,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -245,7 +269,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -253,11 +278,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ]
       },
@@ -273,7 +301,8 @@
             "name": "Heavy Assault - Castellax Destructor Maniple only",
             "id": "a2ec-5bf7-c8b0-0006",
             "primary": true,
-            "targetId": "d49e-048b-a8e2-ba52"
+            "targetId": "d49e-048b-a8e2-ba52",
+            "categoryLinks": []
           }
         ],
         "infoLinks": [
@@ -282,7 +311,8 @@
             "id": "b8fd-9599-d60d-c0ef",
             "hidden": false,
             "targetId": "b713-a3cb-67da-5bb6",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           }
         ],
         "modifierGroups": [
@@ -298,26 +328,31 @@
                 "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "modifiers": [
               {
                 "field": "category",
                 "type": "remove",
-                "value": "df10-4634-c1aa-f6e0"
+                "value": "df10-4634-c1aa-f6e0",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "add",
-                "value": "a59f-578b-8e20-efa1"
+                "value": "a59f-578b-8e20-efa1",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "set-primary",
-                "value": "d49e-048b-a8e2-ba52"
+                "value": "d49e-048b-a8e2-ba52",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -338,7 +373,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -348,7 +384,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -357,7 +394,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -365,11 +403,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ]
       },
@@ -385,7 +426,8 @@
             "name": "Elites - Domitar Battle Maniple Only",
             "id": "1b05-ec5f-2e7b-d5e6",
             "primary": true,
-            "targetId": "826c-7b05-0f62-8b16"
+            "targetId": "826c-7b05-0f62-8b16",
+            "categoryLinks": []
           }
         ],
         "infoLinks": [
@@ -394,7 +436,8 @@
             "id": "2f69-c95d-fe0f-2e43",
             "hidden": false,
             "targetId": "b713-a3cb-67da-5bb6",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           }
         ],
         "modifierGroups": [
@@ -410,26 +453,31 @@
                 "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "modifiers": [
               {
                 "field": "category",
                 "type": "remove",
-                "value": "df10-4634-c1aa-f6e0"
+                "value": "df10-4634-c1aa-f6e0",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "add",
-                "value": "a59f-578b-8e20-efa1"
+                "value": "a59f-578b-8e20-efa1",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "set-primary",
-                "value": "826c-7b05-0f62-8b16"
+                "value": "826c-7b05-0f62-8b16",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -450,7 +498,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -460,7 +509,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -469,7 +519,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -477,11 +528,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ]
       },
@@ -497,7 +551,8 @@
             "name": "War Engine - Thanatar Siege Maniple only",
             "id": "f645-889b-40b5-056f",
             "primary": true,
-            "targetId": "64d7-855f-726b-803f"
+            "targetId": "64d7-855f-726b-803f",
+            "categoryLinks": []
           }
         ],
         "infoLinks": [
@@ -506,7 +561,8 @@
             "id": "c601-90cf-caca-33d9",
             "hidden": false,
             "targetId": "b713-a3cb-67da-5bb6",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           }
         ],
         "modifierGroups": [
@@ -522,26 +578,31 @@
                 "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "modifiers": [
               {
                 "field": "category",
                 "type": "remove",
-                "value": "df10-4634-c1aa-f6e0"
+                "value": "df10-4634-c1aa-f6e0",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "add",
-                "value": "a59f-578b-8e20-efa1"
+                "value": "a59f-578b-8e20-efa1",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "set-primary",
-                "value": "64d7-855f-726b-803f"
+                "value": "64d7-855f-726b-803f",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -562,7 +623,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -572,7 +634,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -581,7 +644,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -589,11 +653,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ]
       },
@@ -609,7 +676,8 @@
             "name": "Recon - Vorax Attack Maniple Only",
             "id": "60d7-4cb7-a948-40d7",
             "primary": true,
-            "targetId": "0fb1-2125-2a33-b094"
+            "targetId": "0fb1-2125-2a33-b094",
+            "categoryLinks": []
           }
         ],
         "infoLinks": [
@@ -618,7 +686,8 @@
             "id": "6882-2cba-d1fa-0bcc",
             "hidden": false,
             "targetId": "b713-a3cb-67da-5bb6",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           }
         ],
         "modifierGroups": [
@@ -634,26 +703,31 @@
                 "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "modifiers": [
               {
                 "field": "category",
                 "type": "remove",
-                "value": "df10-4634-c1aa-f6e0"
+                "value": "df10-4634-c1aa-f6e0",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "add",
-                "value": "a59f-578b-8e20-efa1"
+                "value": "a59f-578b-8e20-efa1",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "set-primary",
-                "value": "0fb1-2125-2a33-b094"
+                "value": "0fb1-2125-2a33-b094",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -674,7 +748,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -684,7 +759,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -693,7 +769,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -701,11 +778,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ]
       },
@@ -721,7 +801,8 @@
             "name": "Fast Attack - Vultarax Stratos Squadron Only",
             "id": "8789-dc9e-48f0-2182",
             "primary": true,
-            "targetId": "7db9-74d1-6ba1-061e"
+            "targetId": "7db9-74d1-6ba1-061e",
+            "categoryLinks": []
           }
         ],
         "infoLinks": [
@@ -730,7 +811,8 @@
             "id": "8217-f722-729d-fd9b",
             "hidden": false,
             "targetId": "b713-a3cb-67da-5bb6",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           }
         ],
         "modifierGroups": [
@@ -746,26 +828,31 @@
                 "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "modifiers": [
               {
                 "field": "category",
                 "type": "remove",
-                "value": "df10-4634-c1aa-f6e0"
+                "value": "df10-4634-c1aa-f6e0",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "add",
-                "value": "a59f-578b-8e20-efa1"
+                "value": "a59f-578b-8e20-efa1",
+                "categoryLinks": []
               },
               {
                 "field": "category",
                 "type": "set-primary",
-                "value": "7db9-74d1-6ba1-061e"
+                "value": "7db9-74d1-6ba1-061e",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -786,7 +873,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -796,7 +884,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -805,7 +894,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -813,11 +903,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ]
       }
@@ -830,7 +923,8 @@
         "publicationDate": "9th Oct 2025",
         "publisher": " Legiones Astartes: Blackshields",
         "publisherUrl": "https://assets.warhammer-community.com/eng_09-10_thehorusheresy_legacies_blackshields-19qd4ghgwp-azrdg7jskx.pdf",
-        "shortName": "Blackshields"
+        "shortName": "Blackshields",
+        "categoryLinks": []
       }
     ],
     "sharedSelectionEntries": [
@@ -849,34 +943,40 @@
             "scope": "roster",
             "shared": true,
             "type": "max",
-            "value": 1
+            "value": 1,
+            "categoryLinks": []
           }
         ],
         "costs": [
           {
             "name": "Point(s)",
             "typeId": "9893-c379-920b-8982",
-            "value": 165
+            "value": 165,
+            "categoryLinks": []
           },
           {
             "name": "Asset Point(s)",
             "typeId": "57e3-1031-7d4d-5ae3",
-            "value": 0
+            "value": 0,
+            "categoryLinks": []
           },
           {
             "name": "Reaction Point(s)",
             "typeId": "c9ba-097e-c47f-ecc2",
-            "value": 0
+            "value": 0,
+            "categoryLinks": []
           },
           {
             "name": "Auxiliary Detachment(s)",
             "typeId": "3e8e-05ee-be52-12d6",
-            "value": 0
+            "value": 0,
+            "categoryLinks": []
           },
           {
             "name": "Apex Detachment(s)",
             "typeId": "159d-855c-533d-f592",
-            "value": 0
+            "value": 0,
+            "categoryLinks": []
           }
         ],
         "entryLinks": [
@@ -886,7 +986,8 @@
             "hidden": false,
             "import": true,
             "targetId": "969e-8b5b-1410-cfc6",
-            "type": "selectionEntryGroup"
+            "type": "selectionEntryGroup",
+            "categoryLinks": []
           },
           {
             "name": "Prime Unit",
@@ -902,9 +1003,11 @@
                 "hidden": false,
                 "import": true,
                 "targetId": "a396-b846-c263-6767",
-                "type": "selectionEntryGroup"
+                "type": "selectionEntryGroup",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "infoLinks": [
@@ -913,21 +1016,24 @@
             "id": "90eb-1760-d063-1958",
             "hidden": false,
             "targetId": "bb66-f1f6-4d65-5a07",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           },
           {
             "name": "[Legiones Astartes]",
             "id": "05ec-df15-13f3-a523",
             "hidden": false,
             "targetId": "641c-ca0a-7093-4525",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           },
           {
             "name": "Master of the Legion",
             "id": "8a0f-59f2-5fd2-3c2e",
             "hidden": false,
             "targetId": "6cd2-96be-b703-6d57",
-            "type": "profile"
+            "type": "profile",
+            "categoryLinks": []
           },
           {
             "name": "Hatred (X)",
@@ -941,9 +1047,11 @@
                 "arg": "X",
                 "field": "name",
                 "type": "replace",
-                "value": "World Eaters"
+                "value": "World Eaters",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           },
           {
             "name": "Eternal Warrior (X)",
@@ -957,9 +1065,11 @@
                 "arg": "X",
                 "field": "name",
                 "type": "replace",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           },
           {
             "name": "Doomed Heroics (X)",
@@ -972,7 +1082,8 @@
                 "arg": "X",
                 "field": "name",
                 "type": "replace",
-                "value": 3
+                "value": 3,
+                "categoryLinks": []
               },
               {
                 "field": "hidden",
@@ -987,11 +1098,14 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -1008,9 +1122,11 @@
                 "scope": "roster",
                 "shared": true,
                 "type": "atLeast",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           },
           {
             "comment": "Hidden by Primary - Armoured Spearhead restrictions",
@@ -1029,7 +1145,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -1039,7 +1156,8 @@
                     "scope": "roster",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -1048,7 +1166,8 @@
                     "scope": "ancestor",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "childId": "a1f3-7c2e-9b84-0d51",
@@ -1056,11 +1175,14 @@
                     "scope": "force",
                     "shared": true,
                     "type": "instanceOf",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "profiles": [
@@ -1074,14 +1196,17 @@
               {
                 "name": "Summary",
                 "$text": "This Gambit allows Endryd Haar to make a single attack with a higher Strength and that causes more Damage.",
-                "typeId": "98f3-41cf-e3be-2ae7"
+                "typeId": "98f3-41cf-e3be-2ae7",
+                "categoryLinks": []
               },
               {
                 "name": "Description",
                 "$text": "If this Gambit is selected, then the Controlling Player may only make a single attack in the Strike Step for the Model this Gambit was selected for, regardless of the value of the Model’s Attacks Characteristic. However, that Model gains a bonus of +4 to their Strength Characteristic and a bonus of +2 to the Damage Characteristic of their selected Weapon, for the single attack made for them in the Strike Step",
-                "typeId": "2d7d-b1d9-dead-605a"
+                "typeId": "2d7d-b1d9-dead-605a",
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "rules": [
@@ -1089,13 +1214,15 @@
             "name": " Fangs of the Emperor ",
             "id": "bd25-f108-3015-dd31",
             "description": "If Endryd Haar is selected as the only High Command Choice in a Primary Detachment, then all Units from that Primary Detachment that are composed entirely of Models with the Blackshields Trait, the Infantry Type and that do not have any variant of the Bulky (X) Special Rule gain the Infiltrate (12) Special Rule",
-            "hidden": false
+            "hidden": false,
+            "categoryLinks": []
           },
           {
             "name": " The Riven Hound",
             "id": "6864-01df-8848-bc77",
             "description": "While a Model with this Special Rule is engaged in a Challenge, its Controlling Player can select The Riven Hound Gambit:",
-            "hidden": false
+            "hidden": false,
+            "categoryLinks": []
           }
         ],
         "selectionEntries": [
@@ -1110,19 +1237,22 @@
                 "name": "Infantry Model Type",
                 "id": "11c6-54bc-2fc0-a9d0",
                 "primary": false,
-                "targetId": "594d-fa82-13cb-a345"
+                "targetId": "594d-fa82-13cb-a345",
+                "categoryLinks": []
               },
               {
                 "name": "Command Model Sub-type",
                 "id": "7dd2-5a30-53bf-74c4",
                 "primary": false,
-                "targetId": "9871-cb62-5283-2216"
+                "targetId": "9871-cb62-5283-2216",
+                "categoryLinks": []
               },
               {
                 "name": "Unique Model Sub-Type",
                 "id": "b4e2-5403-77c2-275e",
                 "primary": false,
-                "targetId": "b980-187b-2b17-d635"
+                "targetId": "b980-187b-2b17-d635",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -1132,7 +1262,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "min",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               },
               {
                 "id": "a4f2-5783-e3b2-feab",
@@ -1140,7 +1271,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "entryLinks": [
@@ -1159,7 +1291,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "fe95-dd43-2b5e-0a99",
@@ -1167,9 +1300,11 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "name": "Frag grenades",
@@ -1186,7 +1321,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "f4c1-148f-d6c6-ffd6",
@@ -1194,9 +1330,11 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "name": "Krak grenades",
@@ -1213,7 +1351,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "3792-83a8-58f5-af73",
@@ -1221,9 +1360,11 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "name": "Oath(s) of Moment",
@@ -1231,7 +1372,8 @@
                 "hidden": false,
                 "import": true,
                 "targetId": "fd0c-8569-5b52-0ce8",
-                "type": "selectionEntryGroup"
+                "type": "selectionEntryGroup",
+                "categoryLinks": []
               }
             ],
             "profiles": [
@@ -1245,77 +1387,92 @@
                   {
                     "name": "Type",
                     "$text": "Infantry (Command, Unique)",
-                    "typeId": "50fc-9241-d4a2-045b"
+                    "typeId": "50fc-9241-d4a2-045b",
+                    "categoryLinks": []
                   },
                   {
                     "name": "M",
                     "$text": "7",
-                    "typeId": "a106-a779-d272-5e93"
+                    "typeId": "a106-a779-d272-5e93",
+                    "categoryLinks": []
                   },
                   {
                     "name": "WS",
                     "$text": "6",
-                    "typeId": "253c-d694-4695-c89e"
+                    "typeId": "253c-d694-4695-c89e",
+                    "categoryLinks": []
                   },
                   {
                     "name": "BS",
                     "$text": "5",
-                    "typeId": "0cd5-b269-e3bc-028b"
+                    "typeId": "0cd5-b269-e3bc-028b",
+                    "categoryLinks": []
                   },
                   {
                     "name": "S",
                     "$text": "4",
-                    "typeId": "498f-dce1-59fd-d8d7"
+                    "typeId": "498f-dce1-59fd-d8d7",
+                    "categoryLinks": []
                   },
                   {
                     "name": "T",
                     "$text": "5",
-                    "typeId": "3120-8275-e537-ecd2"
+                    "typeId": "3120-8275-e537-ecd2",
+                    "categoryLinks": []
                   },
                   {
                     "name": "W",
                     "$text": "4",
-                    "typeId": "f5cc-79a3-d302-cc1d"
+                    "typeId": "f5cc-79a3-d302-cc1d",
+                    "categoryLinks": []
                   },
                   {
                     "name": "I",
                     "$text": "5",
-                    "typeId": "af9d-7db8-dc95-71c1"
+                    "typeId": "af9d-7db8-dc95-71c1",
+                    "categoryLinks": []
                   },
                   {
                     "name": "A",
                     "$text": "5",
-                    "typeId": "024e-bdb1-7982-25a0"
+                    "typeId": "024e-bdb1-7982-25a0",
+                    "categoryLinks": []
                   },
                   {
                     "name": "LD",
                     "$text": "10",
-                    "typeId": "02ad-ebe6-86e7-9fd6"
+                    "typeId": "02ad-ebe6-86e7-9fd6",
+                    "categoryLinks": []
                   },
                   {
                     "name": "CL",
                     "$text": "9",
-                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                    "typeId": "9cd1-0e7c-2cd6-5f2f",
+                    "categoryLinks": []
                   },
                   {
                     "name": "WP",
                     "$text": "10",
-                    "typeId": "f714-1726-37d3-44df"
+                    "typeId": "f714-1726-37d3-44df",
+                    "categoryLinks": []
                   },
                   {
                     "name": "IN",
                     "$text": "8",
-                    "typeId": "29c5-925d-5b1d-1e77"
+                    "typeId": "29c5-925d-5b1d-1e77",
+                    "categoryLinks": []
                   },
                   {
                     "name": "SAV",
                     "$text": "2+",
-                    "typeId": "03bd-4ecb-351d-143b"
+                    "typeId": "03bd-4ecb-351d-143b",
+                    "categoryLinks": []
                   },
                   {
                     "name": "INV",
                     "$text": "4+",
-                    "typeId": "a951-a772-7ce0-0b64"
+                    "typeId": "a951-a772-7ce0-0b64",
+                    "categoryLinks": []
                   }
                 ],
                 "modifierGroups": [
@@ -1331,7 +1488,8 @@
                         "scope": "roster",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ],
                     "modifiers": [
@@ -1339,11 +1497,14 @@
                         "arg": "Infantry",
                         "field": "50fc-9241-d4a2-045b",
                         "type": "replace",
-                        "value": "Automata"
+                        "value": "Automata",
+                        "categoryLinks": []
                       }
-                    ]
+                    ],
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
             ],
             "selectionEntries": [
@@ -1361,7 +1522,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "ca02-d865-28c5-8bd9",
@@ -1369,7 +1531,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
                 ],
                 "profiles": [
@@ -1383,43 +1546,61 @@
                       {
                         "name": "IM",
                         "$text": "2",
-                        "typeId": "6eec-4093-f946-1014"
+                        "typeId": "6eec-4093-f946-1014",
+                        "categoryLinks": []
                       },
                       {
                         "name": "AM",
                         "$text": "-1",
-                        "typeId": "03d0-6094-84f0-e27e"
+                        "typeId": "03d0-6094-84f0-e27e",
+                        "categoryLinks": []
                       },
                       {
                         "name": "SM",
                         "$text": "+4",
-                        "typeId": "4505-de6f-d4ae-6280"
+                        "typeId": "4505-de6f-d4ae-6280",
+                        "categoryLinks": []
                       },
                       {
                         "name": "AP",
                         "$text": "2",
-                        "typeId": "a014-126b-3b7b-27e8"
+                        "typeId": "a014-126b-3b7b-27e8",
+                        "categoryLinks": []
                       },
                       {
                         "name": "D",
                         "$text": "3",
-                        "typeId": "6a9d-4feb-065a-33e7"
+                        "typeId": "6a9d-4feb-065a-33e7",
+                        "categoryLinks": []
                       },
                       {
                         "name": "Special Rules",
                         "$text": "-",
-                        "typeId": "ebe0-7b28-b40c-694e"
+                        "typeId": "ebe0-7b28-b40c-694e",
+                        "categoryLinks": []
                       },
                       {
                         "name": "Traits",
                         "$text": "Power",
-                        "typeId": "76e3-c188-bc65-3467"
+                        "typeId": "76e3-c188-bc65-3467",
+                        "categoryLinks": []
                       }
-                    ]
+                    ],
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
             ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "name": "Master of the Legion",
+            "id": "faa3-3157-1b72-7100",
+            "primary": false,
+            "targetId": "e3cd-7a38-34d7-9cbf",
+            "categoryLinks": []
           }
         ]
       },
@@ -1436,7 +1617,8 @@
             "scope": "parent",
             "shared": true,
             "type": "min",
-            "value": 1
+            "value": 1,
+            "categoryLinks": []
           },
           {
             "id": "1571-3878-06df-cecb",
@@ -1444,7 +1626,8 @@
             "scope": "parent",
             "shared": true,
             "type": "max",
-            "value": 1
+            "value": 1,
+            "categoryLinks": []
           }
         ],
         "entryLinks": [
@@ -1454,9 +1637,11 @@
             "hidden": false,
             "import": true,
             "targetId": "e45b-b0b9-a21e-935f",
-            "type": "selectionEntryGroup"
+            "type": "selectionEntryGroup",
+            "categoryLinks": []
           }
-        ]
+        ],
+        "categoryLinks": []
       },
       {
         "name": "Oaths of Moment",
@@ -1471,7 +1656,8 @@
             "scope": "parent",
             "shared": true,
             "type": "min",
-            "value": 1
+            "value": 1,
+            "categoryLinks": []
           },
           {
             "id": "992c-efca-ab6b-bb08",
@@ -1479,7 +1665,8 @@
             "scope": "parent",
             "shared": true,
             "type": "max",
-            "value": 1
+            "value": 1,
+            "categoryLinks": []
           }
         ],
         "entryLinks": [
@@ -1489,9 +1676,11 @@
             "hidden": false,
             "import": true,
             "targetId": "e6c2-1fbd-b0b2-555a",
-            "type": "selectionEntryGroup"
+            "type": "selectionEntryGroup",
+            "categoryLinks": []
           }
-        ]
+        ],
+        "categoryLinks": []
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -1507,7 +1696,8 @@
             "scope": "parent",
             "shared": true,
             "type": "max",
-            "value": 2
+            "value": 2,
+            "categoryLinks": []
           }
         ],
         "modifiers": [
@@ -1523,9 +1713,11 @@
                 "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
         ],
         "selectionEntries": [
@@ -1540,7 +1732,8 @@
                 "name": "The Eternal Vendetta",
                 "id": "8da9-befd-29cb-a2fe",
                 "primary": false,
-                "targetId": "fdfa-3e5d-370e-e470"
+                "targetId": "fdfa-3e5d-370e-e470",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -1550,7 +1743,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -1559,7 +1753,8 @@
                 "id": "997b-a9ee-f9a4-2e24",
                 "hidden": false,
                 "targetId": "d6d0-9273-d1d4-b167",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -1576,7 +1771,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "selectionEntryGroups": [
@@ -1591,7 +1787,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "fced-fd2a-b19a-a7d9",
@@ -1599,7 +1796,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
                 ],
                 "infoLinks": [
@@ -1608,7 +1806,8 @@
                     "id": "cf92-333c-e3c8-cc9a",
                     "hidden": false,
                     "targetId": "c768-6f33-f07c-7b92",
-                    "type": "rule"
+                    "type": "rule",
+                    "categoryLinks": []
                   }
                 ],
                 "selectionEntries": [
@@ -1624,7 +1823,8 @@
                         "name": "Panoply of Old - Dark Angels",
                         "id": "721d-9270-10d6-97fc",
                         "primary": false,
-                        "targetId": "c99b-7cb2-a79c-b632"
+                        "targetId": "c99b-7cb2-a79c-b632",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1634,7 +1834,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1650,7 +1851,8 @@
                         "name": "Panoply of Old - Emperor's Children",
                         "id": "a49a-5b82-b786-a6fc",
                         "primary": false,
-                        "targetId": "fc3a-a4e6-8a2c-01a8"
+                        "targetId": "fc3a-a4e6-8a2c-01a8",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1660,7 +1862,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1676,7 +1879,8 @@
                         "name": "Panoply of Old - Iron Warriors",
                         "id": "a1b4-043e-6c03-5199",
                         "primary": false,
-                        "targetId": "4061-bc47-ebca-dc39"
+                        "targetId": "4061-bc47-ebca-dc39",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1686,7 +1890,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1702,7 +1907,8 @@
                         "name": "Panoply of Old - White Scars",
                         "id": "4d04-dae6-e80f-1fe8",
                         "primary": false,
-                        "targetId": "d479-57dc-b494-7f80"
+                        "targetId": "d479-57dc-b494-7f80",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1712,7 +1918,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1728,7 +1935,8 @@
                         "name": "Panoply of Old - Space Wolves",
                         "id": "8d9b-b597-b71d-b785",
                         "primary": false,
-                        "targetId": "3e12-20bf-607f-c531"
+                        "targetId": "3e12-20bf-607f-c531",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1738,7 +1946,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1754,7 +1963,8 @@
                         "name": "Panoply of Old - Imperial Fists",
                         "id": "2e54-9273-a444-198a",
                         "primary": false,
-                        "targetId": "de6f-f206-4bb4-d176"
+                        "targetId": "de6f-f206-4bb4-d176",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1764,7 +1974,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1780,7 +1991,8 @@
                         "name": "Panoply of Old - Night Lords",
                         "id": "34e7-2f63-3180-8cc1",
                         "primary": false,
-                        "targetId": "d63e-1849-e763-05ee"
+                        "targetId": "d63e-1849-e763-05ee",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1790,7 +2002,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1806,7 +2019,8 @@
                         "name": "Panoply of Old - Blood Angels",
                         "id": "37af-d61b-a87e-9933",
                         "primary": false,
-                        "targetId": "8ae1-c83b-a225-826f"
+                        "targetId": "8ae1-c83b-a225-826f",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1816,7 +2030,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1832,7 +2047,8 @@
                         "name": "Panoply of Old - Iron Hands",
                         "id": "be49-893d-f5b5-b16c",
                         "primary": false,
-                        "targetId": "1c05-5fde-9ef6-9807"
+                        "targetId": "1c05-5fde-9ef6-9807",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1842,7 +2058,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1858,7 +2075,8 @@
                         "name": "Panoply of Old - World Eaters",
                         "id": "26f6-eab0-821f-0831",
                         "primary": false,
-                        "targetId": "0d39-355e-7faa-51a0"
+                        "targetId": "0d39-355e-7faa-51a0",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1868,7 +2086,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1884,7 +2103,8 @@
                         "name": "Panoply of Old - Ultramarines",
                         "id": "09b6-8332-c8fa-25f1",
                         "primary": false,
-                        "targetId": "147b-ad1e-1848-e5d3"
+                        "targetId": "147b-ad1e-1848-e5d3",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1894,7 +2114,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1910,7 +2131,8 @@
                         "name": "Panoply of Old - Death Guard",
                         "id": "7fae-5c4e-49c6-2bf8",
                         "primary": false,
-                        "targetId": "606f-00c4-a49b-ff1c"
+                        "targetId": "606f-00c4-a49b-ff1c",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1920,7 +2142,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1936,7 +2159,8 @@
                         "name": "Panoply of Old - Thousand Sons",
                         "id": "5b8c-f6bd-ee9a-a739",
                         "primary": false,
-                        "targetId": "4eec-9111-7656-2023"
+                        "targetId": "4eec-9111-7656-2023",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1946,7 +2170,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1962,7 +2187,8 @@
                         "name": "Panoply of Old - Sons of Horus",
                         "id": "3132-107d-c8b7-3f4c",
                         "primary": false,
-                        "targetId": "59b9-6955-2307-aa98"
+                        "targetId": "59b9-6955-2307-aa98",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1972,7 +2198,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -1988,7 +2215,8 @@
                         "name": "Panoply of Old - Word Bearers",
                         "id": "6a14-190c-3765-6a40",
                         "primary": false,
-                        "targetId": "a7b1-f3cb-b648-834a"
+                        "targetId": "a7b1-f3cb-b648-834a",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -1998,7 +2226,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -2014,7 +2243,8 @@
                         "name": "Panoply of Old - Salamanders",
                         "id": "e6f2-61ba-5d58-3f2e",
                         "primary": false,
-                        "targetId": "fde7-fb71-1ecc-7365"
+                        "targetId": "fde7-fb71-1ecc-7365",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -2024,7 +2254,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -2040,7 +2271,8 @@
                         "name": "Panoply of Old - Raven Guard",
                         "id": "ac6d-9e1c-60fd-10de",
                         "primary": false,
-                        "targetId": "754a-10dd-0b2e-1b19"
+                        "targetId": "754a-10dd-0b2e-1b19",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -2050,7 +2282,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   },
@@ -2066,7 +2299,8 @@
                         "name": "Panoply of Old - Alpha Legion",
                         "id": "a75c-511c-87f1-9081",
                         "primary": false,
-                        "targetId": "0e0a-e490-ee7f-7033"
+                        "targetId": "0e0a-e490-ee7f-7033",
+                        "categoryLinks": []
                       }
                     ],
                     "constraints": [
@@ -2076,13 +2310,16 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "max",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
                     ]
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           },
           {
             "name": "Only in Death does  Duty End",
@@ -2095,7 +2332,8 @@
                 "name": "Only in Death does Duty End",
                 "id": "4138-995f-8aa2-b59a",
                 "primary": false,
-                "targetId": "8026-d8cc-eea8-cd3d"
+                "targetId": "8026-d8cc-eea8-cd3d",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2105,7 +2343,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2114,7 +2353,8 @@
                 "id": "0403-948d-5a45-39b8",
                 "hidden": false,
                 "targetId": "58df-6c2a-de82-81a0",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2129,7 +2369,8 @@
                 "name": "The Spoils of Victory",
                 "id": "a346-ad0f-d00f-b155",
                 "primary": false,
-                "targetId": "49f4-c066-6fe6-fbfd"
+                "targetId": "49f4-c066-6fe6-fbfd",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2140,7 +2381,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               },
               {
                 "id": "394a-fbb4-197d-6c9c",
@@ -2149,7 +2391,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "min",
-                "value": 0
+                "value": 0,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2158,7 +2401,8 @@
                 "id": "ae27-912c-d359-12aa",
                 "hidden": false,
                 "targetId": "dd0a-1123-9b03-5ad9",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ],
             "modifiers": [
@@ -2174,9 +2418,11 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "field": "394a-fbb4-197d-6c9c",
@@ -2190,9 +2436,11 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "atLeast",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
             ]
           },
@@ -2207,7 +2455,8 @@
                 "name": "An Eternity of War",
                 "id": "6faf-c8b6-158d-5bf7",
                 "primary": false,
-                "targetId": "ac6a-e4c3-b5aa-fe61"
+                "targetId": "ac6a-e4c3-b5aa-fe61",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2217,7 +2466,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2226,7 +2476,8 @@
                 "id": "1ca8-ce34-c3f2-e0fb",
                 "hidden": false,
                 "targetId": "3e9a-f17a-c60e-dcfa",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2241,7 +2492,8 @@
                 "name": "The Flesh is Weak",
                 "id": "ee94-301d-013e-d7b3",
                 "primary": false,
-                "targetId": "d563-c8da-2cce-aa7d"
+                "targetId": "d563-c8da-2cce-aa7d",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2251,7 +2503,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2260,21 +2513,24 @@
                 "id": "f853-90cb-d266-b9af",
                 "hidden": false,
                 "targetId": "e895-dda1-cacc-5105",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               },
               {
                 "name": "Linked Cogitator Units",
                 "id": "b8ee-7882-e339-922c",
                 "hidden": false,
                 "targetId": "686e-7abe-2bf8-103e",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               },
               {
                 "name": "Augmetic Transport Bay",
                 "id": "6e94-29ef-2a1d-4b93",
                 "hidden": false,
                 "targetId": "9f41-c4ba-509a-20c3",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2289,7 +2545,8 @@
                 "name": "The Legacy of Nikaea",
                 "id": "f36f-af90-d59a-6048",
                 "primary": false,
-                "targetId": "d26c-456d-f04d-12d0"
+                "targetId": "d26c-456d-f04d-12d0",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2299,7 +2556,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2308,7 +2566,8 @@
                 "id": "6935-c68c-3bfb-4d82",
                 "hidden": false,
                 "targetId": "4140-2a99-e941-539f",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2323,7 +2582,8 @@
                 "name": "The Broken Helix",
                 "id": "d798-f710-2beb-c585",
                 "primary": false,
-                "targetId": "53f8-ca8c-239c-1d3d"
+                "targetId": "53f8-ca8c-239c-1d3d",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2333,7 +2593,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2342,7 +2603,8 @@
                 "id": "b1b3-53f9-d309-7325",
                 "hidden": false,
                 "targetId": "1a93-fdf9-dd1e-3df9",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2357,7 +2619,8 @@
                 "name": "In Disgrace all are Equal",
                 "id": "6551-a34a-7125-acc3",
                 "primary": false,
-                "targetId": "610d-c9b0-ccb0-cba9"
+                "targetId": "610d-c9b0-ccb0-cba9",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2367,7 +2630,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2376,7 +2640,8 @@
                 "id": "86dd-6e70-36ad-d306",
                 "hidden": false,
                 "targetId": "d35b-fa21-0757-9df7",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2391,7 +2656,8 @@
                 "name": "Pride is our Armour",
                 "id": "00e5-ace7-d6bb-76d4",
                 "primary": false,
-                "targetId": "f5dc-c13a-5848-f3b8"
+                "targetId": "f5dc-c13a-5848-f3b8",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2401,7 +2667,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2410,7 +2677,8 @@
                 "id": "a182-2a7e-2dfb-6dd3",
                 "hidden": false,
                 "targetId": "6c48-fb06-2b89-ffb1",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2425,7 +2693,8 @@
                 "name": "The Taint of Xenos",
                 "id": "4630-6622-813a-73b1",
                 "primary": false,
-                "targetId": "6049-c010-d9b7-8cca"
+                "targetId": "6049-c010-d9b7-8cca",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2435,7 +2704,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2444,7 +2714,8 @@
                 "id": "efdf-266b-d42f-9fe1",
                 "hidden": false,
                 "targetId": "a8c4-6c76-4105-4e19",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2459,7 +2730,8 @@
                 "name": "The Weapons of Desperation",
                 "id": "7c06-840a-4e55-32fd",
                 "primary": false,
-                "targetId": "4d86-d6e9-8bca-0ad5"
+                "targetId": "4d86-d6e9-8bca-0ad5",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2469,7 +2741,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2478,7 +2751,8 @@
                 "id": "7730-fac1-8cf9-afc5",
                 "hidden": false,
                 "targetId": "49ea-388e-cee3-7053",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           },
@@ -2493,7 +2767,8 @@
                 "name": "The Blade of the Just",
                 "id": "0966-7b8b-22f6-8293",
                 "primary": false,
-                "targetId": "4ec2-4dab-205b-36a2"
+                "targetId": "4ec2-4dab-205b-36a2",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2504,7 +2779,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               },
               {
                 "id": "ac71-f536-996b-0222",
@@ -2513,7 +2789,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "min",
-                "value": 0
+                "value": 0,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2522,14 +2799,16 @@
                 "id": "3f31-ffbf-36c0-fc76",
                 "hidden": false,
                 "targetId": "1592-e29d-a111-dfef",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               },
               {
                 "name": "Doomed Heroics (X)",
                 "id": "e2b4-9600-1176-64a1",
                 "hidden": false,
                 "targetId": "aea9-7451-7b2c-5b40",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ],
             "modifiers": [
@@ -2548,7 +2827,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       },
                       {
                         "childId": "40ff-d0cc-3254-f83e",
@@ -2557,11 +2837,14 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
-                    ]
+                    ],
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "field": "ac71-f536-996b-0222",
@@ -2578,7 +2861,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       },
                       {
                         "childId": "40ff-d0cc-3254-f83e",
@@ -2587,11 +2871,14 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
-                    ]
+                    ],
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
             ]
           },
@@ -2606,7 +2893,8 @@
                 "name": "Reapers of Lives",
                 "id": "14a5-10dd-af4d-5be8",
                 "primary": false,
-                "targetId": "90a5-d491-7576-a537"
+                "targetId": "90a5-d491-7576-a537",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2617,7 +2905,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               },
               {
                 "id": "4c86-eaae-6086-437b",
@@ -2626,7 +2915,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "min",
-                "value": 0
+                "value": 0,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2635,7 +2925,8 @@
                 "id": "6218-c00e-2dcb-9e21",
                 "hidden": false,
                 "targetId": "0b42-1704-ec3c-c821",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ],
             "modifiers": [
@@ -2654,7 +2945,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       },
                       {
                         "childId": "b523-6fb7-45b3-3669",
@@ -2663,11 +2955,14 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
-                    ]
+                    ],
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "field": "4c86-eaae-6086-437b",
@@ -2684,7 +2979,8 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       },
                       {
                         "childId": "b523-6fb7-45b3-3669",
@@ -2693,11 +2989,14 @@
                         "scope": "parent",
                         "shared": true,
                         "type": "atLeast",
-                        "value": 1
+                        "value": 1,
+                        "categoryLinks": []
                       }
-                    ]
+                    ],
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
             ]
           },
@@ -2712,7 +3011,8 @@
                 "name": "Alone and Forgotten",
                 "id": "1ba0-cf03-a59a-c36b",
                 "primary": false,
-                "targetId": "122b-0eda-4e29-401e"
+                "targetId": "122b-0eda-4e29-401e",
+                "categoryLinks": []
               }
             ],
             "constraints": [
@@ -2722,7 +3022,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "infoLinks": [
@@ -2731,18 +3032,21 @@
                 "id": "3329-f10c-48ec-0b33",
                 "hidden": false,
                 "targetId": "1f14-ed97-b397-d409",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               },
               {
                 "name": "To Fight and Die Alone",
                 "id": "6ffa-f16c-b2a0-32d0",
                 "hidden": false,
                 "targetId": "525c-b678-98e7-43ff",
-                "type": "rule"
+                "type": "rule",
+                "categoryLinks": []
               }
             ]
           }
-        ]
+        ],
+        "categoryLinks": []
       },
       {
         "name": "Rite of War",
@@ -2762,7 +3066,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "min",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               },
               {
                 "id": "429e-8e2a-fea6-d481-max",
@@ -2770,7 +3075,8 @@
                 "scope": "parent",
                 "shared": true,
                 "type": "max",
-                "value": 1
+                "value": 1,
+                "categoryLinks": []
               }
             ],
             "selectionEntries": [
@@ -2787,7 +3093,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "bd75-1e39-0a0f-0fd2-max",
@@ -2795,7 +3102,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
                 ],
                 "rules": [
@@ -2803,9 +3111,11 @@
                     "name": "Bastard Sons of Fate",
                     "id": "4351-d554-72bb-7820",
                     "description": "\" Blackshields gain bonuses to Toughness and Strength when under the effect of certain Battlefield Statuses.\"\n\n\nWhile affected by any of the Pinned, Suppressed or Stunned Battlefield Statuses, a Model with the Blackshields Trait gains a bonus of +1 to their Toughness and Strength Characteristics. If affected by more than one such Battlefield Status then this bonus is increased to +2.",
-                    "hidden": false
+                    "hidden": false,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "name": "Gambit",
@@ -2820,7 +3130,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "afa3-a09a-c7f0-037f-max",
@@ -2828,7 +3139,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
                 ],
                 "profiles": [
@@ -2842,16 +3154,20 @@
                       {
                         "name": "Summary",
                         "$text": "If slain by the opposing Model, D3 wounds are inflicted on that Model.",
-                        "typeId": "98f3-41cf-e3be-2ae7"
+                        "typeId": "98f3-41cf-e3be-2ae7",
+                        "categoryLinks": []
                       },
                       {
                         "name": "Description",
                         "$text": "This Gambit may only be selected if the opposing Model in the Challenge has either the Unique Trait or the Paragon Type. If a Model is Removed as a Casualty during the Strike Step when this Gambit has been selected for them, then D3 wounds are automatically inflicted on the opposing Model at the end of the Glory Step that follows. These wounds have the Damage and AP of the Weapon used by the Model for which this Gambit was selected.",
-                        "typeId": "2d7d-b1d9-dead-605a"
+                        "typeId": "2d7d-b1d9-dead-605a",
+                        "categoryLinks": []
                       }
-                    ]
+                    ],
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               },
               {
                 "name": "Oaths of Moment",
@@ -2866,7 +3182,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "min",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   },
                   {
                     "id": "96d0-b6ad-ec95-5efd-max",
@@ -2874,7 +3191,8 @@
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 1
+                    "value": 1,
+                    "categoryLinks": []
                   }
                 ],
                 "rules": [
@@ -2882,14 +3200,19 @@
                     "name": "Oaths of Moment",
                     "id": "e8c6-3113-c65d-f636",
                     "description": "An Army that includes any Detachments with the Blackshields Faction may select a number of Oaths of Moment for each such Detachment, these are sets of rules that add a number of additional options and Special Rules to Units in that Detachment. The number of Oaths of Moment that may be selected for a Detachment depends on what type of Detachment it is, as shown on the table below:\n \nPrimary Detachment : 2 \nAllied Detachment : 1\n\n\nNote that any Auxiliary or Apex Detachments attached to a Blackshields Allied or Primary Detachment must use the same Oaths of Moment as the Detachment to which they are attached. Other types of Detachment may not have Oaths of Moment selected for them.\n\n\nOaths of Moment are selected when a Detachment is added to the Army Roster, and each such Oath of Moment will explain any effects it may have on which Units may be selected for the Detachment. Most Oaths of Moment will also add Special Rules or other effects to some or all Units in the Detachment, this will also be explained by each individual Oath of Moment.\n\n\nNote that some Oaths of Moment require that certain Special Rules be removed from Models and replaced with other Special Rules. In a Detachment that has more than one Oath of Moment, the effects of these are applied one at a time in an order of the Controlling Player's choice – and if the first Oath of Moment removes a Special Rule it cannot then be affected, modified or removed by the second.",
-                    "hidden": false
+                    "hidden": false,
+                    "categoryLinks": []
                   }
-                ]
+                ],
+                "categoryLinks": []
               }
-            ]
+            ],
+            "categoryLinks": []
           }
-        ]
+        ],
+        "categoryLinks": []
       }
-    ]
+    ],
+    "categoryLinks": []
   }
 }

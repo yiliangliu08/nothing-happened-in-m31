@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 73,
+    "revision": 74,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -2474,6 +2474,12 @@
         "name": "Cohort Doctrine: Sublime Cohort",
         "id": "6624-90cd-fbeb-7a2a",
         "hidden": false
+      },
+      {
+        "name": "Master of the Legion",
+        "id": "e3cd-7a38-34d7-9cbf",
+        "hidden": false,
+        "comment": "Trait marker for Pride of the Legion (and similar) army requirements"
       }
     ],
     "costTypes": [
@@ -10820,6 +10826,39 @@
                             "value": 1
                           }
                         ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "comment": "Pride of the Legion: require Master of the Legion Trait",
+                "field": "error",
+                "type": "add",
+                "value": "Pride of the Legion requires at least one Model with the Master of the Legion Trait",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "e3cd-7a38-34d7-9cbf",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "e3cd-7a38-34d7-9cbf",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
                       }
                     ]
                   }
