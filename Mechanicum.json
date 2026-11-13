@@ -1489,39 +1489,10 @@
             "id": "ea06-f22e-48d2-b401",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "1db6-8b2d-0ea4-a183",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Vorax Attack Maniple",
@@ -2531,39 +2502,10 @@
             "id": "8253-9d7a-8bf1-77a8",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "2fd6-8110-efc3-dd18",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Mechanicum Tarantula Battery",
@@ -2646,39 +2588,10 @@
             "id": "318e-ddd9-cf9b-e545",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "08df-0b1a-8c0f-10fc",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Mechanicum Ordinatus Ulator",

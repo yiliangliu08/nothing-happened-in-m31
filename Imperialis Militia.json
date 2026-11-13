@@ -1256,39 +1256,10 @@
             "id": "1318-4cab-2feb-9172",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "4b94-06ea-f421-8446",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Militia Thunderbolt Heavy Fighter",
@@ -1319,39 +1290,10 @@
             "id": "19c7-11fd-b0b8-1f75",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "0c74-092c-1c3b-c046",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Militia Gorgon Transporter",
@@ -1366,39 +1308,10 @@
             "id": "3480-29ed-e4da-6e6d",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "9ecf-d7dc-4292-a593",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Reconnaissance Troop",
@@ -1648,39 +1561,10 @@
             "id": "ffd1-d55c-d9db-9cd2",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "4015-5f7a-5a20-b4a2",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Militia Baneblade Super-Heavy Battle Tank",
@@ -1727,12 +1611,6 @@
             "id": "6095-cb01-2c8b-880f",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "4f8b-89dd-36a0-7874",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "infoLinks": [
@@ -1773,31 +1651,9 @@
             "field": "category",
             "type": "add",
             "value": "b3b6-dc52-35dc-24b4"
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Krios Battle Tank",
@@ -1873,12 +1729,6 @@
             "id": "1d9d-eda4-015b-d7c5",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "9b67-c3e7-cfab-7e73",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "infoLinks": [
@@ -1919,31 +1769,9 @@
             "field": "category",
             "type": "add",
             "value": "b3b6-dc52-35dc-24b4"
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Termite",
@@ -1958,12 +1786,6 @@
             "id": "a724-f9e5-a761-37ee",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "37e6-cec3-1770-1700",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "infoLinks": [
@@ -2004,31 +1826,9 @@
             "field": "category",
             "type": "add",
             "value": "b3b6-dc52-35dc-24b4"
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Land Raider Carrier",
@@ -2043,12 +1843,6 @@
             "id": "b1d5-9fc9-61a1-c4d8",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "bfa8-fc53-0b1f-157b",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "infoLinks": [
@@ -2089,31 +1883,9 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Ruinstorm Daemon Brutes",

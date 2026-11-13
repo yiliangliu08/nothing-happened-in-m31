@@ -469,12 +469,6 @@
             "id": "72b9-de69-c8b0-6311",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "916a-a9f5-57e9-3c8f",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -493,31 +487,9 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Rhino",
@@ -533,39 +505,10 @@
             "id": "3355-5afa-f53c-d3f0",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "14d7-5a04-618f-0f69",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Predator",
@@ -3834,12 +3777,6 @@
             "id": "55d3-5d55-7368-d9bc",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "6753-9c92-7ce8-692a",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -3892,31 +3829,9 @@
                 ]
               }
             ]
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Termite",
@@ -3931,39 +3846,10 @@
             "id": "0add-1a19-39a7-587b",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "1d52-988e-0d7f-15fc",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Land Raider Carrier",
@@ -3978,12 +3864,6 @@
             "id": "04e2-365a-0e85-6cb8",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "009a-101b-7e9b-b436",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -4002,31 +3882,9 @@
                 "value": 1
               }
             ]
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Dreadnought Drop Pod",
@@ -4041,12 +3899,6 @@
             "id": "04a9-6733-0710-7805",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "e16a-dddf-e977-93fd",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -4099,31 +3951,9 @@
                 ]
               }
             ]
-          },
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ]
+        "costs": []
       },
       {
         "name": "Dreadclaw Drop Pod",
@@ -4138,39 +3968,10 @@
             "id": "433e-fedc-3e2a-bc55",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "7d1c-a2f1-0076-3375",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Kharybdis Assault Claw",
@@ -4185,39 +3986,10 @@
             "id": "9691-1e90-3c75-9d3e",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "384f-3217-109d-baaa",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Reconnaissance Squad",
@@ -8984,39 +8756,10 @@
             "id": "8186-4568-d9f5-6ace",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "45c5-f394-477c-09c5",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Caestus Assault Ram",
@@ -9031,39 +8774,10 @@
             "id": "4f76-71c1-531d-c04b",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "da7b-390b-66ab-b37a",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Attack Bike Squadron",

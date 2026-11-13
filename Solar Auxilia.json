@@ -1444,39 +1444,10 @@
             "id": "8d19-9a46-e0fa-57f6",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "2079-1e2c-f7a4-3b62",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Dracosan Armoured Transport",
@@ -1491,12 +1462,6 @@
             "id": "887d-0526-fd90-a6c0",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "c2df-64a9-3a84-bac1",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "infoLinks": [
@@ -1557,31 +1522,8 @@
             ]
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Hermes Light Sentinel Squadron",
@@ -2391,39 +2333,10 @@
             "hidden": false,
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "4488-2b6a-cd2b-1d8d",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
-        "costs": [
-          {
-            "name": "Orbital Drop Assault Transport",
-            "typeId": "oda1-7c2e-trns-s10t",
-            "value": 0
-          }
-        ],
-        "modifiers": [
-          {
-            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
-            "field": "oda1-7c2e-trns-s10t",
-            "type": "set",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "a1f3-7c2e-9b84-0d55",
-                "field": "forces",
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "costs": [],
+        "modifiers": []
       },
       {
         "name": "Avenger Strike Fighter",
