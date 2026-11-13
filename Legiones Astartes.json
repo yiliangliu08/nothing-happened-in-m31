@@ -437,12 +437,6 @@
             "id": "72b9-de69-c8b0-6311",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "7e86-2d4c-d8bc-1d96",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -501,12 +495,6 @@
             "id": "3355-5afa-f53c-d3f0",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "33b1-ca9b-0912-3cab",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
@@ -3674,12 +3662,6 @@
             "id": "55d3-5d55-7368-d9bc",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "26fb-27ee-d7c0-6352",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -3771,12 +3753,6 @@
             "id": "0add-1a19-39a7-587b",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "ec33-42b2-ee90-58e9",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
@@ -3818,12 +3794,6 @@
             "id": "04e2-365a-0e85-6cb8",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "f232-9a5e-226d-8f76",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -3881,12 +3851,6 @@
             "id": "04a9-6733-0710-7805",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "3295-2abf-b979-2ca7",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "modifiers": [
@@ -3978,12 +3942,6 @@
             "id": "433e-fedc-3e2a-bc55",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "61e4-6917-f6b8-312a",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
@@ -4025,12 +3983,6 @@
             "id": "9691-1e90-3c75-9d3e",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "8fc5-b168-c30e-6cab",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
@@ -8792,12 +8744,6 @@
             "id": "8186-4568-d9f5-6ace",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "db36-4cdb-4eb1-cb32",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
@@ -8839,12 +8785,6 @@
             "id": "4f76-71c1-531d-c04b",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "55e2-c403-64f1-0c05",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [

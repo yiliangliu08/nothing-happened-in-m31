@@ -434,12 +434,6 @@
             "id": "356f-6727-f8bf-0141",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "446f-636d-3a04-7d32",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "entryLinks": [

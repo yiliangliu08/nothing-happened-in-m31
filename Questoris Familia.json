@@ -1316,12 +1316,6 @@
             "id": "56b6-7244-79c8-5761",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "1c38-87b1-1cca-8a18",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
@@ -1698,12 +1692,6 @@
             "id": "6a7e-1794-7582-373a",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
-          },
-          {
-            "name": "Orbital Drop Assault Transport",
-            "id": "9456-6b37-7f0d-1609",
-            "primary": false,
-            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
