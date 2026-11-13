@@ -5733,6 +5733,52 @@
             "targetId": "641c-ca0a-7093-4525",
             "type": "profile",
             "categoryLinks": []
+          },
+          {
+            "name": "Line (X)",
+            "id": "eb3b-3d2d-80ee-4b20",
+            "hidden": true,
+            "targetId": "1b5d-ceec-802a-c611",
+            "type": "rule",
+            "comment": "Pride of the Legion: Line (1) from Vanguard exchange",
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Line (1)"
+              },
+              {
+                "comment": "Pride of the Legion: Line (1) from Vanguard exchange",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -7984,6 +8030,52 @@
             "targetId": "641c-ca0a-7093-4525",
             "type": "profile",
             "categoryLinks": []
+          },
+          {
+            "name": "Line (X)",
+            "id": "e33f-4bd1-fc11-0646",
+            "hidden": true,
+            "targetId": "1b5d-ceec-802a-c611",
+            "type": "rule",
+            "comment": "Pride of the Legion: Line (1) from Vanguard exchange",
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Line (1)"
+              },
+              {
+                "comment": "Pride of the Legion: Line (1) from Vanguard exchange",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -10772,6 +10864,52 @@
             "targetId": "641c-ca0a-7093-4525",
             "type": "profile",
             "categoryLinks": []
+          },
+          {
+            "name": "Line (X)",
+            "id": "c1b1-3321-92a0-9aaf",
+            "hidden": true,
+            "targetId": "1b5d-ceec-802a-c611",
+            "type": "rule",
+            "comment": "Pride of the Legion: Line (1) from Vanguard exchange",
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Line (1)"
+              },
+              {
+                "comment": "Pride of the Legion: Line (1) from Vanguard exchange",
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "rules": [

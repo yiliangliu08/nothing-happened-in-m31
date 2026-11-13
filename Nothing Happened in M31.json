@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 75,
+    "revision": 76,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -152191,30 +152191,7 @@
             ]
           }
         ],
-        "infoLinks": [
-          {
-            "name": "Line (X)",
-            "id": "0f6a-ea69-2950-3f99",
-            "hidden": false,
-            "targetId": "1b5d-ceec-802a-c611",
-            "type": "rule",
-            "modifiers": [
-              {
-                "field": "name",
-                "type": "set",
-                "value": "Line (1)"
-              }
-            ]
-          }
-        ],
-        "rules": [
-          {
-            "name": "Pride of the Legion",
-            "id": "5aea-9e0e-94a8-9795",
-            "hidden": false,
-            "description": "When this option is selected, all Models in this Unit exchange the Vanguard (X) Special Rule for the Line (1) Special Rule."
-          }
-        ]
+        "infoLinks": []
       }
     ],
     "sharedSelectionEntryGroups": [
