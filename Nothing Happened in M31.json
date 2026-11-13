@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 79,
+    "revision": 80,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -154403,26 +154403,52 @@
                             "value": 1
                           }
                         ]
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "childId": "38d4-d720-8009-acd3",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
                       },
                       {
-                        "childId": "2de1-ddd6-ebb4-10df",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "equalTo",
-                        "value": 0
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "38d4-d720-8009-acd3",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "unit",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "38d4-d720-8009-acd3",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "38d4-d720-8009-acd3",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "childId": "2de1-ddd6-ebb4-10df",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "unit",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 0
+                          }
+                        ]
                       }
                     ]
                   }
