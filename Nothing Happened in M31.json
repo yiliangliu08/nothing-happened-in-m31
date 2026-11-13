@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 64,
+    "revision": 65,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -9143,14 +9143,13 @@
             "categoryLinks": [
               {
                 "name": "High Command",
-                "id": "54e7-03fe-7039-5a1f",
+                "id": "388b-1b80-308a-c1c3",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
                 "constraints": [
                   {
-                    "id": "1c41-e409-8cb0-693d",
+                    "id": "07cb-998c-7e90-65f8",
                     "field": "selections",
-                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9160,14 +9159,13 @@
               },
               {
                 "name": "Command",
-                "id": "7fae-1f17-5bf8-96e4",
+                "id": "46ae-debf-0336-f7cb",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
                 "constraints": [
                   {
-                    "id": "c030-afb0-67e9-148c",
+                    "id": "9a44-9eef-9e7b-cda4",
                     "field": "selections",
-                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9176,15 +9174,14 @@
                 ]
               },
               {
-                "name": "Transport",
-                "id": "7150-9e58-5d49-54a7",
+                "name": "Support",
+                "id": "e416-0884-e50e-69fe",
                 "hidden": false,
-                "targetId": "d162-4711-5d60-0a48",
+                "targetId": "345f-9ba6-9b02-ed5c",
                 "constraints": [
                   {
-                    "id": "b6a3-e041-12c9-dc8a",
+                    "id": "d240-59fc-1d59-3b9e",
                     "field": "selections",
-                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9194,14 +9191,13 @@
               },
               {
                 "name": "Armour",
-                "id": "ff78-ec54-6385-7c41",
+                "id": "c1c9-f8d2-4b81-2957",
                 "hidden": false,
                 "targetId": "643a-1012-bd51-6537",
                 "constraints": [
                   {
-                    "id": "faa7-8b16-abbd-19be",
+                    "id": "42be-1f81-04c2-3746",
                     "field": "selections",
-                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9211,7 +9207,7 @@
               },
               {
                 "name": "Paragon of Malevolence",
-                "id": "6faa-b0e3-b077-976b",
+                "id": "8348-eb34-875e-032e",
                 "hidden": false,
                 "targetId": "708b-b2ff-1a14-2901"
               }
@@ -9923,7 +9919,7 @@
                 "characteristics": [
                   {
                     "name": "Detachment Composition",
-                    "$text": "1 High Command\n3 Command\n1 Transport\n10 Armour",
+                    "$text": "1 High Command\n3 Command\n1 Support\n10 Armour",
                     "typeId": "ec3f-877b-f887-18b2"
                   }
                 ]
