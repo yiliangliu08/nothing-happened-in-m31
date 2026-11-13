@@ -7,9 +7,9 @@
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
-    "gameSystemRevision": 56,
+    "gameSystemRevision": 64,
     "library": false,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -48,15 +48,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -83,15 +108,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -118,15 +168,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -153,15 +228,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -188,15 +288,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -223,15 +348,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -258,15 +408,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -293,15 +468,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -328,15 +528,40 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "a1f3-7c2e-9b84-0d51",
-                "field": "forces",
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -669,6 +894,50 @@
                         "value": "Hull Mounted Heavy flamer array"
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -1618,6 +1887,50 @@
               }
             ]
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -1781,6 +2094,50 @@
               }
             ]
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -1936,6 +2293,50 @@
                 "id": "5176-19cc-02f0-cb81",
                 "description": "If a Model with the Flyer Sub-Type that is assigned a Drop Mission ends a Move made as part of that Mission within 3\" of a Model with this Special Rule, the Controlling Player may choose to deploy any disembarking Models onto any point on the Model with this Special Rule instead of in Base Contact with the Flyer Model they were Embarked upon.\n\n\nLikewise, if a Model with the Flyer Sub-Type that has been assigned an Extraction Mission ends a Move made as part of that Mission within 3\" of a Model with this Special Rule, then any friendly Unit that has all of its Models in base contact with the Model with this Special Rule may immediately be Embarked on the Model with the Flyer Sub-Type.",
                 "hidden": false
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -2259,6 +2660,50 @@
               }
             ]
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -2459,6 +2904,50 @@
               }
             ]
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -2647,6 +3136,50 @@
                     "name": "Type",
                     "$text": "Fortification (Emplacement, Bunker)",
                     "typeId": "869d-8fb8-f39f-4575"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -2926,6 +3459,50 @@
               }
             ]
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -3117,6 +3694,50 @@
                     "name": "Type",
                     "$text": "Fortification (Emplacement, Bunker)",
                     "typeId": "869d-8fb8-f39f-4575"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d51",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
                   }
                 ]
               }
