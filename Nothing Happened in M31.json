@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 76,
+    "revision": 78,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -10991,6 +10991,25 @@
                     "shared": true,
                     "type": "max",
                     "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Fury of the Ancients: Logistical Benefit War-engine slot",
+                    "field": "fce8-6e3a-9003-db11",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [
+                      {
+                        "childId": "fac3-0af2-8be3-20dc",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -152979,56 +152998,6 @@
                 ]
               },
               {
-                "comment": "Hidden by Primary - Fury of the Ancients: no slot-adding Prime Advantages",
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "childId": "a1f3-7c2e-9b84-0d53",
-                        "field": "forces",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "atLeast",
-                        "value": 1
-                      },
-                      {
-                        "childId": "a1f3-7c2e-9b84-0d53",
-                        "field": "forces",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "scope": "roster",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "a1f3-7c2e-9b84-0d53",
-                        "field": "forces",
-                        "scope": "force",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      },
-                      {
-                        "childId": "a1f3-7c2e-9b84-0d53",
-                        "field": "selections",
-                        "includeChildSelections": false,
-                        "scope": "ancestor",
-                        "shared": true,
-                        "type": "instanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "comment": "Hidden by Primary - Sky-Hunter Phalanx: no slot-adding Prime Advantages",
                 "field": "hidden",
                 "type": "set",
@@ -153208,6 +153177,56 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   },
@@ -153254,6 +153273,56 @@
                             "shared": true,
                             "type": "atLeast",
                             "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -153304,6 +153373,56 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   },
@@ -153350,6 +153469,56 @@
                             "shared": true,
                             "type": "atLeast",
                             "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -153400,6 +153569,56 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   },
@@ -153448,6 +153667,56 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   },
@@ -153494,6 +153763,56 @@
                             "shared": true,
                             "type": "atLeast",
                             "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -153592,6 +153911,56 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   },
@@ -153640,6 +154009,56 @@
                             "value": 1
                           }
                         ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   },
@@ -153686,6 +154105,56 @@
                             "shared": true,
                             "type": "atLeast",
                             "value": 1
+                          }
+                        ]
+                      },
+                      {
+                        "comment": "Hidden by Primary - Fury of the Ancients: only War-engine Logistical Benefit",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "forces",
+                                "scope": "force",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              },
+                              {
+                                "childId": "a1f3-7c2e-9b84-0d53",
+                                "field": "selections",
+                                "includeChildSelections": false,
+                                "scope": "ancestor",
+                                "shared": true,
+                                "type": "instanceOf",
+                                "value": 1
+                              }
+                            ]
                           }
                         ]
                       }
@@ -153763,32 +154232,70 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
-              },
-              {
-                "id": "bf77-28b4-f84b-b1ec",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "max",
-                "value": 1
               }
             ],
             "modifiers": [
               {
-                "comment": "Visible with Primary - Fury of the Ancients",
+                "comment": "Visible with Fury of the Ancients on non-Malefic Walker Prime Units",
                 "field": "hidden",
                 "type": "set",
                 "value": false,
-                "conditions": [
+                "conditionGroups": [
                   {
-                    "childId": "a1f3-7c2e-9b84-0d53",
-                    "field": "forces",
-                    "includeChildSelections": true,
-                    "scope": "roster",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "a1f3-7c2e-9b84-0d53",
+                            "field": "forces",
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "a1f3-7c2e-9b84-0d53",
+                            "field": "forces",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "a1f3-7c2e-9b84-0d53",
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "38d4-d720-8009-acd3",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "2de1-ddd6-ebb4-10df",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 0
+                      }
+                    ]
                   }
                 ]
               }
@@ -153799,6 +154306,22 @@
                 "id": "7bf3-30c5-38e2-d33f",
                 "hidden": false,
                 "description": "Some veterans adapt quickly to being interred within a Dreadnought. Utilising skills accumulated throughout the Great Crusade, such warriors lead their brethren into battle, the formidable protection afforded by their armoured chassis allowing them to shrug off all but the most deadly attacks.\n\nThis Prime Advantage may only be selected for a Battlefield Role slot that contains a Model with the Walker Type that does not have the Malefic Sub-Type. Models in a Unit selected to fill a Slot with this Prime Advantage gain the Eternal Warrior (1) Special Rule."
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Eternal Warrior (X)",
+                "id": "dc94-1132-707f-d9a4",
+                "hidden": false,
+                "targetId": "15b4-9e4a-f361-c5a3",
+                "type": "rule",
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Eternal Warrior (1)"
+                  }
+                ]
               }
             ]
           },

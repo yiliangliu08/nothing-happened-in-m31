@@ -127,6 +127,56 @@
               }
             ],
             "categoryLinks": []
+          },
+          {
+            "comment": "Hidden by Primary - Fury of the Ancients: Command/Specialist requires Battlesmith",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "forces",
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -1183,6 +1233,56 @@
               }
             ],
             "categoryLinks": []
+          },
+          {
+            "comment": "Hidden by Primary - Fury of the Ancients: Command/Specialist requires Battlesmith",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "forces",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "forces",
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d53",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
