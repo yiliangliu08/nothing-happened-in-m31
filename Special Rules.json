@@ -9,7 +9,7 @@
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
     "library": true,
-    "revision": 18,
+    "revision": 19,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "sharedRules": [
@@ -32,7 +32,9 @@
         "hidden": false,
         "page": 298,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Expendable"]
+        "alias": [
+          "Expendable"
+        ]
       },
       {
         "name": "Shred (X)",
@@ -41,7 +43,9 @@
         "hidden": false,
         "page": 308,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Shred"]
+        "alias": [
+          "Shred"
+        ]
       },
       {
         "name": "Battlefield Coordinators",
@@ -56,7 +60,9 @@
         "hidden": false,
         "page": 309,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Support Unit"]
+        "alias": [
+          "Support Unit"
+        ]
       },
       {
         "name": "Breaching (X)",
@@ -65,14 +71,18 @@
         "hidden": false,
         "page": 295,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Breaching"]
+        "alias": [
+          "Breaching"
+        ]
       },
       {
         "name": "Heavy (X)",
         "id": "bc30-3b33-2683-01a2",
         "description": "**Weapons with the Heavy (X) Special Rule gain +1 to a Characteristic when Stationary.**\n\nWhen making a Shooting Attack with a Weapon that has the Heavy (X) Special Rule, a modifier of +1 is added to a Characteristic if the Model with that Weapon is part of a Unit that remained Stationary in the Controlling Player’s previous Movement Phase. If the Characteristic listed is AP, then instead it improves the AP by one Step. The value of X in the specific variant of the Heavy (X) Special Rule determines which Characteristic gains the +1 modifier.",
         "hidden": false,
-        "alias": ["Heavy"]
+        "alias": [
+          "Heavy"
+        ]
       },
       {
         "name": "Ordnance (X)",
@@ -81,7 +91,9 @@
         "hidden": false,
         "page": 303,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Ordnance"]
+        "alias": [
+          "Ordnance"
+        ]
       },
       {
         "name": "Blast (X)",
@@ -90,7 +102,9 @@
         "hidden": false,
         "page": 294,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Blast"]
+        "alias": [
+          "Blast"
+        ]
       },
       {
         "name": "Template",
@@ -107,7 +121,9 @@
         "hidden": false,
         "page": 304,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Overload"]
+        "alias": [
+          "Overload"
+        ]
       },
       {
         "name": "Melta (X)",
@@ -116,14 +132,18 @@
         "hidden": false,
         "page": 303,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Melta"]
+        "alias": [
+          "Melta"
+        ]
       },
       {
         "name": "Duellist's Edge (X)",
         "id": "94bc-c69f-99b6-8ba0",
         "description": "**A Weapon with the Duellist's Edge (X) Special Rule grants a bonus to Focus Rolls in Challenges.**\n\nIn Step 3 of the Challenge Sub-Phase, the Focus Step, if a Player has declared that the Model under their control will use a Weapon with the Duellist's Edge (X) Special Rule or has the Duellist's Edge (X) Special Rule, then that Player gains a bonus equal to the value of X on the Focus Roll.",
         "hidden": false,
-        "alias": ["Duellist's Edge"]
+        "alias": [
+          "Duellist's Edge"
+        ]
       },
       {
         "name": "Impact (X)",
@@ -132,7 +152,9 @@
         "hidden": false,
         "page": 300,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Impact"]
+        "alias": [
+          "Impact"
+        ]
       },
       {
         "name": "Critical Hit (X)",
@@ -141,7 +163,9 @@
         "hidden": false,
         "page": 296,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Critical Hit"]
+        "alias": [
+          "Critical Hit"
+        ]
       },
       {
         "name": "Barrage (X)",
@@ -150,7 +174,9 @@
         "hidden": false,
         "page": 293,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Barrage"]
+        "alias": [
+          "Barrage"
+        ]
       },
       {
         "name": "Reaping Blow (X)",
@@ -159,7 +185,9 @@
         "hidden": false,
         "page": 307,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Reaping Blow"]
+        "alias": [
+          "Reaping Blow"
+        ]
       },
       {
         "name": "Bulky (X)",
@@ -168,7 +196,9 @@
         "hidden": false,
         "page": 295,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Bulky"]
+        "alias": [
+          "Bulky"
+        ]
       },
       {
         "name": "Implacable Advance",
@@ -193,7 +223,9 @@
         "hidden": false,
         "page": 298,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Explodes"]
+        "alias": [
+          "Explodes"
+        ]
       },
       {
         "name": "Pinning (X)",
@@ -202,7 +234,9 @@
         "hidden": false,
         "page": 306,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Pinning"]
+        "alias": [
+          "Pinning"
+        ]
       },
       {
         "name": "Shock (X)",
@@ -211,7 +245,9 @@
         "hidden": false,
         "page": 308,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Shock"]
+        "alias": [
+          "Shock"
+        ]
       },
       {
         "name": "Stun (X)",
@@ -220,7 +256,9 @@
         "hidden": false,
         "page": 309,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Stun"]
+        "alias": [
+          "Stun"
+        ]
       },
       {
         "name": "Panic (X)",
@@ -229,7 +267,9 @@
         "hidden": false,
         "page": 305,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Panic"]
+        "alias": [
+          "Panic"
+        ]
       },
       {
         "name": "Poisoned (X)",
@@ -238,7 +278,9 @@
         "hidden": false,
         "page": 306,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Poisoned"]
+        "alias": [
+          "Poisoned"
+        ]
       },
       {
         "name": "Armourbane",
@@ -271,7 +313,9 @@
         "hidden": false,
         "page": 302,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Limited"]
+        "alias": [
+          "Limited"
+        ]
       },
       {
         "name": "Rapid Tracking",
@@ -288,7 +332,9 @@
         "hidden": false,
         "page": 309,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Suppressive"]
+        "alias": [
+          "Suppressive"
+        ]
       },
       {
         "name": "Precision (X)",
@@ -297,7 +343,9 @@
         "hidden": false,
         "page": 307,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Precision"]
+        "alias": [
+          "Precision"
+        ]
       },
       {
         "name": "Shot Selector",
@@ -322,7 +370,9 @@
         "hidden": false,
         "page": 297,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Deflagrate"]
+        "alias": [
+          "Deflagrate"
+        ]
       },
       {
         "name": "Phage (X)",
@@ -331,7 +381,9 @@
         "hidden": false,
         "page": 305,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Phage"]
+        "alias": [
+          "Phage"
+        ]
       },
       {
         "name": "Rending (X)",
@@ -340,7 +392,9 @@
         "hidden": false,
         "page": 307,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Rending"]
+        "alias": [
+          "Rending"
+        ]
       },
       {
         "name": "Detonation",
@@ -357,7 +411,9 @@
         "hidden": false,
         "page": 299,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Force"]
+        "alias": [
+          "Force"
+        ]
       },
       {
         "name": "Officer of the Line (X)",
@@ -366,7 +422,9 @@
         "hidden": false,
         "page": 303,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Officer of the Line"]
+        "alias": [
+          "Officer of the Line"
+        ]
       },
       {
         "name": "Light Transport",
@@ -383,7 +441,9 @@
         "hidden": false,
         "page": 293,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Auto-Repair"]
+        "alias": [
+          "Auto-Repair"
+        ]
       },
       {
         "name": "Mobile Command Vehicle",
@@ -406,7 +466,9 @@
         "hidden": false,
         "page": 298,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Fear"]
+        "alias": [
+          "Fear"
+        ]
       },
       {
         "name": "Never Back Down",
@@ -439,7 +501,9 @@
         "hidden": false,
         "page": 299,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Feel No Pain"]
+        "alias": [
+          "Feel No Pain"
+        ]
       },
       {
         "name": "Battlesmith (X)",
@@ -448,7 +512,9 @@
         "hidden": false,
         "page": 294,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Battlesmith"]
+        "alias": [
+          "Battlesmith"
+        ]
       },
       {
         "name": "Infiltrate (X)",
@@ -457,7 +523,9 @@
         "hidden": false,
         "page": 301,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Infiltrate"]
+        "alias": [
+          "Infiltrate"
+        ]
       },
       {
         "name": "Line (X)",
@@ -466,7 +534,9 @@
         "hidden": false,
         "page": 302,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Line"]
+        "alias": [
+          "Line"
+        ]
       },
       {
         "name": "Fury of the Legion",
@@ -483,7 +553,9 @@
         "hidden": false,
         "page": 93,
         "publicationId": "5a4b-8b0e-caa6-c7ed",
-        "alias": ["Armour-Breaker"]
+        "alias": [
+          "Armour-Breaker"
+        ]
       },
       {
         "name": "Assault Vehicle",
@@ -508,7 +580,9 @@
         "hidden": false,
         "page": 329,
         "publicationId": "7d63-5df4-c656-52de",
-        "alias": ["Eternal Warrior"]
+        "alias": [
+          "Eternal Warrior"
+        ]
       },
       {
         "name": "Fast (X)",
@@ -517,7 +591,9 @@
         "hidden": false,
         "page": 330,
         "publicationId": "7d63-5df4-c656-52de",
-        "alias": ["Fast"]
+        "alias": [
+          "Fast"
+        ]
       },
       {
         "name": "Firestorm",
@@ -534,7 +610,9 @@
         "hidden": false,
         "page": 331,
         "publicationId": "7d63-5df4-c656-52de",
-        "alias": ["Firing Protocols"]
+        "alias": [
+          "Firing Protocols"
+        ]
       },
       {
         "name": "Hatred (X)",
@@ -543,7 +621,9 @@
         "hidden": false,
         "page": 331,
         "publicationId": "7d63-5df4-c656-52de",
-        "alias": ["Hatred"]
+        "alias": [
+          "Hatred"
+        ]
       },
       {
         "name": "Heedless",
@@ -576,7 +656,9 @@
         "hidden": false,
         "page": 337,
         "publicationId": "7d63-5df4-c656-52de",
-        "alias": ["Shrouded"]
+        "alias": [
+          "Shrouded"
+        ]
       },
       {
         "name": "Vanguard (X)",
@@ -585,7 +667,9 @@
         "hidden": false,
         "page": 339,
         "publicationId": "7d63-5df4-c656-52de",
-        "alias": ["Vanguard"]
+        "alias": [
+          "Vanguard"
+        ]
       },
       {
         "name": "Aflame (X)",
@@ -594,7 +678,9 @@
         "hidden": false,
         "page": 293,
         "publicationId": "b905-0414-1057-bb34",
-        "alias": ["Aflame"]
+        "alias": [
+          "Aflame"
+        ]
       },
       {
         "name": "Psy-Shock",
@@ -649,7 +735,9 @@
         "hidden": false,
         "page": 103,
         "publicationId": "5a4b-8b0e-caa6-c7ed",
-        "alias": ["Repair Crew"]
+        "alias": [
+          "Repair Crew"
+        ]
       },
       {
         "name": "Shield-breaker (X)",
@@ -666,7 +754,9 @@
         "hidden": false,
         "page": 107,
         "publicationId": "5a4b-8b0e-caa6-c7ed",
-        "alias": ["Titan War Horn"]
+        "alias": [
+          "Titan War Horn"
+        ]
       },
       {
         "name": "Titan Void Shield Array (X)",
@@ -675,7 +765,9 @@
         "hidden": false,
         "page": 107,
         "publicationId": "5a4b-8b0e-caa6-c7ed",
-        "alias": ["Titan Void Shield Array"]
+        "alias": [
+          "Titan Void Shield Array"
+        ]
       },
       {
         "name": "Anathema",
@@ -780,7 +872,9 @@
         "id": "86e9-04a5-e7d9-0253",
         "description": "**A Model with this Special Rule ignores Penetrating Hits as long as it still has active void shields.**\n\nA Model with this Special Rule has a number of void shields equal to the value of X. While a Model with this Special Rule still has void shields, each time that Model suffers a Penetrating Hit as a result of a Shooting Attack, reduce the Damage of that Penetrating Hit to '0' and reduce the number of void shields this Model has by 1. If the number of void shields a Model has is reduced to 0, this Special Rule has no further effect during that battle.",
         "hidden": false,
-        "alias": ["Void Shields"]
+        "alias": [
+          "Void Shields"
+        ]
       },
       {
         "name": "Wraiths",
@@ -794,7 +888,9 @@
         "id": "93b3-c23d-7263-e013",
         "description": "**This Special Rule determines the difficulty of any Recovery Tests made due to other Reactions or Special Rules.**\n\nIf a Unit includes one or more Models with the Medic (X) Special Rule, then certain other Special Rules, Reactions or Gambits may allow the Controlling Player to make Recovery Tests for other Models in the same Unit. Note that the Medic (X) Special Rule does not allow Recovery Tests to be made, but simply establishes the Target Number for such Tests - Recovery Tests may only be made if another Special Rule, Reaction or Gambit allows them (see, for example, the Medic! Advanced Reaction).\n\n**Recovery Tests**\nA Recovery Test is made when one or more Unsaved Wounds are allocated to a Model, and is resolved by rolling a Dice and comparing the results to the value of 'X' in the variant of the Medic (X) Special Rule present in a Unit, then the Controlling Player chooses which is used to determine the Target Number. If the Recovery Test is successful then a single Unsaved Wound allocated to the Model has its Damage reduced by 1 (to a minimum of 0). If a Recovery Test is failed, then any Unsaved Wounds allocated to the Model are resolved as normal.\"",
         "hidden": false,
-        "alias": ["Medic"]
+        "alias": [
+          "Medic"
+        ]
       },
       {
         "name": "Aegis of Pain",
@@ -827,7 +923,9 @@
         "description": "**If a Model with this Special Rule is part of a Unit then it can score more Victory Points for holding an Objective.**\n\n\nThe number of Victory Points scored when a Unit that includes a Model with this Special Rule controls an Objective is increased by the value of X attached to this variant of the Special Rule. This Special Rule has no effect and no bonus Victory Points are scored if any of the following are true:\n\n\n• The Unit controlling the Objective includes any Models with a different Faction to that or the Model with this Special Rule.\n• The majority of Models in the Unit controlling the Objective have the Command, Specialist or Champion Sub-Types.\n\n\nIf Models with multiple variants of this Special Rule are part of the same Unit, then the values of X do not stack and only the highest value is used.",
         "hidden": false,
         "page": 84,
-        "alias": ["Comptroller"]
+        "alias": [
+          "Comptroller"
+        ]
       },
       {
         "name": "Limited Autonomy",
@@ -951,7 +1049,9 @@
         "id": "2cda-6fea-e3c3-ff31",
         "description": "**This Special Rule can replace a Unit that has been wiped out with a new one in Reserves.**\n\n\nWhen a Unit that contains any Models with this Special Rule has its last Model Removed as a Casualty, the Controlling Player may choose to roll a D6. On a result equal to or greater than the value in brackets, a Unit identical to the one that was Removed as Casualties (with all Models and Wargear listed on the Controlling Player’s Army Roster) is placed into Reserves – and treated as a new Unit. On any other result, the Unit is removed as Casualties with no further effect. Any Victory Points that would be scored for the Unit Removed as Casualties are unaffected and scored as normal, and any new Unit that enters Reserves may be used to score Victory Points if also Removed as Casualties. Any other Models that have joined a Unit that contains any Models with this Special Rule either during Deployment, in Reserves or during the Battle are not placed into Reserves with the new Unit.",
         "hidden": false,
-        "alias": ["Endless Horde"]
+        "alias": [
+          "Endless Horde"
+        ]
       },
       {
         "name": "Inductii",
@@ -972,7 +1072,9 @@
         "id": "e348-c621-0738-cb6e",
         "description": "**This Special Rule grants a new option for Units that win a Combat, allowing them to score Victory Points but forcing them to become Pinned.**\n\n\nWhen a Unit that is composed entirely of Models with this Special Rule is on the winning side of a Combat, the Loot and Pillage aftermath option may be selected for that Unit as long as all enemy Units involved in that Combat have been destroyed, are Falling Back or have Disengaged. Only one Unit may select this aftermath option per Combat:\n\n\nLoot and Pillage – A Unit that chooses to Loot and Pillage cannot move or make any attacks as part of this aftermath option, but instead scores Victory Points equal to the value of X attached to the variant of the Loot the Dead (X) Special Rule that the Unit has. Once these Victory Points have been scored, all Models in the Unit for which this aftermath option was selected gain the Pinned Tactical Status\n\n\n*NR Data authors note - there is currently no definitive ruling on rounding up or down for X values in Special Rules in HH v3.0 and we are not in any position to be making a ruling on that. We will update the values if an FAQ is released to address the subject. In the mean time, we advise discussing it with your opponent before you play.*",
         "hidden": false,
-        "alias": ["Loot the Dead"]
+        "alias": [
+          "Loot the Dead"
+        ]
       },
       {
         "name": "Aberrant",
@@ -991,7 +1093,9 @@
         "id": "aea9-7451-7b2c-5b40",
         "description": "Whenever at least one Unit that includes a majority of Models with this Special Rule is on the winning side of a Combat where one or more of the following was true at the start of the Fight Sub-Phase, then the Controlling Player scores a number of Victory Points equal to the value of X (where there are multiple variants of this Special Rule in a Combat, use only the single highest value of X):\n\n\n • The total number of Models on the enemy side is more than twice the number of Models on the Blackshields side.\n • The enemy side includes more Models with the Command Trait or any Models with the Paragon Type.\n • The enemy side includes a majority of Models with a higher Weapon Skill Characteristic than the majority of Models on the Blackshields side.\n\n\nThis Oath of Moment may not be selected if the Detachment already has the Reapers of Lives or Spoils of Victory Oaths of Moment.",
         "hidden": false,
-        "alias": ["Doomed Heroics"]
+        "alias": [
+          "Doomed Heroics"
+        ]
       },
       {
         "name": "Children of Old Night",
@@ -1239,7 +1343,9 @@
         "id": "012f-3a25-15fa-61c1",
         "description": "**Penetrating Hits inflicted by attacks with the Annihilation Cascade (X) Special Rule can cause additional Hits.**\n\n\nAt the end of Step 9 of the Shooting Attack process or Step 8 of the Resolving an Initiative Step process for any Fire Group or Strike Group that includes Weapons with the Annihilation Cascade (X) Special Rule and which inflicted any Penetrating Hits, create a new Fire Group or Strike Group (respectively). This new Fire Group or Strike Group must then be selected in step 10 of the Shooting Attack or Step 9 of the Resolving an Initiative Step process (respectively) and resolved. This new Fire Group or Strike Group includes a number of Hits equal to the number of Hull Points the Target Model lost due to the Fire Group or Strike Group that triggered its creation. These Hits all have a Strength equal to the value of X attached to the variant of the Annihilation Cascade (X) Special Rule possessed by Weapons in the preceding Fire Group or Strike Group, an AP of '-', a Damage of 1 and no Special Rules.",
         "hidden": false,
-        "alias": ["Annihilation Cascade"]
+        "alias": [
+          "Annihilation Cascade"
+        ]
       },
       {
         "name": "Cortex Corruption",
@@ -1258,14 +1364,18 @@
         "id": "581c-cbc9-1f23-d892",
         "description": "**A Model with this Special Rule allows other Units to use the value of X instead of their Cool or Leadership once per turn.**\n\n\nOnce per Turn, while a Model with this Special Rule is on the Battlefield and when the Controlling Player is required to make a Cool or Leadership Check for another Unit under their control that includes one or more Models with a nuncio-vox, command vox, or vox interlock, the value of X listed may be used to resolve that Check.",
         "hidden": false,
-        "alias": ["Command Vehicle"]
+        "alias": [
+          "Command Vehicle"
+        ]
       },
       {
         "name": "Tank Commander (X)",
         "id": "8e22-3f6e-10f3-6e80",
         "description": "**A Model with this Special Rule allows a number of detachments of tanks equal to the value of X to be included in an Army.**\n\n\nIf a Model with this Special Rule is selected to fill a High Command or Command Slot in any Detachment, then the Controlling Player may select a number of Auxiliary Detachments equal to the value of X in the specified variant of this Special Rule instead of just one - however, the Detachment selected may only include Armour Slots. If the Model with this Special Rule has the Solar Auxilia Trait, then these Auxiliary Detachments may include Armour Tercio Auxiliary Detachments.",
         "hidden": false,
-        "alias": ["Tank Commander"]
+        "alias": [
+          "Tank Commander"
+        ]
       },
       {
         "name": "Subterranean",
@@ -1302,6 +1412,12 @@
         "id": "cdb4-49d4-88d7-a2c6",
         "description": "**Enemy Units in Combat with a Unit with this Special Rule must pass a Willpower Check before having an Aftermath option selected for them.**\n\n\nIf a Combat includes any Models with this Special Rule, the Controlling Player may choose that the Opposing Player must make a Willpower Check for each of their Units in the selected Combat, before selecting any Aftermath option for the Unit. If the Willpower Check is passed, the Player may select an Aftermath option as normal. If the Willpower Check is failed, the Player must select Hold. Note that is a Unit contains any Models with the Routed status, a Willpower Check must still be made for that Unit. If the Check is passed, the Unit must Fall Back and if the Check is failed the Unit must Hold, but the Models retain the Routed Status, regardless of the result.",
         "hidden": false
+      },
+      {
+        "name": "Squadron Tactics",
+        "id": "c8f1-2a44-9e70-61b3",
+        "description": "**While a Model with this Special Rule is within 6\" of another Model with this Special Rule, the Controlling Player may add 2 to Repair Rolls made for that Model.**\n\nModels with the Vehicle Type in an Army using the Armoured Spearhead Primary Detachment gain this Special Rule.",
+        "hidden": false
       }
     ],
     "sharedSelectionEntries": [
@@ -1311,7 +1427,15 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "infoLinks": [{"name": "Armourbane", "id": "5df2-a5ea-8d10-1ca2", "hidden": false, "targetId": "36ee-4c54-bced-a696", "type": "rule"}],
+        "infoLinks": [
+          {
+            "name": "Armourbane",
+            "id": "5df2-a5ea-8d10-1ca2",
+            "hidden": false,
+            "targetId": "36ee-4c54-bced-a696",
+            "type": "rule"
+          }
+        ],
         "rules": [
           {
             "name": "Augurs of Weakness",
@@ -1395,7 +1519,13 @@
             "hidden": false,
             "targetId": "fe5a-a52a-468f-3f88",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Critical Hit (6+)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Critical Hit (6+)"
+              }
+            ]
           }
         ],
         "rules": [
@@ -1413,14 +1543,65 @@
         "name": "Orders of the Hekatonystika",
         "id": "cde4-adad-2cca-0f9f",
         "hidden": false,
-        "constraints": [{"id": "dd9c-b739-d783-9d3c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "constraints": [
+          {
+            "id": "dd9c-b739-d783-9d3c",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
         "entryLinks": [
-          {"name": "Augurs of Weakness", "id": "7209-25be-f3ca-2148", "hidden": false, "import": true, "targetId": "b370-978f-fa67-7f47", "type": "selectionEntry"},
-          {"name": "Breakers of Witches", "id": "54c0-d752-291e-27bf", "hidden": false, "import": true, "targetId": "5a14-5035-07f7-9dd5", "type": "selectionEntry"},
-          {"name": "Hunters of Beasts", "id": "b14a-e84b-7d1a-4b97", "hidden": false, "import": true, "targetId": "6bbf-b716-13d3-b070", "type": "selectionEntry"},
-          {"name": "Icons of Resolve", "id": "358c-6445-95a0-5436", "hidden": false, "import": true, "targetId": "e773-5c25-fb9e-57ed", "type": "selectionEntry"},
-          {"name": "Reaper of Hosts", "id": "60b8-b9bf-8172-005f", "hidden": false, "import": true, "targetId": "12d1-cfb4-6bc9-3c4f", "type": "selectionEntry"},
-          {"name": "Slayer of Kings", "id": "a2d7-30da-859d-6255", "hidden": false, "import": true, "targetId": "16a5-0057-ea1b-e6bf", "type": "selectionEntry"}
+          {
+            "name": "Augurs of Weakness",
+            "id": "7209-25be-f3ca-2148",
+            "hidden": false,
+            "import": true,
+            "targetId": "b370-978f-fa67-7f47",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Breakers of Witches",
+            "id": "54c0-d752-291e-27bf",
+            "hidden": false,
+            "import": true,
+            "targetId": "5a14-5035-07f7-9dd5",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Hunters of Beasts",
+            "id": "b14a-e84b-7d1a-4b97",
+            "hidden": false,
+            "import": true,
+            "targetId": "6bbf-b716-13d3-b070",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Icons of Resolve",
+            "id": "358c-6445-95a0-5436",
+            "hidden": false,
+            "import": true,
+            "targetId": "e773-5c25-fb9e-57ed",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Reaper of Hosts",
+            "id": "60b8-b9bf-8172-005f",
+            "hidden": false,
+            "import": true,
+            "targetId": "12d1-cfb4-6bc9-3c4f",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Slayer of Kings",
+            "id": "a2d7-30da-859d-6255",
+            "hidden": false,
+            "import": true,
+            "targetId": "16a5-0057-ea1b-e6bf",
+            "type": "selectionEntry"
+          }
         ]
       }
     ]

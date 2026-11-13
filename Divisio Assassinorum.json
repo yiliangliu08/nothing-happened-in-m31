@@ -7,24 +7,52 @@
     "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
-    "gameSystemRevision": 9,
+    "gameSystemRevision": 56,
     "hidden": false,
     "library": true,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
-      {"name": "Weapons", "id": "e095-86bd-1d10-de08", "targetId": "a22d-4dd0-c59d-57d3", "type": "catalogue"},
-      {"name": "Special Rules", "id": "be5f-b343-387b-6699", "targetId": "106b-693b-99f2-00c3", "type": "catalogue"},
-      {"name": "Traits", "id": "85ff-73e2-4dd2-e6ab", "targetId": "df17-7a05-0826-6e22", "type": "catalogue"},
-      {"name": "Wargear", "id": "fbac-7671-b08a-a225", "targetId": "fcc7-4319-bb04-2c25", "type": "catalogue"}
+      {
+        "name": "Weapons",
+        "id": "e095-86bd-1d10-de08",
+        "targetId": "a22d-4dd0-c59d-57d3",
+        "type": "catalogue"
+      },
+      {
+        "name": "Special Rules",
+        "id": "be5f-b343-387b-6699",
+        "targetId": "106b-693b-99f2-00c3",
+        "type": "catalogue"
+      },
+      {
+        "name": "Traits",
+        "id": "85ff-73e2-4dd2-e6ab",
+        "targetId": "df17-7a05-0826-6e22",
+        "type": "catalogue"
+      },
+      {
+        "name": "Wargear",
+        "id": "fbac-7671-b08a-a225",
+        "targetId": "fcc7-4319-bb04-2c25",
+        "type": "catalogue"
+      }
     ],
     "categoryEntries": [
       {
         "name": "Divisio Assassinorum",
         "id": "dd45-f18a-a4c2-1ff0",
         "hidden": false,
-        "infoLinks": [{"name": "Nemesis", "id": "6b37-effc-fe14-1432", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"}]
+        "infoLinks": [
+          {
+            "name": "Nemesis",
+            "id": "6b37-effc-fe14-1432",
+            "hidden": false,
+            "targetId": "7aee-7482-4d18-afad",
+            "type": "rule"
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -35,7 +63,34 @@
         "import": true,
         "targetId": "04c4-a7e6-0ba9-1959",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Clade Operative", "id": "f4aa-0aea-f58b-99f1", "hidden": false, "primary": true, "targetId": "335a-5a90-3b7c-c034"}]
+        "categoryLinks": [
+          {
+            "name": "Clade Operative",
+            "id": "f4aa-0aea-f58b-99f1",
+            "hidden": false,
+            "primary": true,
+            "targetId": "335a-5a90-3b7c-c034"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Eversor Assassin",
@@ -44,7 +99,34 @@
         "import": true,
         "targetId": "338d-2f4d-f7c6-8f5b",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Clade Operative", "id": "d95b-3ab5-67a8-b850", "hidden": false, "primary": true, "targetId": "335a-5a90-3b7c-c034"}]
+        "categoryLinks": [
+          {
+            "name": "Clade Operative",
+            "id": "d95b-3ab5-67a8-b850",
+            "hidden": false,
+            "primary": true,
+            "targetId": "335a-5a90-3b7c-c034"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Callidus Assassin",
@@ -53,7 +135,34 @@
         "import": true,
         "targetId": "29bc-487d-42cb-b139",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Clade Operative", "id": "2c98-740f-13ab-d70e", "hidden": false, "primary": true, "targetId": "335a-5a90-3b7c-c034"}]
+        "categoryLinks": [
+          {
+            "name": "Clade Operative",
+            "id": "2c98-740f-13ab-d70e",
+            "hidden": false,
+            "primary": true,
+            "targetId": "335a-5a90-3b7c-c034"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Culexus Assassin",
@@ -62,7 +171,34 @@
         "import": true,
         "targetId": "e43f-df95-094c-2e7d",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Clade Operative", "id": "c700-5280-02b8-c123", "hidden": false, "primary": true, "targetId": "335a-5a90-3b7c-c034"}]
+        "categoryLinks": [
+          {
+            "name": "Clade Operative",
+            "id": "c700-5280-02b8-c123",
+            "hidden": false,
+            "primary": true,
+            "targetId": "335a-5a90-3b7c-c034"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Adamus Assassin",
@@ -71,7 +207,34 @@
         "import": true,
         "targetId": "839f-c075-ca71-5c18",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Clade Operative", "id": "3761-793d-13db-661e", "hidden": false, "primary": true, "targetId": "335a-5a90-3b7c-c034"}]
+        "categoryLinks": [
+          {
+            "name": "Clade Operative",
+            "id": "3761-793d-13db-661e",
+            "hidden": false,
+            "primary": true,
+            "targetId": "335a-5a90-3b7c-c034"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Venenum Assassin",
@@ -80,7 +243,34 @@
         "import": true,
         "targetId": "3858-f098-b947-3b91",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Clade Operative", "id": "3ebb-8bb3-0f4d-e490", "hidden": false, "primary": true, "targetId": "335a-5a90-3b7c-c034"}]
+        "categoryLinks": [
+          {
+            "name": "Clade Operative",
+            "id": "3ebb-8bb3-0f4d-e490",
+            "hidden": false,
+            "primary": true,
+            "targetId": "335a-5a90-3b7c-c034"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Vanus Infocyte Assassin",
@@ -89,7 +279,34 @@
         "import": true,
         "targetId": "ac7a-3b38-f106-d2bc",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Clade Operative", "id": "bc50-2218-0769-0f60", "hidden": false, "primary": true, "targetId": "335a-5a90-3b7c-c034"}]
+        "categoryLinks": [
+          {
+            "name": "Clade Operative",
+            "id": "bc50-2218-0769-0f60",
+            "hidden": false,
+            "primary": true,
+            "targetId": "335a-5a90-3b7c-c034"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedProfiles": [
@@ -133,7 +350,12 @@
         "hidden": false,
         "typeId": "d5a9-9164-1e30-7a35",
         "typeName": "Traits",
-        "characteristics": [{"name": "Description", "typeId": "d5eb-0b8b-0f26-6233"}]
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "d5eb-0b8b-0f26-6233"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -153,11 +375,31 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 150},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 150
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -167,13 +409,40 @@
             "import": true,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
-            "entryLinks": [{"name": "Prime Benefits", "id": "7eab-84a5-d9f8-9c1e", "hidden": false, "import": true, "targetId": "09f3-7d9e-1892-28c1", "type": "selectionEntryGroup"}]
+            "entryLinks": [
+              {
+                "name": "Prime Benefits",
+                "id": "7eab-84a5-d9f8-9c1e",
+                "hidden": false,
+                "import": true,
+                "targetId": "09f3-7d9e-1892-28c1",
+                "type": "selectionEntryGroup"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {"name": "[Allegiance]", "id": "d88b-7daa-7040-d7fb", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "Divisio Assassinorum", "id": "8cc0-19c8-30e7-4526", "hidden": false, "targetId": "ba48-d112-56ef-a783", "type": "profile"},
-          {"name": "Talons of the Emperor", "id": "8a1b-e4a7-231f-133c", "hidden": false, "targetId": "8974-94e5-d261-e4a2", "type": "profile"}
+          {
+            "name": "[Allegiance]",
+            "id": "d88b-7daa-7040-d7fb",
+            "hidden": false,
+            "targetId": "bb66-f1f6-4d65-5a07",
+            "type": "profile"
+          },
+          {
+            "name": "Divisio Assassinorum",
+            "id": "8cc0-19c8-30e7-4526",
+            "hidden": false,
+            "targetId": "ba48-d112-56ef-a783",
+            "type": "profile"
+          },
+          {
+            "name": "Talons of the Emperor",
+            "id": "8a1b-e4a7-231f-133c",
+            "hidden": false,
+            "targetId": "8974-94e5-d261-e4a2",
+            "type": "profile"
+          }
         ],
         "modifiers": [
           {
@@ -203,12 +472,36 @@
             "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
-              {"name": "Infantry Model Type", "id": "724b-bae0-83e7-599f", "primary": false, "targetId": "594d-fa82-13cb-a345"},
-              {"name": "Light Model Sub-Type", "id": "2324-2930-71dc-351d", "primary": false, "targetId": "f4ba-00e5-3d2e-eaac"}
+              {
+                "name": "Infantry Model Type",
+                "id": "724b-bae0-83e7-599f",
+                "primary": false,
+                "targetId": "594d-fa82-13cb-a345"
+              },
+              {
+                "name": "Light Model Sub-Type",
+                "id": "2324-2930-71dc-351d",
+                "primary": false,
+                "targetId": "f4ba-00e5-3d2e-eaac"
+              }
             ],
             "constraints": [
-              {"id": "f6ec-0db8-549f-f033-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "f6ec-0db8-549f-f033-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "f6ec-0db8-549f-f033-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "f6ec-0db8-549f-f033-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "infoLinks": [
               {
@@ -218,10 +511,28 @@
                 "hidden": false,
                 "targetId": "c6fd-28d0-3f80-672c",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shock (Pinned, Suppressed)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shock (Pinned, Suppressed)"
+                  }
+                ]
               },
-              {"name": "Heedless", "id": "d8cc-4900-d7fe-eaa8", "hidden": false, "targetId": "a3f3-72c6-7e01-6cab", "type": "rule"},
-              {"name": "Move Through Cover", "id": "d0c5-0e1f-51d8-4078", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"},
+              {
+                "name": "Heedless",
+                "id": "d8cc-4900-d7fe-eaa8",
+                "hidden": false,
+                "targetId": "a3f3-72c6-7e01-6cab",
+                "type": "rule"
+              },
+              {
+                "name": "Move Through Cover",
+                "id": "d0c5-0e1f-51d8-4078",
+                "hidden": false,
+                "targetId": "44d9-f20d-00bf-dc98",
+                "type": "rule"
+              },
               {
                 "name": "Infiltrate (X)",
                 "id": "145b-0241-2fb1-9247",
@@ -229,7 +540,13 @@
                 "hidden": false,
                 "targetId": "f330-254e-1a98-798a",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Infiltrate (9)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Infiltrate (9)"
+                  }
+                ]
               },
               {
                 "name": "Shrouded (X)",
@@ -238,7 +555,13 @@
                 "hidden": false,
                 "targetId": "c7e7-3bad-3de0-d6cc",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shrouded (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shrouded (5+)"
+                  }
+                ]
               },
               {
                 "name": "Shred (X)",
@@ -247,10 +570,28 @@
                 "hidden": false,
                 "targetId": "d01e-f96b-b5c1-8fb1",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shred (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shred (5+)"
+                  }
+                ]
               },
-              {"name": "Nemesis", "id": "184f-568d-fe72-66a3", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"},
-              {"name": "Tactical Displacement", "id": "e145-a8f8-455d-5316", "hidden": false, "targetId": "d1b8-a73c-ec72-1da1", "type": "profile"}
+              {
+                "name": "Nemesis",
+                "id": "184f-568d-fe72-66a3",
+                "hidden": false,
+                "targetId": "7aee-7482-4d18-afad",
+                "type": "rule"
+              },
+              {
+                "name": "Tactical Displacement",
+                "id": "e145-a8f8-455d-5316",
+                "hidden": false,
+                "targetId": "d1b8-a73c-ec72-1da1",
+                "type": "profile"
+              }
             ],
             "profiles": [
               {
@@ -260,21 +601,81 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Light)", "typeId": "50fc-9241-d4a2-045b"},
-                  {"name": "M", "$text": "8", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
-                  {"name": "BS", "$text": "7", "typeId": "0cd5-b269-e3bc-028b"},
-                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
-                  {"name": "W", "$text": "3", "typeId": "f5cc-79a3-d302-cc1d"},
-                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "2", "typeId": "024e-bdb1-7982-25a0"},
-                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
-                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
-                  {"name": "WP", "$text": "7", "typeId": "f714-1726-37d3-44df"},
-                  {"name": "IN", "$text": "7", "typeId": "29c5-925d-5b1d-1e77"},
-                  {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
-                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                  {
+                    "name": "Type",
+                    "$text": "Infantry (Light)",
+                    "typeId": "50fc-9241-d4a2-045b"
+                  },
+                  {
+                    "name": "M",
+                    "$text": "8",
+                    "typeId": "a106-a779-d272-5e93"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "5",
+                    "typeId": "253c-d694-4695-c89e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "7",
+                    "typeId": "0cd5-b269-e3bc-028b"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "498f-dce1-59fd-d8d7"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "4",
+                    "typeId": "3120-8275-e537-ecd2"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "3",
+                    "typeId": "f5cc-79a3-d302-cc1d"
+                  },
+                  {
+                    "name": "I",
+                    "$text": "5",
+                    "typeId": "af9d-7db8-dc95-71c1"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "2",
+                    "typeId": "024e-bdb1-7982-25a0"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "10",
+                    "typeId": "02ad-ebe6-86e7-9fd6"
+                  },
+                  {
+                    "name": "CL",
+                    "$text": "10",
+                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                  },
+                  {
+                    "name": "WP",
+                    "$text": "7",
+                    "typeId": "f714-1726-37d3-44df"
+                  },
+                  {
+                    "name": "IN",
+                    "$text": "7",
+                    "typeId": "29c5-925d-5b1d-1e77"
+                  },
+                  {
+                    "name": "SAV",
+                    "$text": "4+",
+                    "typeId": "03bd-4ecb-351d-143b"
+                  },
+                  {
+                    "name": "INV",
+                    "$text": "4+",
+                    "typeId": "a951-a772-7ce0-0b64"
+                  }
                 ]
               }
             ],
@@ -291,7 +692,13 @@
                 "comment": "5+",
                 "description": "\"Wounds inflicted by a Weapon with this Special Rule can ignore the Eternal Warrior (X) Special Rule.\"\n\n\nWhen any Wound Test is made for an attack with the Murderous (X) Special Rule, if the result of the Dice roll, before any modifiers are applied, is equal to or greater than the value of X attached to this variant of the Murderous (X) Special Rule, then if a wound is inflicted by that Wound Test, that wound’s Damage may not be modified by any instance of the Eternal Warrior (X) Special Rule",
                 "hidden": false,
-                "modifiers": [{"field": "name", "type": "set", "value": "Murderous (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Murderous (5+)"
+                  }
+                ]
               }
             ],
             "selectionEntries": [
@@ -303,8 +710,22 @@
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "cafc-39d2-664e-73a7-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "cafc-39d2-664e-73a7-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "cafc-39d2-664e-73a7-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "cafc-39d2-664e-73a7-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -314,7 +735,13 @@
                     "hidden": false,
                     "targetId": "88b6-6493-e4d7-1805",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Pinning (1)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Pinning (1)"
+                      }
+                    ]
                   },
                   {
                     "name": "Ordnance (X)",
@@ -323,7 +750,13 @@
                     "hidden": false,
                     "targetId": "b6b3-909a-b78a-3dbf",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Ordnance (AP)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Ordnance (AP)"
+                      }
+                    ]
                   },
                   {
                     "name": "Precision (X)",
@@ -332,7 +765,13 @@
                     "hidden": false,
                     "targetId": "4fbd-e0bc-8f72-6e3f",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Precision (2+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Precision (2+)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -343,13 +782,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "100", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "7", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "-", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Ordnance (AP), Precision (2+), Pinning (1)", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "-", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "100",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "7",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Ordnance (AP), Precision (2+), Pinning (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -362,8 +829,22 @@
                 "sortIndex": 3,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "b234-e7b1-2383-3020-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "b234-e7b1-2383-3020-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "b234-e7b1-2383-3020-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "b234-e7b1-2383-3020-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -373,7 +854,13 @@
                     "hidden": false,
                     "targetId": "b094-0b64-eb57-aed6",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Breaching (6+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Breaching (6+)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -384,13 +871,41 @@
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
-                      {"name": "IM", "$text": "I", "typeId": "6eec-4093-f946-1014"},
-                      {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
-                      {"name": "SM", "$text": "S", "typeId": "4505-de6f-d4ae-6280"},
-                      {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
-                      {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
-                      {"name": "Special Rules", "$text": "Breaching (6+)", "typeId": "ebe0-7b28-b40c-694e"},
-                      {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "S",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Breaching (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Power",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
                     ]
                   }
                 ]
@@ -403,11 +918,31 @@
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "7187-cef2-d656-89e3-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "7187-cef2-d656-89e3-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "7187-cef2-d656-89e3-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "7187-cef2-d656-89e3-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
-                  {"name": "Pistol", "id": "1ae9-3622-28f0-b1aa", "hidden": false, "targetId": "2bf6-55c8-6810-a71c", "type": "rule"},
+                  {
+                    "name": "Pistol",
+                    "id": "1ae9-3622-28f0-b1aa",
+                    "hidden": false,
+                    "targetId": "2bf6-55c8-6810-a71c",
+                    "type": "rule"
+                  },
                   {
                     "name": "Precision (X)",
                     "id": "dbab-b30d-dcc2-a31b",
@@ -415,7 +950,13 @@
                     "hidden": false,
                     "targetId": "4fbd-e0bc-8f72-6e3f",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Precision (4+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Precision (4+)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -426,13 +967,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "3", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "6", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Pistol, Precision (4+)", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "Assault", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "12",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "3",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "6",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Pistol, Precision (4+)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -448,11 +1017,31 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 125},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 125
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -462,13 +1051,40 @@
             "import": true,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
-            "entryLinks": [{"name": "Prime Benefits", "id": "9e45-a449-e42a-d346", "hidden": false, "import": true, "targetId": "09f3-7d9e-1892-28c1", "type": "selectionEntryGroup"}]
+            "entryLinks": [
+              {
+                "name": "Prime Benefits",
+                "id": "9e45-a449-e42a-d346",
+                "hidden": false,
+                "import": true,
+                "targetId": "09f3-7d9e-1892-28c1",
+                "type": "selectionEntryGroup"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {"name": "[Allegiance]", "id": "c0c9-d177-ff10-c94a", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "Divisio Assassinorum", "id": "eaa4-c8e1-6ddb-d822", "hidden": false, "targetId": "ba48-d112-56ef-a783", "type": "profile"},
-          {"name": "Talons of the Emperor", "id": "885f-2896-447d-deec", "hidden": false, "targetId": "8974-94e5-d261-e4a2", "type": "profile"}
+          {
+            "name": "[Allegiance]",
+            "id": "c0c9-d177-ff10-c94a",
+            "hidden": false,
+            "targetId": "bb66-f1f6-4d65-5a07",
+            "type": "profile"
+          },
+          {
+            "name": "Divisio Assassinorum",
+            "id": "eaa4-c8e1-6ddb-d822",
+            "hidden": false,
+            "targetId": "ba48-d112-56ef-a783",
+            "type": "profile"
+          },
+          {
+            "name": "Talons of the Emperor",
+            "id": "885f-2896-447d-deec",
+            "hidden": false,
+            "targetId": "8974-94e5-d261-e4a2",
+            "type": "profile"
+          }
         ],
         "modifiers": [
           {
@@ -497,13 +1113,42 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Infantry Model Type", "id": "d738-4e97-a736-58cd", "primary": false, "targetId": "594d-fa82-13cb-a345"},
-              {"name": "Champion Model Sub-Type", "id": "0467-c2de-b606-cbce", "primary": false, "targetId": "5a95-e564-96b2-8dc9"},
-              {"name": "Light Model Sub-Type", "id": "2ac9-7fa1-d51e-9832", "primary": false, "targetId": "f4ba-00e5-3d2e-eaac"}
+              {
+                "name": "Infantry Model Type",
+                "id": "d738-4e97-a736-58cd",
+                "primary": false,
+                "targetId": "594d-fa82-13cb-a345"
+              },
+              {
+                "name": "Champion Model Sub-Type",
+                "id": "0467-c2de-b606-cbce",
+                "primary": false,
+                "targetId": "5a95-e564-96b2-8dc9"
+              },
+              {
+                "name": "Light Model Sub-Type",
+                "id": "2ac9-7fa1-d51e-9832",
+                "primary": false,
+                "targetId": "f4ba-00e5-3d2e-eaac"
+              }
             ],
             "constraints": [
-              {"id": "9219-1d3f-2ba9-7c09-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "9219-1d3f-2ba9-7c09-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "9219-1d3f-2ba9-7c09-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "9219-1d3f-2ba9-7c09-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "entryLinks": [
               {
@@ -514,8 +1159,22 @@
                 "targetId": "59a9-57c1-fff9-ca75",
                 "type": "selectionEntry",
                 "constraints": [
-                  {"id": "e5ca-6cf7-c529-c4f0-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "e5ca-6cf7-c529-c4f0-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "e5ca-6cf7-c529-c4f0-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "e5ca-6cf7-c529-c4f0-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ]
               }
             ],
@@ -527,7 +1186,13 @@
                 "hidden": false,
                 "targetId": "951f-eee4-02b7-b014",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Reaping Blow (3)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Reaping Blow (3)"
+                  }
+                ]
               },
               {
                 "name": "Eternal Warrior (X)",
@@ -536,7 +1201,13 @@
                 "hidden": false,
                 "targetId": "15b4-9e4a-f361-c5a3",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Eternal Warrior (1)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Eternal Warrior (1)"
+                  }
+                ]
               },
               {
                 "name": "Explodes (X)",
@@ -545,9 +1216,21 @@
                 "hidden": false,
                 "targetId": "da5b-b871-20da-3e70",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Explodes (2+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Explodes (2+)"
+                  }
+                ]
               },
-              {"name": "Heedless", "id": "7f44-b37d-1aa1-4e37", "hidden": false, "targetId": "a3f3-72c6-7e01-6cab", "type": "rule"},
+              {
+                "name": "Heedless",
+                "id": "7f44-b37d-1aa1-4e37",
+                "hidden": false,
+                "targetId": "a3f3-72c6-7e01-6cab",
+                "type": "rule"
+              },
               {
                 "name": "Infiltrate (X)",
                 "id": "9578-f2d1-c16c-fa48",
@@ -555,9 +1238,21 @@
                 "hidden": false,
                 "targetId": "f330-254e-1a98-798a",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Infiltrate (9)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Infiltrate (9)"
+                  }
+                ]
               },
-              {"name": "Move Through Cover", "id": "7a1f-a717-0c5a-db82", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"},
+              {
+                "name": "Move Through Cover",
+                "id": "7a1f-a717-0c5a-db82",
+                "hidden": false,
+                "targetId": "44d9-f20d-00bf-dc98",
+                "type": "rule"
+              },
               {
                 "name": "Shrouded (X)",
                 "id": "32e2-1d0c-c753-7d0b",
@@ -565,10 +1260,28 @@
                 "hidden": false,
                 "targetId": "c7e7-3bad-3de0-d6cc",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shrouded (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shrouded (5+)"
+                  }
+                ]
               },
-              {"name": "Nemesis", "id": "4d6b-5fa2-756c-c1c0", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"},
-              {"name": "Tactical Displacement", "id": "6351-fe9b-93ac-de72", "hidden": false, "targetId": "d1b8-a73c-ec72-1da1", "type": "profile"}
+              {
+                "name": "Nemesis",
+                "id": "4d6b-5fa2-756c-c1c0",
+                "hidden": false,
+                "targetId": "7aee-7482-4d18-afad",
+                "type": "rule"
+              },
+              {
+                "name": "Tactical Displacement",
+                "id": "6351-fe9b-93ac-de72",
+                "hidden": false,
+                "targetId": "d1b8-a73c-ec72-1da1",
+                "type": "profile"
+              }
             ],
             "profiles": [
               {
@@ -578,21 +1291,81 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Champion, Light)", "typeId": "50fc-9241-d4a2-045b"},
-                  {"name": "M", "$text": "8", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "6", "typeId": "253c-d694-4695-c89e"},
-                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
-                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
-                  {"name": "W", "$text": "3", "typeId": "f5cc-79a3-d302-cc1d"},
-                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "4", "typeId": "024e-bdb1-7982-25a0"},
-                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
-                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
-                  {"name": "WP", "$text": "7", "typeId": "f714-1726-37d3-44df"},
-                  {"name": "IN", "$text": "7", "typeId": "29c5-925d-5b1d-1e77"},
-                  {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
-                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                  {
+                    "name": "Type",
+                    "$text": "Infantry (Champion, Light)",
+                    "typeId": "50fc-9241-d4a2-045b"
+                  },
+                  {
+                    "name": "M",
+                    "$text": "8",
+                    "typeId": "a106-a779-d272-5e93"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "6",
+                    "typeId": "253c-d694-4695-c89e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "5",
+                    "typeId": "0cd5-b269-e3bc-028b"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "498f-dce1-59fd-d8d7"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "4",
+                    "typeId": "3120-8275-e537-ecd2"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "3",
+                    "typeId": "f5cc-79a3-d302-cc1d"
+                  },
+                  {
+                    "name": "I",
+                    "$text": "5",
+                    "typeId": "af9d-7db8-dc95-71c1"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "4",
+                    "typeId": "024e-bdb1-7982-25a0"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "10",
+                    "typeId": "02ad-ebe6-86e7-9fd6"
+                  },
+                  {
+                    "name": "CL",
+                    "$text": "10",
+                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                  },
+                  {
+                    "name": "WP",
+                    "$text": "7",
+                    "typeId": "f714-1726-37d3-44df"
+                  },
+                  {
+                    "name": "IN",
+                    "$text": "7",
+                    "typeId": "29c5-925d-5b1d-1e77"
+                  },
+                  {
+                    "name": "SAV",
+                    "$text": "4+",
+                    "typeId": "03bd-4ecb-351d-143b"
+                  },
+                  {
+                    "name": "INV",
+                    "$text": "4+",
+                    "typeId": "a951-a772-7ce0-0b64"
+                  }
                 ]
               },
               {
@@ -631,8 +1404,22 @@
                 "import": true,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "ea56-c4e6-6428-9a3c-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "ea56-c4e6-6428-9a3c-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "ea56-c4e6-6428-9a3c-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "ea56-c4e6-6428-9a3c-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "entryLinks": [
                   {
@@ -643,8 +1430,22 @@
                     "targetId": "e8cf-c87f-a5e9-4a7c",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "a293-b123-25ef-19b2-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "a293-b123-25ef-19b2-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "a293-b123-25ef-19b2-min",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "a293-b123-25ef-19b2-max",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -656,12 +1457,38 @@
                     "import": true,
                     "type": "upgrade",
                     "constraints": [
-                      {"id": "4959-2086-f06f-06fe-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "4959-2086-f06f-06fe-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "4959-2086-f06f-06fe-min",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "4959-2086-f06f-06fe-max",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "infoLinks": [
-                      {"name": "Pistol", "id": "e018-970b-2f1b-4c2f", "hidden": false, "targetId": "2bf6-55c8-6810-a71c", "type": "rule"},
-                      {"name": "Combi", "id": "eab9-00f3-aa00-addc", "hidden": false, "targetId": "26a0-aaea-5b18-4de6", "type": "rule"},
+                      {
+                        "name": "Pistol",
+                        "id": "e018-970b-2f1b-4c2f",
+                        "hidden": false,
+                        "targetId": "2bf6-55c8-6810-a71c",
+                        "type": "rule"
+                      },
+                      {
+                        "name": "Combi",
+                        "id": "eab9-00f3-aa00-addc",
+                        "hidden": false,
+                        "targetId": "26a0-aaea-5b18-4de6",
+                        "type": "rule"
+                      },
                       {
                         "name": "Poisoned (X)",
                         "id": "8718-adb3-2df1-5196",
@@ -669,7 +1496,13 @@
                         "hidden": false,
                         "targetId": "076f-2c91-c58b-71b3",
                         "type": "rule",
-                        "modifiers": [{"field": "name", "type": "set", "value": "Poisoned (3+)"}]
+                        "modifiers": [
+                          {
+                            "field": "name",
+                            "type": "set",
+                            "value": "Poisoned (3+)"
+                          }
+                        ]
                       },
                       {
                         "name": "Pinning (X)",
@@ -678,7 +1511,13 @@
                         "hidden": false,
                         "targetId": "88b6-6493-e4d7-1805",
                         "type": "rule",
-                        "modifiers": [{"field": "name", "type": "set", "value": "Pinning (1)"}]
+                        "modifiers": [
+                          {
+                            "field": "name",
+                            "type": "set",
+                            "value": "Pinning (1)"
+                          }
+                        ]
                       }
                     ],
                     "profiles": [
@@ -689,13 +1528,41 @@
                         "typeId": "c591-09ed-3e6f-eb2b",
                         "typeName": "Ranged Weapon",
                         "characteristics": [
-                          {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
-                          {"name": "FP", "$text": "2", "typeId": "5037-1f27-1790-e355"},
-                          {"name": "RS", "$text": "2", "typeId": "b9da-ee13-79f9-fa63"},
-                          {"name": "AP", "$text": "-", "typeId": "7a23-0248-2b94-5951"},
-                          {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                          {"name": "Special Rules", "$text": "Poisoned (3+), Pistol, Pinning (1), Combi", "typeId": "5aad-137a-8ee2-63fd"},
-                          {"name": "Traits", "$text": "Assault, Needle", "typeId": "1247-79d2-6cc1-8a03"}
+                          {
+                            "name": "R",
+                            "$text": "12",
+                            "typeId": "cdb0-8654-6840-1037"
+                          },
+                          {
+                            "name": "FP",
+                            "$text": "2",
+                            "typeId": "5037-1f27-1790-e355"
+                          },
+                          {
+                            "name": "RS",
+                            "$text": "2",
+                            "typeId": "b9da-ee13-79f9-fa63"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "-",
+                            "typeId": "7a23-0248-2b94-5951"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "88c3-1ca5-7dc1-f291"
+                          },
+                          {
+                            "name": "Special Rules",
+                            "$text": "Poisoned (3+), Pistol, Pinning (1), Combi",
+                            "typeId": "5aad-137a-8ee2-63fd"
+                          },
+                          {
+                            "name": "Traits",
+                            "$text": "Assault, Needle",
+                            "typeId": "1247-79d2-6cc1-8a03"
+                          }
                         ]
                       }
                     ]
@@ -709,8 +1576,22 @@
                 "import": true,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "64bf-75c0-ac86-b884-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "64bf-75c0-ac86-b884-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "64bf-75c0-ac86-b884-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "64bf-75c0-ac86-b884-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -720,7 +1601,13 @@
                     "hidden": false,
                     "targetId": "167f-2a64-6e61-505b",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Rending (4+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Rending (4+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Poisoned (X)",
@@ -729,7 +1616,13 @@
                     "hidden": false,
                     "targetId": "076f-2c91-c58b-71b3",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Poisoned (4+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Poisoned (4+)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -740,13 +1633,41 @@
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
-                      {"name": "IM", "$text": "+1", "typeId": "6eec-4093-f946-1014"},
-                      {"name": "AM", "$text": "+1", "typeId": "03d0-6094-84f0-e27e"},
-                      {"name": "SM", "$text": "S", "typeId": "4505-de6f-d4ae-6280"},
-                      {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
-                      {"name": "D", "$text": "2", "typeId": "6a9d-4feb-065a-33e7"},
-                      {"name": "Special Rules", "$text": "Rending (4+), Poisoned (4+)", "typeId": "ebe0-7b28-b40c-694e"},
-                      {"name": "Traits", "$text": "-", "typeId": "76e3-c188-bc65-3467"}
+                      {
+                        "name": "IM",
+                        "$text": "+1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "+1",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "S",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Rending (4+), Poisoned (4+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
                     ]
                   }
                 ]
@@ -762,8 +1683,20 @@
         "import": true,
         "type": "upgrade",
         "infoLinks": [
-          {"name": "Pistol", "id": "5f3c-5542-351c-745a", "hidden": false, "targetId": "2bf6-55c8-6810-a71c", "type": "rule"},
-          {"name": "Combi", "id": "7f1b-98a8-2add-3eba", "hidden": false, "targetId": "26a0-aaea-5b18-4de6", "type": "rule"}
+          {
+            "name": "Pistol",
+            "id": "5f3c-5542-351c-745a",
+            "hidden": false,
+            "targetId": "2bf6-55c8-6810-a71c",
+            "type": "rule"
+          },
+          {
+            "name": "Combi",
+            "id": "7f1b-98a8-2add-3eba",
+            "hidden": false,
+            "targetId": "26a0-aaea-5b18-4de6",
+            "type": "rule"
+          }
         ],
         "profiles": [
           {
@@ -773,13 +1706,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "4", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "5", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Pistol, Combi", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Assault, Bolt", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol, Combi",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Bolt",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -791,13 +1752,41 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 125},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 125
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -807,13 +1796,40 @@
             "import": true,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
-            "entryLinks": [{"name": "Prime Benefits", "id": "2c39-cb5c-574c-0939", "hidden": false, "import": true, "targetId": "09f3-7d9e-1892-28c1", "type": "selectionEntryGroup"}]
+            "entryLinks": [
+              {
+                "name": "Prime Benefits",
+                "id": "2c39-cb5c-574c-0939",
+                "hidden": false,
+                "import": true,
+                "targetId": "09f3-7d9e-1892-28c1",
+                "type": "selectionEntryGroup"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {"name": "[Allegiance]", "id": "a34a-5b4b-4fd0-2535", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "Divisio Assassinorum", "id": "73c0-1f39-e701-12f6", "hidden": false, "targetId": "ba48-d112-56ef-a783", "type": "profile"},
-          {"name": "Talons of the Emperor", "id": "a522-e1d2-7d0d-cb80", "hidden": false, "targetId": "8974-94e5-d261-e4a2", "type": "profile"}
+          {
+            "name": "[Allegiance]",
+            "id": "a34a-5b4b-4fd0-2535",
+            "hidden": false,
+            "targetId": "bb66-f1f6-4d65-5a07",
+            "type": "profile"
+          },
+          {
+            "name": "Divisio Assassinorum",
+            "id": "73c0-1f39-e701-12f6",
+            "hidden": false,
+            "targetId": "ba48-d112-56ef-a783",
+            "type": "profile"
+          },
+          {
+            "name": "Talons of the Emperor",
+            "id": "a522-e1d2-7d0d-cb80",
+            "hidden": false,
+            "targetId": "8974-94e5-d261-e4a2",
+            "type": "profile"
+          }
         ],
         "modifiers": [
           {
@@ -842,16 +1858,51 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Infantry Model Type", "id": "8cc7-3a37-c6a1-c46d", "primary": false, "targetId": "594d-fa82-13cb-a345"},
-              {"name": "Champion Model Sub-Type", "id": "fa5c-c868-1ce8-e061", "primary": false, "targetId": "5a95-e564-96b2-8dc9"},
-              {"name": "Light Model Sub-Type", "id": "67ce-ced5-5ab5-edb6", "primary": false, "targetId": "f4ba-00e5-3d2e-eaac"}
+              {
+                "name": "Infantry Model Type",
+                "id": "8cc7-3a37-c6a1-c46d",
+                "primary": false,
+                "targetId": "594d-fa82-13cb-a345"
+              },
+              {
+                "name": "Champion Model Sub-Type",
+                "id": "fa5c-c868-1ce8-e061",
+                "primary": false,
+                "targetId": "5a95-e564-96b2-8dc9"
+              },
+              {
+                "name": "Light Model Sub-Type",
+                "id": "67ce-ced5-5ab5-edb6",
+                "primary": false,
+                "targetId": "f4ba-00e5-3d2e-eaac"
+              }
             ],
             "constraints": [
-              {"id": "d15e-8122-17ff-dfa3-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "d15e-8122-17ff-dfa3-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "d15e-8122-17ff-dfa3-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "d15e-8122-17ff-dfa3-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "infoLinks": [
-              {"name": "Heedless", "id": "fcea-2ae1-7ef3-2c45", "hidden": false, "targetId": "a3f3-72c6-7e01-6cab", "type": "rule"},
+              {
+                "name": "Heedless",
+                "id": "fcea-2ae1-7ef3-2c45",
+                "hidden": false,
+                "targetId": "a3f3-72c6-7e01-6cab",
+                "type": "rule"
+              },
               {
                 "name": "Infiltrate (X)",
                 "id": "538f-dc12-001f-cd83",
@@ -859,9 +1910,21 @@
                 "hidden": false,
                 "targetId": "f330-254e-1a98-798a",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Infiltrate (6)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Infiltrate (6)"
+                  }
+                ]
               },
-              {"name": "Move Through Cover", "id": "fa05-5318-6db0-4d3e", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"},
+              {
+                "name": "Move Through Cover",
+                "id": "fa05-5318-6db0-4d3e",
+                "hidden": false,
+                "targetId": "44d9-f20d-00bf-dc98",
+                "type": "rule"
+              },
               {
                 "name": "Shrouded (X)",
                 "id": "91e5-75ae-2b31-0082",
@@ -869,10 +1932,28 @@
                 "hidden": false,
                 "targetId": "c7e7-3bad-3de0-d6cc",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shrouded (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shrouded (5+)"
+                  }
+                ]
               },
-              {"name": "Nemesis", "id": "8faf-9e30-290d-5ba1", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"},
-              {"name": "Tactical Displacement", "id": "ddba-7d84-62f3-c0f4", "hidden": false, "targetId": "d1b8-a73c-ec72-1da1", "type": "profile"}
+              {
+                "name": "Nemesis",
+                "id": "8faf-9e30-290d-5ba1",
+                "hidden": false,
+                "targetId": "7aee-7482-4d18-afad",
+                "type": "rule"
+              },
+              {
+                "name": "Tactical Displacement",
+                "id": "ddba-7d84-62f3-c0f4",
+                "hidden": false,
+                "targetId": "d1b8-a73c-ec72-1da1",
+                "type": "profile"
+              }
             ],
             "profiles": [
               {
@@ -882,21 +1963,81 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Champion, Light)", "typeId": "50fc-9241-d4a2-045b"},
-                  {"name": "M", "$text": "8", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
-                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
-                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
-                  {"name": "W", "$text": "3", "typeId": "f5cc-79a3-d302-cc1d"},
-                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "4", "typeId": "024e-bdb1-7982-25a0"},
-                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
-                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
-                  {"name": "WP", "$text": "7", "typeId": "f714-1726-37d3-44df"},
-                  {"name": "IN", "$text": "7", "typeId": "29c5-925d-5b1d-1e77"},
-                  {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
-                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                  {
+                    "name": "Type",
+                    "$text": "Infantry (Champion, Light)",
+                    "typeId": "50fc-9241-d4a2-045b"
+                  },
+                  {
+                    "name": "M",
+                    "$text": "8",
+                    "typeId": "a106-a779-d272-5e93"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "5",
+                    "typeId": "253c-d694-4695-c89e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "5",
+                    "typeId": "0cd5-b269-e3bc-028b"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "498f-dce1-59fd-d8d7"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "4",
+                    "typeId": "3120-8275-e537-ecd2"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "3",
+                    "typeId": "f5cc-79a3-d302-cc1d"
+                  },
+                  {
+                    "name": "I",
+                    "$text": "5",
+                    "typeId": "af9d-7db8-dc95-71c1"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "4",
+                    "typeId": "024e-bdb1-7982-25a0"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "10",
+                    "typeId": "02ad-ebe6-86e7-9fd6"
+                  },
+                  {
+                    "name": "CL",
+                    "$text": "10",
+                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                  },
+                  {
+                    "name": "WP",
+                    "$text": "7",
+                    "typeId": "f714-1726-37d3-44df"
+                  },
+                  {
+                    "name": "IN",
+                    "$text": "7",
+                    "typeId": "29c5-925d-5b1d-1e77"
+                  },
+                  {
+                    "name": "SAV",
+                    "$text": "4+",
+                    "typeId": "03bd-4ecb-351d-143b"
+                  },
+                  {
+                    "name": "INV",
+                    "$text": "4+",
+                    "typeId": "a951-a772-7ce0-0b64"
+                  }
                 ]
               }
             ],
@@ -923,11 +2064,31 @@
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "287f-e0fa-c76c-77b3-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "287f-e0fa-c76c-77b3-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "287f-e0fa-c76c-77b3-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "287f-e0fa-c76c-77b3-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
-                  {"name": "Template", "id": "f6d8-b73e-3e9a-b98c", "hidden": false, "targetId": "7df2-9e88-3285-cf6a", "type": "rule"},
+                  {
+                    "name": "Template",
+                    "id": "f6d8-b73e-3e9a-b98c",
+                    "hidden": false,
+                    "targetId": "7df2-9e88-3285-cf6a",
+                    "type": "rule"
+                  },
                   {
                     "name": "Pinning (X)",
                     "id": "8bb4-fd50-c430-0fec",
@@ -935,7 +2096,13 @@
                     "hidden": false,
                     "targetId": "88b6-6493-e4d7-1805",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Pinning (3)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Pinning (3)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -946,13 +2113,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "Template", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "3", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Template, Pinning (3)", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "Assault", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "Template",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "3",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Template, Pinning (3)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -965,8 +2160,22 @@
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "6adb-bff8-a2c8-6edb-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "6adb-bff8-a2c8-6edb-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "6adb-bff8-a2c8-6edb-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "6adb-bff8-a2c8-6edb-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -976,7 +2185,13 @@
                     "hidden": false,
                     "targetId": "4fbd-e0bc-8f72-6e3f",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Precision (3+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Precision (3+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Poisoned (X)",
@@ -985,7 +2200,13 @@
                     "hidden": false,
                     "targetId": "076f-2c91-c58b-71b3",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Poisoned (3+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Poisoned (3+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Breaching (X)",
@@ -994,7 +2215,13 @@
                     "hidden": false,
                     "targetId": "b094-0b64-eb57-aed6",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Breaching (4+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Breaching (4+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Limited (X)",
@@ -1003,7 +2230,13 @@
                     "hidden": false,
                     "targetId": "fe57-5bea-a3de-1e60",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Limited (1)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Limited (1)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -1014,13 +2247,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "3", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "2", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "5", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Precision (3+), Poisoned (3+), Breaching (4+), Limited (1)", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "Assault", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "12",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "3",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "2",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "5",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Precision (3+), Poisoned (3+), Breaching (4+), Limited (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -1033,8 +2294,22 @@
                 "sortIndex": 3,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "020f-063e-2f3c-8486-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "020f-063e-2f3c-8486-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "020f-063e-2f3c-8486-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "020f-063e-2f3c-8486-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -1044,7 +2319,13 @@
                     "hidden": false,
                     "targetId": "4fbd-e0bc-8f72-6e3f",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Precision (5+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Precision (5+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Rending (X)",
@@ -1053,7 +2334,13 @@
                     "hidden": false,
                     "targetId": "167f-2a64-6e61-505b",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Rending (6+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Rending (6+)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -1064,13 +2351,41 @@
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
-                      {"name": "IM", "$text": "+2", "typeId": "6eec-4093-f946-1014"},
-                      {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
-                      {"name": "SM", "$text": "S", "typeId": "4505-de6f-d4ae-6280"},
-                      {"name": "AP", "$text": "2", "typeId": "a014-126b-3b7b-27e8"},
-                      {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
-                      {"name": "Special Rules", "$text": "Precision (5+), Rending (6+), Bypass (6+)", "typeId": "ebe0-7b28-b40c-694e"},
-                      {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
+                      {
+                        "name": "IM",
+                        "$text": "+2",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "S",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Precision (5+), Rending (6+), Bypass (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Power",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
                     ]
                   }
                 ],
@@ -1081,8 +2396,16 @@
                     "comment": "6+",
                     "description": "\"Attacks made with the Bypass (X) Special Rule can sometimes ignore all Saves and Damage Mitigation Rolls.\"\n\n\nWhen any Wound Test is made for an attack with the Bypass (X) Special Rule, if the result of the Dice roll, before any modifiers are applied, is equal to or greater than the value of X attached to this variant of the Bypass (X) Special Rule, then if a wound is inflicted by that Wound Test, that wound ignores all Saving Throws and Damage Mitigation Rolls. Note that the Bypass (X) Special Rule may only be triggered by a Wound Test and has no effect when making an Armour Penetration Test.",
                     "hidden": false,
-                    "alias": ["Bypass"],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Bypass (6+)"}]
+                    "alias": [
+                      "Bypass"
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Bypass (6+)"
+                      }
+                    ]
                   }
                 ]
               }
@@ -1097,11 +2420,31 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 140},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 140
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -1111,13 +2454,40 @@
             "import": true,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
-            "entryLinks": [{"name": "Prime Benefits", "id": "c709-c20b-2a00-6c79", "hidden": false, "import": true, "targetId": "09f3-7d9e-1892-28c1", "type": "selectionEntryGroup"}]
+            "entryLinks": [
+              {
+                "name": "Prime Benefits",
+                "id": "c709-c20b-2a00-6c79",
+                "hidden": false,
+                "import": true,
+                "targetId": "09f3-7d9e-1892-28c1",
+                "type": "selectionEntryGroup"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {"name": "[Allegiance]", "id": "fc94-4421-b386-af71", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "Divisio Assassinorum", "id": "6abe-4139-b614-2eeb", "hidden": false, "targetId": "ba48-d112-56ef-a783", "type": "profile"},
-          {"name": "Talons of the Emperor", "id": "2f5f-5d98-c5f1-5719", "hidden": false, "targetId": "8974-94e5-d261-e4a2", "type": "profile"}
+          {
+            "name": "[Allegiance]",
+            "id": "fc94-4421-b386-af71",
+            "hidden": false,
+            "targetId": "bb66-f1f6-4d65-5a07",
+            "type": "profile"
+          },
+          {
+            "name": "Divisio Assassinorum",
+            "id": "6abe-4139-b614-2eeb",
+            "hidden": false,
+            "targetId": "ba48-d112-56ef-a783",
+            "type": "profile"
+          },
+          {
+            "name": "Talons of the Emperor",
+            "id": "2f5f-5d98-c5f1-5719",
+            "hidden": false,
+            "targetId": "8974-94e5-d261-e4a2",
+            "type": "profile"
+          }
         ],
         "modifiers": [
           {
@@ -1146,17 +2516,58 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Infantry Model Type", "id": "a9cf-ce41-b1a2-74fe", "primary": false, "targetId": "594d-fa82-13cb-a345"},
-              {"name": "Champion Model Sub-Type", "id": "aec9-61db-ed54-0afa", "primary": false, "targetId": "5a95-e564-96b2-8dc9"},
-              {"name": "Light Model Sub-Type", "id": "b740-5676-32a7-5249", "primary": false, "targetId": "f4ba-00e5-3d2e-eaac"}
+              {
+                "name": "Infantry Model Type",
+                "id": "a9cf-ce41-b1a2-74fe",
+                "primary": false,
+                "targetId": "594d-fa82-13cb-a345"
+              },
+              {
+                "name": "Champion Model Sub-Type",
+                "id": "aec9-61db-ed54-0afa",
+                "primary": false,
+                "targetId": "5a95-e564-96b2-8dc9"
+              },
+              {
+                "name": "Light Model Sub-Type",
+                "id": "b740-5676-32a7-5249",
+                "primary": false,
+                "targetId": "f4ba-00e5-3d2e-eaac"
+              }
             ],
             "constraints": [
-              {"id": "0b96-af9c-b357-7e0f-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "0b96-af9c-b357-7e0f-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "0b96-af9c-b357-7e0f-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0b96-af9c-b357-7e0f-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "infoLinks": [
-              {"name": "Anathema", "id": "833b-f396-ff72-5e42", "hidden": false, "targetId": "9ca0-a776-be65-b2b7", "type": "rule"},
-              {"name": "Ex Oblivio", "id": "96ea-de96-a422-69b7", "hidden": false, "targetId": "2bbf-2408-efc0-8789", "type": "rule"},
+              {
+                "name": "Anathema",
+                "id": "833b-f396-ff72-5e42",
+                "hidden": false,
+                "targetId": "9ca0-a776-be65-b2b7",
+                "type": "rule"
+              },
+              {
+                "name": "Ex Oblivio",
+                "id": "96ea-de96-a422-69b7",
+                "hidden": false,
+                "targetId": "2bbf-2408-efc0-8789",
+                "type": "rule"
+              },
               {
                 "name": "Fear (X)",
                 "id": "1ee6-1475-0877-24f4",
@@ -1164,9 +2575,21 @@
                 "hidden": false,
                 "targetId": "0ebc-0c92-2209-6393",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Fear (1)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Fear (1)"
+                  }
+                ]
               },
-              {"name": "Heedless", "id": "c034-9007-3f44-4ba6", "hidden": false, "targetId": "a3f3-72c6-7e01-6cab", "type": "rule"},
+              {
+                "name": "Heedless",
+                "id": "c034-9007-3f44-4ba6",
+                "hidden": false,
+                "targetId": "a3f3-72c6-7e01-6cab",
+                "type": "rule"
+              },
               {
                 "name": "Infiltrate (X)",
                 "id": "cdb7-a982-ca10-923f",
@@ -1174,9 +2597,21 @@
                 "hidden": false,
                 "targetId": "f330-254e-1a98-798a",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Infiltrate (9)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Infiltrate (9)"
+                  }
+                ]
               },
-              {"name": "Move Through Cover", "id": "542f-f1ab-d8ad-e2a4", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"},
+              {
+                "name": "Move Through Cover",
+                "id": "542f-f1ab-d8ad-e2a4",
+                "hidden": false,
+                "targetId": "44d9-f20d-00bf-dc98",
+                "type": "rule"
+              },
               {
                 "name": "Shrouded (X)",
                 "id": "d37a-ab42-421c-d99e",
@@ -1184,10 +2619,28 @@
                 "hidden": false,
                 "targetId": "c7e7-3bad-3de0-d6cc",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shrouded (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shrouded (5+)"
+                  }
+                ]
               },
-              {"name": "Nemesis", "id": "e98f-25e5-fb18-7ef3", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"},
-              {"name": "Tactical Displacement", "id": "5264-53e7-eff9-615f", "hidden": false, "targetId": "d1b8-a73c-ec72-1da1", "type": "profile"},
+              {
+                "name": "Nemesis",
+                "id": "e98f-25e5-fb18-7ef3",
+                "hidden": false,
+                "targetId": "7aee-7482-4d18-afad",
+                "type": "rule"
+              },
+              {
+                "name": "Tactical Displacement",
+                "id": "5264-53e7-eff9-615f",
+                "hidden": false,
+                "targetId": "d1b8-a73c-ec72-1da1",
+                "type": "profile"
+              },
               {
                 "name": "Hatred (X)",
                 "id": "0243-c08f-9c03-afb7",
@@ -1195,7 +2648,14 @@
                 "hidden": false,
                 "targetId": "0612-95d5-46ae-c5ee",
                 "type": "rule",
-                "modifiers": [{"arg": "X", "field": "name", "type": "replace", "value": "Psyker"}]
+                "modifiers": [
+                  {
+                    "arg": "X",
+                    "field": "name",
+                    "type": "replace",
+                    "value": "Psyker"
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -1206,21 +2666,81 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Champion, Light)", "typeId": "50fc-9241-d4a2-045b"},
-                  {"name": "M", "$text": "8", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
-                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
-                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
-                  {"name": "W", "$text": "3", "typeId": "f5cc-79a3-d302-cc1d"},
-                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "4", "typeId": "024e-bdb1-7982-25a0"},
-                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
-                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
-                  {"name": "WP", "$text": "10", "typeId": "f714-1726-37d3-44df"},
-                  {"name": "IN", "$text": "7", "typeId": "29c5-925d-5b1d-1e77"},
-                  {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
-                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                  {
+                    "name": "Type",
+                    "$text": "Infantry (Champion, Light)",
+                    "typeId": "50fc-9241-d4a2-045b"
+                  },
+                  {
+                    "name": "M",
+                    "$text": "8",
+                    "typeId": "a106-a779-d272-5e93"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "5",
+                    "typeId": "253c-d694-4695-c89e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "5",
+                    "typeId": "0cd5-b269-e3bc-028b"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "498f-dce1-59fd-d8d7"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "4",
+                    "typeId": "3120-8275-e537-ecd2"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "3",
+                    "typeId": "f5cc-79a3-d302-cc1d"
+                  },
+                  {
+                    "name": "I",
+                    "$text": "5",
+                    "typeId": "af9d-7db8-dc95-71c1"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "4",
+                    "typeId": "024e-bdb1-7982-25a0"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "10",
+                    "typeId": "02ad-ebe6-86e7-9fd6"
+                  },
+                  {
+                    "name": "CL",
+                    "$text": "10",
+                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                  },
+                  {
+                    "name": "WP",
+                    "$text": "10",
+                    "typeId": "f714-1726-37d3-44df"
+                  },
+                  {
+                    "name": "IN",
+                    "$text": "7",
+                    "typeId": "29c5-925d-5b1d-1e77"
+                  },
+                  {
+                    "name": "SAV",
+                    "$text": "4+",
+                    "typeId": "03bd-4ecb-351d-143b"
+                  },
+                  {
+                    "name": "INV",
+                    "$text": "4+",
+                    "typeId": "a951-a772-7ce0-0b64"
+                  }
                 ]
               }
             ],
@@ -1241,12 +2761,38 @@
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "2796-6f22-2eef-59e3-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "2796-6f22-2eef-59e3-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "2796-6f22-2eef-59e3-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "2796-6f22-2eef-59e3-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
-                  {"name": "Psy-Shock", "id": "1f9b-3a3f-ea93-f434", "hidden": false, "targetId": "e808-01eb-eddc-cec7", "type": "rule"},
-                  {"name": "Template", "id": "0dbe-b1fe-fe2a-53d3", "hidden": false, "targetId": "7df2-9e88-3285-cf6a", "type": "rule"},
+                  {
+                    "name": "Psy-Shock",
+                    "id": "1f9b-3a3f-ea93-f434",
+                    "hidden": false,
+                    "targetId": "e808-01eb-eddc-cec7",
+                    "type": "rule"
+                  },
+                  {
+                    "name": "Template",
+                    "id": "0dbe-b1fe-fe2a-53d3",
+                    "hidden": false,
+                    "targetId": "7df2-9e88-3285-cf6a",
+                    "type": "rule"
+                  },
                   {
                     "name": "Breaching (X)",
                     "id": "4202-67ac-955b-12e9",
@@ -1254,7 +2800,13 @@
                     "hidden": false,
                     "targetId": "b094-0b64-eb57-aed6",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Breaching (5+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Breaching (5+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Panic (X)",
@@ -1263,7 +2815,13 @@
                     "hidden": false,
                     "targetId": "82a7-f471-3fda-6ca1",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Panic (1)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Panic (1)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -1274,13 +2832,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "Template", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "5", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Template, Breaching (5+), Panic (1), Psy-Shock", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "Assault", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "Template",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "5",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Template, Breaching (5+), Panic (1), Psy-Shock",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -1293,8 +2879,22 @@
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "b02c-c853-6c88-c3cb-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "b02c-c853-6c88-c3cb-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "b02c-c853-6c88-c3cb-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "b02c-c853-6c88-c3cb-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -1304,7 +2904,13 @@
                     "hidden": false,
                     "targetId": "fdc7-d2a1-338f-df11",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Aflame (2)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Aflame (2)"
+                      }
+                    ]
                   },
                   {
                     "name": "Limited (X)",
@@ -1313,7 +2919,13 @@
                     "hidden": false,
                     "targetId": "fe57-5bea-a3de-1e60",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Limited (3)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Limited (3)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -1324,13 +2936,41 @@
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
-                      {"name": "IM", "$text": "I", "typeId": "6eec-4093-f946-1014"},
-                      {"name": "AM", "$text": "3", "typeId": "03d0-6094-84f0-e27e"},
-                      {"name": "SM", "$text": "5", "typeId": "4505-de6f-d4ae-6280"},
-                      {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
-                      {"name": "D", "$text": "2", "typeId": "6a9d-4feb-065a-33e7"},
-                      {"name": "Special Rules", "$text": "Aflame (2), Limited (3)", "typeId": "ebe0-7b28-b40c-694e"},
-                      {"name": "Traits", "$text": "-", "typeId": "76e3-c188-bc65-3467"}
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "3",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "5",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Aflame (2), Limited (3)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
                     ]
                   }
                 ]
@@ -1346,11 +2986,31 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 125},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 125
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -1360,13 +3020,40 @@
             "import": true,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
-            "entryLinks": [{"name": "Prime Benefits", "id": "949f-15b5-8274-2004", "hidden": false, "import": true, "targetId": "09f3-7d9e-1892-28c1", "type": "selectionEntryGroup"}]
+            "entryLinks": [
+              {
+                "name": "Prime Benefits",
+                "id": "949f-15b5-8274-2004",
+                "hidden": false,
+                "import": true,
+                "targetId": "09f3-7d9e-1892-28c1",
+                "type": "selectionEntryGroup"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {"name": "Divisio Assassinorum", "id": "06c9-8c9c-294b-e32b", "hidden": false, "targetId": "ba48-d112-56ef-a783", "type": "profile"},
-          {"name": "Talons of the Emperor", "id": "09b6-e4c9-0e48-339e", "hidden": false, "targetId": "8974-94e5-d261-e4a2", "type": "profile"},
-          {"name": "[Allegiance]", "id": "d1dd-58df-807d-4f4e", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"}
+          {
+            "name": "Divisio Assassinorum",
+            "id": "06c9-8c9c-294b-e32b",
+            "hidden": false,
+            "targetId": "ba48-d112-56ef-a783",
+            "type": "profile"
+          },
+          {
+            "name": "Talons of the Emperor",
+            "id": "09b6-e4c9-0e48-339e",
+            "hidden": false,
+            "targetId": "8974-94e5-d261-e4a2",
+            "type": "profile"
+          },
+          {
+            "name": "[Allegiance]",
+            "id": "d1dd-58df-807d-4f4e",
+            "hidden": false,
+            "targetId": "bb66-f1f6-4d65-5a07",
+            "type": "profile"
+          }
         ],
         "modifiers": [
           {
@@ -1395,16 +3082,51 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Infantry Model Type", "id": "8686-8415-78ab-022a", "primary": false, "targetId": "594d-fa82-13cb-a345"},
-              {"name": "Champion Model Sub-Type", "id": "e4ff-3ba1-bed2-de39", "primary": false, "targetId": "5a95-e564-96b2-8dc9"},
-              {"name": "Light Model Sub-Type", "id": "9d06-9bc1-eac5-c7fb", "primary": false, "targetId": "f4ba-00e5-3d2e-eaac"}
+              {
+                "name": "Infantry Model Type",
+                "id": "8686-8415-78ab-022a",
+                "primary": false,
+                "targetId": "594d-fa82-13cb-a345"
+              },
+              {
+                "name": "Champion Model Sub-Type",
+                "id": "e4ff-3ba1-bed2-de39",
+                "primary": false,
+                "targetId": "5a95-e564-96b2-8dc9"
+              },
+              {
+                "name": "Light Model Sub-Type",
+                "id": "9d06-9bc1-eac5-c7fb",
+                "primary": false,
+                "targetId": "f4ba-00e5-3d2e-eaac"
+              }
             ],
             "constraints": [
-              {"id": "6b0f-6619-d7de-2857-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "6b0f-6619-d7de-2857-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "6b0f-6619-d7de-2857-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "6b0f-6619-d7de-2857-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "infoLinks": [
-              {"name": "Heedless", "id": "e767-f33d-2a72-dbd7", "hidden": false, "targetId": "a3f3-72c6-7e01-6cab", "type": "rule"},
+              {
+                "name": "Heedless",
+                "id": "e767-f33d-2a72-dbd7",
+                "hidden": false,
+                "targetId": "a3f3-72c6-7e01-6cab",
+                "type": "rule"
+              },
               {
                 "name": "Infiltrate (X)",
                 "id": "6997-b236-8279-513d",
@@ -1412,9 +3134,21 @@
                 "hidden": false,
                 "targetId": "f330-254e-1a98-798a",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Infiltrate (9)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Infiltrate (9)"
+                  }
+                ]
               },
-              {"name": "Move Through Cover", "id": "b915-e18c-5b1d-ef0b", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"},
+              {
+                "name": "Move Through Cover",
+                "id": "b915-e18c-5b1d-ef0b",
+                "hidden": false,
+                "targetId": "44d9-f20d-00bf-dc98",
+                "type": "rule"
+              },
               {
                 "name": "Shrouded (X)",
                 "id": "9a59-e7da-6379-b54e",
@@ -1422,10 +3156,28 @@
                 "hidden": false,
                 "targetId": "c7e7-3bad-3de0-d6cc",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shrouded (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shrouded (5+)"
+                  }
+                ]
               },
-              {"name": "Nemesis", "id": "6dcc-a41d-ec50-e80f", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"},
-              {"name": "Tactical Displacement", "id": "c671-1686-6114-60b8", "hidden": false, "targetId": "d1b8-a73c-ec72-1da1", "type": "profile"}
+              {
+                "name": "Nemesis",
+                "id": "6dcc-a41d-ec50-e80f",
+                "hidden": false,
+                "targetId": "7aee-7482-4d18-afad",
+                "type": "rule"
+              },
+              {
+                "name": "Tactical Displacement",
+                "id": "c671-1686-6114-60b8",
+                "hidden": false,
+                "targetId": "d1b8-a73c-ec72-1da1",
+                "type": "profile"
+              }
             ],
             "profiles": [
               {
@@ -1435,21 +3187,81 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Champion, Light)", "typeId": "50fc-9241-d4a2-045b"},
-                  {"name": "M", "$text": "8", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
-                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
-                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
-                  {"name": "W", "$text": "3", "typeId": "f5cc-79a3-d302-cc1d"},
-                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "4", "typeId": "024e-bdb1-7982-25a0"},
-                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
-                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
-                  {"name": "WP", "$text": "7", "typeId": "f714-1726-37d3-44df"},
-                  {"name": "IN", "$text": "7", "typeId": "29c5-925d-5b1d-1e77"},
-                  {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
-                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                  {
+                    "name": "Type",
+                    "$text": "Infantry (Champion, Light)",
+                    "typeId": "50fc-9241-d4a2-045b"
+                  },
+                  {
+                    "name": "M",
+                    "$text": "8",
+                    "typeId": "a106-a779-d272-5e93"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "5",
+                    "typeId": "253c-d694-4695-c89e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "5",
+                    "typeId": "0cd5-b269-e3bc-028b"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "498f-dce1-59fd-d8d7"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "4",
+                    "typeId": "3120-8275-e537-ecd2"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "3",
+                    "typeId": "f5cc-79a3-d302-cc1d"
+                  },
+                  {
+                    "name": "I",
+                    "$text": "5",
+                    "typeId": "af9d-7db8-dc95-71c1"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "4",
+                    "typeId": "024e-bdb1-7982-25a0"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "10",
+                    "typeId": "02ad-ebe6-86e7-9fd6"
+                  },
+                  {
+                    "name": "CL",
+                    "$text": "10",
+                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                  },
+                  {
+                    "name": "WP",
+                    "$text": "7",
+                    "typeId": "f714-1726-37d3-44df"
+                  },
+                  {
+                    "name": "IN",
+                    "$text": "7",
+                    "typeId": "29c5-925d-5b1d-1e77"
+                  },
+                  {
+                    "name": "SAV",
+                    "$text": "4+",
+                    "typeId": "03bd-4ecb-351d-143b"
+                  },
+                  {
+                    "name": "INV",
+                    "$text": "4+",
+                    "typeId": "a951-a772-7ce0-0b64"
+                  }
                 ]
               },
               {
@@ -1489,8 +3301,22 @@
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "7c9c-8032-2641-4a87-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "7c9c-8032-2641-4a87-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "7c9c-8032-2641-4a87-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "7c9c-8032-2641-4a87-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "entryLinks": [
                   {
@@ -1502,8 +3328,22 @@
                     "targetId": "e8cf-c87f-a5e9-4a7c",
                     "type": "selectionEntry",
                     "constraints": [
-                      {"id": "dee1-95fa-c9b7-8737-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "dee1-95fa-c9b7-8737-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "dee1-95fa-c9b7-8737-min",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "dee1-95fa-c9b7-8737-max",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ]
                   }
                 ],
@@ -1516,8 +3356,22 @@
                     "sortIndex": 2,
                     "type": "upgrade",
                     "constraints": [
-                      {"id": "4aa7-d689-e3d2-e4de-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "4aa7-d689-e3d2-e4de-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                      {
+                        "id": "4aa7-d689-e3d2-e4de-min",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "4aa7-d689-e3d2-e4de-max",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
                     "infoLinks": [
                       {
@@ -1527,7 +3381,13 @@
                         "hidden": false,
                         "targetId": "4fbd-e0bc-8f72-6e3f",
                         "type": "rule",
-                        "modifiers": [{"field": "name", "type": "set", "value": "Precision (2+)"}]
+                        "modifiers": [
+                          {
+                            "field": "name",
+                            "type": "set",
+                            "value": "Precision (2+)"
+                          }
+                        ]
                       },
                       {
                         "name": "Breaching (X)",
@@ -1536,7 +3396,13 @@
                         "hidden": false,
                         "targetId": "b094-0b64-eb57-aed6",
                         "type": "rule",
-                        "modifiers": [{"field": "name", "type": "set", "value": "Breaching (5+)"}]
+                        "modifiers": [
+                          {
+                            "field": "name",
+                            "type": "set",
+                            "value": "Breaching (5+)"
+                          }
+                        ]
                       },
                       {
                         "name": "Phage (X)",
@@ -1545,7 +3411,13 @@
                         "hidden": false,
                         "targetId": "3e26-d357-69d6-1341",
                         "type": "rule",
-                        "modifiers": [{"field": "name", "type": "set", "value": "Phage (T)"}]
+                        "modifiers": [
+                          {
+                            "field": "name",
+                            "type": "set",
+                            "value": "Phage (T)"
+                          }
+                        ]
                       },
                       {
                         "name": "Limited (X)",
@@ -1554,9 +3426,21 @@
                         "hidden": false,
                         "targetId": "fe57-5bea-a3de-1e60",
                         "type": "rule",
-                        "modifiers": [{"field": "name", "type": "set", "value": "Limited (1)"}]
+                        "modifiers": [
+                          {
+                            "field": "name",
+                            "type": "set",
+                            "value": "Limited (1)"
+                          }
+                        ]
                       },
-                      {"name": "Combi", "id": "1113-a0e2-2265-51f4", "hidden": false, "targetId": "26a0-aaea-5b18-4de6", "type": "rule"}
+                      {
+                        "name": "Combi",
+                        "id": "1113-a0e2-2265-51f4",
+                        "hidden": false,
+                        "targetId": "26a0-aaea-5b18-4de6",
+                        "type": "rule"
+                      }
                     ],
                     "profiles": [
                       {
@@ -1566,13 +3450,41 @@
                         "typeId": "c591-09ed-3e6f-eb2b",
                         "typeName": "Ranged Weapon",
                         "characteristics": [
-                          {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
-                          {"name": "FP", "$text": "3", "typeId": "5037-1f27-1790-e355"},
-                          {"name": "RS", "$text": "6", "typeId": "b9da-ee13-79f9-fa63"},
-                          {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
-                          {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                          {"name": "Special Rules", "$text": "Precision (2+), Breaching (5+), Phage (T), Limited (1), Combi", "typeId": "5aad-137a-8ee2-63fd"},
-                          {"name": "Traits", "$text": "Assault, Needle", "typeId": "1247-79d2-6cc1-8a03"}
+                          {
+                            "name": "R",
+                            "$text": "12",
+                            "typeId": "cdb0-8654-6840-1037"
+                          },
+                          {
+                            "name": "FP",
+                            "$text": "3",
+                            "typeId": "5037-1f27-1790-e355"
+                          },
+                          {
+                            "name": "RS",
+                            "$text": "6",
+                            "typeId": "b9da-ee13-79f9-fa63"
+                          },
+                          {
+                            "name": "AP",
+                            "$text": "4",
+                            "typeId": "7a23-0248-2b94-5951"
+                          },
+                          {
+                            "name": "D",
+                            "$text": "1",
+                            "typeId": "88c3-1ca5-7dc1-f291"
+                          },
+                          {
+                            "name": "Special Rules",
+                            "$text": "Precision (2+), Breaching (5+), Phage (T), Limited (1), Combi",
+                            "typeId": "5aad-137a-8ee2-63fd"
+                          },
+                          {
+                            "name": "Traits",
+                            "$text": "Assault, Needle",
+                            "typeId": "1247-79d2-6cc1-8a03"
+                          }
                         ]
                       }
                     ]
@@ -1587,8 +3499,22 @@
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "06b9-8ada-794d-ca3e-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "06b9-8ada-794d-ca3e-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "06b9-8ada-794d-ca3e-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "06b9-8ada-794d-ca3e-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -1598,7 +3524,13 @@
                     "hidden": false,
                     "targetId": "fe5a-a52a-468f-3f88",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Critical Hit (5+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Critical Hit (5+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Shred (X)",
@@ -1607,7 +3539,13 @@
                     "hidden": false,
                     "targetId": "d01e-f96b-b5c1-8fb1",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Shred (5+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Shred (5+)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -1618,13 +3556,41 @@
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
-                      {"name": "IM", "$text": "I", "typeId": "6eec-4093-f946-1014"},
-                      {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
-                      {"name": "SM", "$text": "S", "typeId": "4505-de6f-d4ae-6280"},
-                      {"name": "AP", "$text": "2", "typeId": "a014-126b-3b7b-27e8"},
-                      {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
-                      {"name": "Special Rules", "$text": "Critical Hit (5+), Shred (5+)", "typeId": "ebe0-7b28-b40c-694e"},
-                      {"name": "Traits", "$text": "-", "typeId": "76e3-c188-bc65-3467"}
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "S",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Critical Hit (5+), Shred (5+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
                     ]
                   }
                 ]
@@ -1637,8 +3603,22 @@
                 "sortIndex": 3,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "794e-1b38-a787-0e1d-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "794e-1b38-a787-0e1d-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "794e-1b38-a787-0e1d-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "794e-1b38-a787-0e1d-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "profiles": [
                   {
@@ -1648,7 +3628,10 @@
                     "typeId": "5ec5-e0c3-1701-6f16",
                     "typeName": "Wargear",
                     "characteristics": [
-                      {"name": "Summary", "typeId": "8e7d-a0ae-fd85-983c"},
+                      {
+                        "name": "Summary",
+                        "typeId": "8e7d-a0ae-fd85-983c"
+                      },
                       {
                         "name": "Description",
                         "$text": "Any Charge declared against a Unit which contains any Models with nemesii grenades and which is not Locked in Combat is always a Disordered Charge, and if a Charge Move is made for such a Charge, all Models in the Charging Unit count as moving through Dangerous Terrain.",
@@ -1669,11 +3652,31 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 125},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 125
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -1683,13 +3686,40 @@
             "import": true,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
-            "entryLinks": [{"name": "Prime Benefits", "id": "9c68-6a46-9d0a-0e3a", "hidden": false, "import": true, "targetId": "09f3-7d9e-1892-28c1", "type": "selectionEntryGroup"}]
+            "entryLinks": [
+              {
+                "name": "Prime Benefits",
+                "id": "9c68-6a46-9d0a-0e3a",
+                "hidden": false,
+                "import": true,
+                "targetId": "09f3-7d9e-1892-28c1",
+                "type": "selectionEntryGroup"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {"name": "[Allegiance]", "id": "d8dd-0768-a895-db6d", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "Divisio Assassinorum", "id": "4381-9766-22dd-5aaf", "hidden": false, "targetId": "ba48-d112-56ef-a783", "type": "profile"},
-          {"name": "Talons of the Emperor", "id": "05e1-919e-4047-a850", "hidden": false, "targetId": "8974-94e5-d261-e4a2", "type": "profile"}
+          {
+            "name": "[Allegiance]",
+            "id": "d8dd-0768-a895-db6d",
+            "hidden": false,
+            "targetId": "bb66-f1f6-4d65-5a07",
+            "type": "profile"
+          },
+          {
+            "name": "Divisio Assassinorum",
+            "id": "4381-9766-22dd-5aaf",
+            "hidden": false,
+            "targetId": "ba48-d112-56ef-a783",
+            "type": "profile"
+          },
+          {
+            "name": "Talons of the Emperor",
+            "id": "05e1-919e-4047-a850",
+            "hidden": false,
+            "targetId": "8974-94e5-d261-e4a2",
+            "type": "profile"
+          }
         ],
         "modifiers": [
           {
@@ -1719,17 +3749,58 @@
             "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
-              {"name": "Infantry Model Type", "id": "3d8c-eff5-c291-0f4e", "primary": false, "targetId": "594d-fa82-13cb-a345"},
-              {"name": "Champion Model Sub-Type", "id": "7d1c-2df6-dd4a-65c9", "primary": false, "targetId": "5a95-e564-96b2-8dc9"},
-              {"name": "Light Model Sub-Type", "id": "033c-20bd-6ad3-8755", "primary": false, "targetId": "f4ba-00e5-3d2e-eaac"}
+              {
+                "name": "Infantry Model Type",
+                "id": "3d8c-eff5-c291-0f4e",
+                "primary": false,
+                "targetId": "594d-fa82-13cb-a345"
+              },
+              {
+                "name": "Champion Model Sub-Type",
+                "id": "7d1c-2df6-dd4a-65c9",
+                "primary": false,
+                "targetId": "5a95-e564-96b2-8dc9"
+              },
+              {
+                "name": "Light Model Sub-Type",
+                "id": "033c-20bd-6ad3-8755",
+                "primary": false,
+                "targetId": "f4ba-00e5-3d2e-eaac"
+              }
             ],
             "constraints": [
-              {"id": "0f55-6294-7af8-611d-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "0f55-6294-7af8-611d-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "0f55-6294-7af8-611d-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0f55-6294-7af8-611d-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "infoLinks": [
-              {"name": "Nemesis", "id": "0720-d232-bdb3-9451", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"},
-              {"name": "Heedless", "id": "b1c0-fcc7-685e-eb23", "hidden": false, "targetId": "a3f3-72c6-7e01-6cab", "type": "rule"},
+              {
+                "name": "Nemesis",
+                "id": "0720-d232-bdb3-9451",
+                "hidden": false,
+                "targetId": "7aee-7482-4d18-afad",
+                "type": "rule"
+              },
+              {
+                "name": "Heedless",
+                "id": "b1c0-fcc7-685e-eb23",
+                "hidden": false,
+                "targetId": "a3f3-72c6-7e01-6cab",
+                "type": "rule"
+              },
               {
                 "name": "Infiltrate (X)",
                 "id": "a81e-18ac-58da-e6b9",
@@ -1737,9 +3808,21 @@
                 "hidden": false,
                 "targetId": "f330-254e-1a98-798a",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Infiltrate (9)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Infiltrate (9)"
+                  }
+                ]
               },
-              {"name": "Move Through Cover", "id": "ead4-5744-89b2-0f44", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"},
+              {
+                "name": "Move Through Cover",
+                "id": "ead4-5744-89b2-0f44",
+                "hidden": false,
+                "targetId": "44d9-f20d-00bf-dc98",
+                "type": "rule"
+              },
               {
                 "name": "Shrouded (X)",
                 "id": "f78d-18c9-2964-eabf",
@@ -1747,9 +3830,21 @@
                 "hidden": false,
                 "targetId": "c7e7-3bad-3de0-d6cc",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shrouded (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shrouded (5+)"
+                  }
+                ]
               },
-              {"name": "Tactical Displacement", "id": "49dc-a33c-3b6f-a4b6", "hidden": false, "targetId": "d1b8-a73c-ec72-1da1", "type": "profile"}
+              {
+                "name": "Tactical Displacement",
+                "id": "49dc-a33c-3b6f-a4b6",
+                "hidden": false,
+                "targetId": "d1b8-a73c-ec72-1da1",
+                "type": "profile"
+              }
             ],
             "profiles": [
               {
@@ -1759,21 +3854,81 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Champion, Light)", "typeId": "50fc-9241-d4a2-045b"},
-                  {"name": "M", "$text": "8", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
-                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
-                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
-                  {"name": "W", "$text": "3", "typeId": "f5cc-79a3-d302-cc1d"},
-                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "4", "typeId": "024e-bdb1-7982-25a0"},
-                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
-                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
-                  {"name": "WP", "$text": "7", "typeId": "f714-1726-37d3-44df"},
-                  {"name": "IN", "$text": "7", "typeId": "29c5-925d-5b1d-1e77"},
-                  {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
-                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                  {
+                    "name": "Type",
+                    "$text": "Infantry (Champion, Light)",
+                    "typeId": "50fc-9241-d4a2-045b"
+                  },
+                  {
+                    "name": "M",
+                    "$text": "8",
+                    "typeId": "a106-a779-d272-5e93"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "5",
+                    "typeId": "253c-d694-4695-c89e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "5",
+                    "typeId": "0cd5-b269-e3bc-028b"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "498f-dce1-59fd-d8d7"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "4",
+                    "typeId": "3120-8275-e537-ecd2"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "3",
+                    "typeId": "f5cc-79a3-d302-cc1d"
+                  },
+                  {
+                    "name": "I",
+                    "$text": "5",
+                    "typeId": "af9d-7db8-dc95-71c1"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "4",
+                    "typeId": "024e-bdb1-7982-25a0"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "10",
+                    "typeId": "02ad-ebe6-86e7-9fd6"
+                  },
+                  {
+                    "name": "CL",
+                    "$text": "10",
+                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                  },
+                  {
+                    "name": "WP",
+                    "$text": "7",
+                    "typeId": "f714-1726-37d3-44df"
+                  },
+                  {
+                    "name": "IN",
+                    "$text": "7",
+                    "typeId": "29c5-925d-5b1d-1e77"
+                  },
+                  {
+                    "name": "SAV",
+                    "$text": "4+",
+                    "typeId": "03bd-4ecb-351d-143b"
+                  },
+                  {
+                    "name": "INV",
+                    "$text": "4+",
+                    "typeId": "a951-a772-7ce0-0b64"
+                  }
                 ]
               }
             ],
@@ -1794,11 +3949,31 @@
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "fefe-979c-af1e-dca5-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "fefe-979c-af1e-dca5-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "fefe-979c-af1e-dca5-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "fefe-979c-af1e-dca5-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
-                  {"name": "Template", "id": "060e-2393-3eb2-7e73", "hidden": false, "targetId": "7df2-9e88-3285-cf6a", "type": "rule"},
+                  {
+                    "name": "Template",
+                    "id": "060e-2393-3eb2-7e73",
+                    "hidden": false,
+                    "targetId": "7df2-9e88-3285-cf6a",
+                    "type": "rule"
+                  },
                   {
                     "name": "Breaching (X)",
                     "id": "b4e9-846a-0f2f-52fe",
@@ -1806,7 +3981,13 @@
                     "hidden": false,
                     "targetId": "b094-0b64-eb57-aed6",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Breaching (5+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Breaching (5+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Poisoned (X)",
@@ -1815,9 +3996,21 @@
                     "hidden": false,
                     "targetId": "076f-2c91-c58b-71b3",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Poisoned (3+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Poisoned (3+)"
+                      }
+                    ]
                   },
-                  {"name": "Armourbane", "id": "18b8-e0c6-7618-bcae", "hidden": false, "targetId": "36ee-4c54-bced-a696", "type": "rule"}
+                  {
+                    "name": "Armourbane",
+                    "id": "18b8-e0c6-7618-bcae",
+                    "hidden": false,
+                    "targetId": "36ee-4c54-bced-a696",
+                    "type": "rule"
+                  }
                 ],
                 "profiles": [
                   {
@@ -1827,13 +4020,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "Template", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "5", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Template, Breaching (5+), Poisoned (3+), Armourbane", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "Assault", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "Template",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "5",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Template, Breaching (5+), Poisoned (3+), Armourbane",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -1846,8 +4067,22 @@
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "cef2-3dfb-142e-cfc0-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "cef2-3dfb-142e-cfc0-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "cef2-3dfb-142e-cfc0-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "cef2-3dfb-142e-cfc0-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -1857,7 +4092,13 @@
                     "hidden": false,
                     "targetId": "8687-05f8-7034-412c",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (3\")"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Blast (3\")"
+                      }
+                    ]
                   },
                   {
                     "name": "Poisoned (X)",
@@ -1866,7 +4107,13 @@
                     "hidden": false,
                     "targetId": "076f-2c91-c58b-71b3",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Poisoned (3+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Poisoned (3+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Panic (X)",
@@ -1875,7 +4122,13 @@
                     "hidden": false,
                     "targetId": "82a7-f471-3fda-6ca1",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Panic (1)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Panic (1)"
+                      }
+                    ]
                   },
                   {
                     "name": "Limited (X)",
@@ -1884,7 +4137,13 @@
                     "hidden": false,
                     "targetId": "fe57-5bea-a3de-1e60",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Limited (1)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Limited (1)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -1895,13 +4154,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "8", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "1", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Blast (3\"), Poisoned (3+), Panic (1), Limited (1)", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "Assault", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "8",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "1",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Blast (3\"), Poisoned (3+), Panic (1), Limited (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -1914,8 +4201,22 @@
                 "sortIndex": 3,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "7f07-ef1f-f4c1-553c-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "7f07-ef1f-f4c1-553c-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "7f07-ef1f-f4c1-553c-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "7f07-ef1f-f4c1-553c-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -1925,7 +4226,13 @@
                     "hidden": false,
                     "targetId": "167f-2a64-6e61-505b",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Rending (6+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Rending (6+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Precision (X)",
@@ -1934,7 +4241,13 @@
                     "hidden": false,
                     "targetId": "4fbd-e0bc-8f72-6e3f",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Precision (2+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Precision (2+)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -1945,13 +4258,41 @@
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
-                      {"name": "IM", "$text": "+1", "typeId": "6eec-4093-f946-1014"},
-                      {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
-                      {"name": "SM", "$text": "S", "typeId": "4505-de6f-d4ae-6280"},
-                      {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
-                      {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
-                      {"name": "Special Rules", "$text": "Rending (6+), Precision (2+), The Venum", "typeId": "ebe0-7b28-b40c-694e"},
-                      {"name": "Traits", "$text": "-", "typeId": "76e3-c188-bc65-3467"}
+                      {
+                        "name": "IM",
+                        "$text": "+1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "S",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Rending (6+), Precision (2+), The Venum",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
                     ]
                   }
                 ],
@@ -1975,12 +4316,36 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 105},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 105
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          }
         ],
         "entryLinks": [
           {
@@ -1990,13 +4355,40 @@
             "import": true,
             "targetId": "3fa2-78b1-637f-7fb2",
             "type": "selectionEntry",
-            "entryLinks": [{"name": "Prime Benefits", "id": "5c1b-6b5d-cbcc-ee8b", "hidden": false, "import": true, "targetId": "09f3-7d9e-1892-28c1", "type": "selectionEntryGroup"}]
+            "entryLinks": [
+              {
+                "name": "Prime Benefits",
+                "id": "5c1b-6b5d-cbcc-ee8b",
+                "hidden": false,
+                "import": true,
+                "targetId": "09f3-7d9e-1892-28c1",
+                "type": "selectionEntryGroup"
+              }
+            ]
           }
         ],
         "infoLinks": [
-          {"name": "[Allegiance]", "id": "bdf1-fcd9-7983-3e03", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
-          {"name": "Divisio Assassinorum", "id": "171c-86c9-d24d-a28f", "hidden": false, "targetId": "ba48-d112-56ef-a783", "type": "profile"},
-          {"name": "Talons of the Emperor", "id": "e3a4-6892-2382-6452", "hidden": false, "targetId": "8974-94e5-d261-e4a2", "type": "profile"}
+          {
+            "name": "[Allegiance]",
+            "id": "bdf1-fcd9-7983-3e03",
+            "hidden": false,
+            "targetId": "bb66-f1f6-4d65-5a07",
+            "type": "profile"
+          },
+          {
+            "name": "Divisio Assassinorum",
+            "id": "171c-86c9-d24d-a28f",
+            "hidden": false,
+            "targetId": "ba48-d112-56ef-a783",
+            "type": "profile"
+          },
+          {
+            "name": "Talons of the Emperor",
+            "id": "e3a4-6892-2382-6452",
+            "hidden": false,
+            "targetId": "8974-94e5-d261-e4a2",
+            "type": "profile"
+          }
         ],
         "modifiers": [
           {
@@ -2026,16 +4418,52 @@
             "sortIndex": 1,
             "type": "model",
             "categoryLinks": [
-              {"name": "Infantry Model Type", "id": "b9d2-250a-63e3-ab95", "primary": false, "targetId": "594d-fa82-13cb-a345"},
-              {"name": "Light Model Sub-Type", "id": "74ce-8ec9-24a5-4cdc", "primary": false, "targetId": "f4ba-00e5-3d2e-eaac"}
+              {
+                "name": "Infantry Model Type",
+                "id": "b9d2-250a-63e3-ab95",
+                "primary": false,
+                "targetId": "594d-fa82-13cb-a345"
+              },
+              {
+                "name": "Light Model Sub-Type",
+                "id": "74ce-8ec9-24a5-4cdc",
+                "primary": false,
+                "targetId": "f4ba-00e5-3d2e-eaac"
+              }
             ],
             "constraints": [
-              {"id": "7859-949c-a62e-c482-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "7859-949c-a62e-c482-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "7859-949c-a62e-c482-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7859-949c-a62e-c482-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "infoLinks": [
-              {"name": "Nemesis", "id": "3597-977e-b3eb-3cdc", "hidden": false, "targetId": "7aee-7482-4d18-afad", "type": "rule"},
-              {"name": "Heedless", "id": "482a-34d6-2ffc-392d", "hidden": false, "targetId": "a3f3-72c6-7e01-6cab", "type": "rule"},
+              {
+                "name": "Nemesis",
+                "id": "3597-977e-b3eb-3cdc",
+                "hidden": false,
+                "targetId": "7aee-7482-4d18-afad",
+                "type": "rule"
+              },
+              {
+                "name": "Heedless",
+                "id": "482a-34d6-2ffc-392d",
+                "hidden": false,
+                "targetId": "a3f3-72c6-7e01-6cab",
+                "type": "rule"
+              },
               {
                 "name": "Infiltrate (X)",
                 "id": "4692-7189-b100-4cbc",
@@ -2043,9 +4471,21 @@
                 "hidden": false,
                 "targetId": "f330-254e-1a98-798a",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Infiltrate (9)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Infiltrate (9)"
+                  }
+                ]
               },
-              {"name": "Move Through Cover", "id": "b26f-05bc-3ec0-7b4d", "hidden": false, "targetId": "44d9-f20d-00bf-dc98", "type": "rule"},
+              {
+                "name": "Move Through Cover",
+                "id": "b26f-05bc-3ec0-7b4d",
+                "hidden": false,
+                "targetId": "44d9-f20d-00bf-dc98",
+                "type": "rule"
+              },
               {
                 "name": "Shrouded (X)",
                 "id": "ab19-945b-1fca-9c06",
@@ -2053,9 +4493,21 @@
                 "hidden": false,
                 "targetId": "c7e7-3bad-3de0-d6cc",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Shrouded (5+)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Shrouded (5+)"
+                  }
+                ]
               },
-              {"name": "Tactical Displacement", "id": "be28-eb02-e38e-4837", "hidden": false, "targetId": "d1b8-a73c-ec72-1da1", "type": "profile"}
+              {
+                "name": "Tactical Displacement",
+                "id": "be28-eb02-e38e-4837",
+                "hidden": false,
+                "targetId": "d1b8-a73c-ec72-1da1",
+                "type": "profile"
+              }
             ],
             "profiles": [
               {
@@ -2065,21 +4517,81 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Light)", "typeId": "50fc-9241-d4a2-045b"},
-                  {"name": "M", "$text": "7", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
-                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
-                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
-                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
-                  {"name": "W", "$text": "3", "typeId": "f5cc-79a3-d302-cc1d"},
-                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "3", "typeId": "024e-bdb1-7982-25a0"},
-                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
-                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
-                  {"name": "WP", "$text": "8", "typeId": "f714-1726-37d3-44df"},
-                  {"name": "IN", "$text": "10", "typeId": "29c5-925d-5b1d-1e77"},
-                  {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
-                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                  {
+                    "name": "Type",
+                    "$text": "Infantry (Light)",
+                    "typeId": "50fc-9241-d4a2-045b"
+                  },
+                  {
+                    "name": "M",
+                    "$text": "7",
+                    "typeId": "a106-a779-d272-5e93"
+                  },
+                  {
+                    "name": "WS",
+                    "$text": "5",
+                    "typeId": "253c-d694-4695-c89e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "5",
+                    "typeId": "0cd5-b269-e3bc-028b"
+                  },
+                  {
+                    "name": "S",
+                    "$text": "4",
+                    "typeId": "498f-dce1-59fd-d8d7"
+                  },
+                  {
+                    "name": "T",
+                    "$text": "4",
+                    "typeId": "3120-8275-e537-ecd2"
+                  },
+                  {
+                    "name": "W",
+                    "$text": "3",
+                    "typeId": "f5cc-79a3-d302-cc1d"
+                  },
+                  {
+                    "name": "I",
+                    "$text": "5",
+                    "typeId": "af9d-7db8-dc95-71c1"
+                  },
+                  {
+                    "name": "A",
+                    "$text": "3",
+                    "typeId": "024e-bdb1-7982-25a0"
+                  },
+                  {
+                    "name": "LD",
+                    "$text": "10",
+                    "typeId": "02ad-ebe6-86e7-9fd6"
+                  },
+                  {
+                    "name": "CL",
+                    "$text": "10",
+                    "typeId": "9cd1-0e7c-2cd6-5f2f"
+                  },
+                  {
+                    "name": "WP",
+                    "$text": "8",
+                    "typeId": "f714-1726-37d3-44df"
+                  },
+                  {
+                    "name": "IN",
+                    "$text": "10",
+                    "typeId": "29c5-925d-5b1d-1e77"
+                  },
+                  {
+                    "name": "SAV",
+                    "$text": "4+",
+                    "typeId": "03bd-4ecb-351d-143b"
+                  },
+                  {
+                    "name": "INV",
+                    "$text": "4+",
+                    "typeId": "a951-a772-7ce0-0b64"
+                  }
                 ]
               },
               {
@@ -2099,7 +4611,11 @@
                     "$text": "Once per Battle, the Reactive Player may declare an Auspectre Advanced Reaction in the Reserves Sub-Phase of the Movement Phase, when the Active Player makes a successful Reserves Test for a Unit that is in Aerial Reserves.",
                     "typeId": "02e4-3f90-3125-f8b4"
                   },
-                  {"name": "Cost", "$text": "The Auspectre Advanced Reaction has no cost.", "typeId": "954a-972f-5c94-2ede"},
+                  {
+                    "name": "Cost",
+                    "$text": "The Auspectre Advanced Reaction has no cost.",
+                    "typeId": "954a-972f-5c94-2ede"
+                  },
                   {
                     "name": "Target",
                     "$text": "For an Auspectre Reaction, the Target Unit is always the Unit in Aerial Reserves for which the successful Reserves Test was made which triggered this Reaction. The Reacting Unit is always a Unit with the Disruptor Trait that is under the control of the Reactive Player.",
@@ -2129,7 +4645,11 @@
                     "$text": "Once per Battle, the Reactive Player may declare a Signum Shunt Advanced Reaction in the Reserves Sub-Phase of the Movement Phase, when the Active Player deploys a Unit from Reserves.",
                     "typeId": "02e4-3f90-3125-f8b4"
                   },
-                  {"name": "Cost", "$text": "The Signum Shunt Advanced Reaction has no cost.", "typeId": "954a-972f-5c94-2ede"},
+                  {
+                    "name": "Cost",
+                    "$text": "The Signum Shunt Advanced Reaction has no cost.",
+                    "typeId": "954a-972f-5c94-2ede"
+                  },
                   {
                     "name": "Target",
                     "$text": "The Unit entering play from Reserves is always the Target Unit of this Reaction. The Reacting Unit is always a Unit with the Disruptor Trait that is under the control of the Reactive Player, which is also within 12\" and Line of Sight to the Target Unit.",
@@ -2166,10 +4686,32 @@
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "075e-33f9-0e78-0a95-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
-                  {"id": "075e-33f9-0e78-0a95-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
+                  {
+                    "id": "075e-33f9-0e78-0a95-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 2
+                  },
+                  {
+                    "id": "075e-33f9-0e78-0a95-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
                 ],
-                "infoLinks": [{"name": "Pistol", "id": "66c9-df68-61a9-f05a", "hidden": false, "targetId": "2bf6-55c8-6810-a71c", "type": "rule"}],
+                "infoLinks": [
+                  {
+                    "name": "Pistol",
+                    "id": "66c9-df68-61a9-f05a",
+                    "hidden": false,
+                    "targetId": "2bf6-55c8-6810-a71c",
+                    "type": "rule"
+                  }
+                ],
                 "profiles": [
                   {
                     "name": "Laspistol",
@@ -2178,13 +4720,41 @@
                     "typeId": "c591-09ed-3e6f-eb2b",
                     "typeName": "Ranged Weapon",
                     "characteristics": [
-                      {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
-                      {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-                      {"name": "RS", "$text": "3", "typeId": "b9da-ee13-79f9-fa63"},
-                      {"name": "AP", "$text": "-", "typeId": "7a23-0248-2b94-5951"},
-                      {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-                      {"name": "Special Rules", "$text": "Pistol", "typeId": "5aad-137a-8ee2-63fd"},
-                      {"name": "Traits", "$text": "Assault, Las", "typeId": "1247-79d2-6cc1-8a03"}
+                      {
+                        "name": "R",
+                        "$text": "12",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "3",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Pistol",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault, Las",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
                     ]
                   }
                 ]
@@ -2197,8 +4767,22 @@
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "4722-a457-4620-d0ef-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "4722-a457-4620-d0ef-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "4722-a457-4620-d0ef-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "4722-a457-4620-d0ef-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "infoLinks": [
                   {
@@ -2208,7 +4792,13 @@
                     "hidden": false,
                     "targetId": "167f-2a64-6e61-505b",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Rending (6+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Rending (6+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Precision (X)",
@@ -2217,7 +4807,13 @@
                     "hidden": false,
                     "targetId": "4fbd-e0bc-8f72-6e3f",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Precision (6+)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Precision (6+)"
+                      }
+                    ]
                   },
                   {
                     "name": "Shock (X)",
@@ -2226,7 +4822,13 @@
                     "hidden": false,
                     "targetId": "c6fd-28d0-3f80-672c",
                     "type": "rule",
-                    "modifiers": [{"field": "name", "type": "set", "value": "Shock (Stunned)"}]
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Shock (Stunned)"
+                      }
+                    ]
                   }
                 ],
                 "profiles": [
@@ -2237,13 +4839,41 @@
                     "typeId": "3587-6dcd-005c-c263",
                     "typeName": "Melee Weapon",
                     "characteristics": [
-                      {"name": "IM", "$text": "+1", "typeId": "6eec-4093-f946-1014"},
-                      {"name": "AM", "$text": "+2", "typeId": "03d0-6094-84f0-e27e"},
-                      {"name": "SM", "$text": "S", "typeId": "4505-de6f-d4ae-6280"},
-                      {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
-                      {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
-                      {"name": "Special Rules", "$text": "Rending (6+), Precision (6+), Shock (Stunned)", "typeId": "ebe0-7b28-b40c-694e"},
-                      {"name": "Traits", "$text": "-", "typeId": "76e3-c188-bc65-3467"}
+                      {
+                        "name": "IM",
+                        "$text": "+1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "+2",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "S",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Rending (6+), Precision (6+), Shock (Stunned)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
                     ]
                   }
                 ]
@@ -2265,7 +4895,13 @@
             "hidden": true,
             "import": true,
             "type": "upgrade",
-            "rules": [{"name": "None", "id": "ffe2-7e10-c167-68b3", "hidden": false}]
+            "rules": [
+              {
+                "name": "None",
+                "id": "ffe2-7e10-c167-68b3",
+                "hidden": false
+              }
+            ]
           }
         ]
       }

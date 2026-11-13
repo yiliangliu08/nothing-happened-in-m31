@@ -7,14 +7,24 @@
     "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
-    "gameSystemRevision": 9,
+    "gameSystemRevision": 56,
     "library": false,
-    "revision": 3,
+    "revision": 4,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
-      {"name": "Special Rules", "id": "55e2-2d6f-02fc-67e5", "targetId": "106b-693b-99f2-00c3", "type": "catalogue"},
-      {"name": "Weapons", "id": "1d5a-736d-bba4-8965", "targetId": "a22d-4dd0-c59d-57d3", "type": "catalogue"}
+      {
+        "name": "Special Rules",
+        "id": "55e2-2d6f-02fc-67e5",
+        "targetId": "106b-693b-99f2-00c3",
+        "type": "catalogue"
+      },
+      {
+        "name": "Weapons",
+        "id": "1d5a-736d-bba4-8965",
+        "targetId": "a22d-4dd0-c59d-57d3",
+        "type": "catalogue"
+      }
     ],
     "entryLinks": [
       {
@@ -24,7 +34,33 @@
         "import": true,
         "targetId": "37a2-9e86-679e-2f47",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "7118-e9b9-4e46-a787", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "7118-e9b9-4e46-a787",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Hammerfall Bunker",
@@ -33,7 +69,33 @@
         "import": true,
         "targetId": "0f33-97d6-6636-b953",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "0623-bf1f-e4bf-86d8", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "0623-bf1f-e4bf-86d8",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Void Shield Generator",
@@ -42,7 +104,33 @@
         "import": true,
         "targetId": "a291-a04b-2aa9-9cc1",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "23d2-8bd2-6bec-34c9", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "23d2-8bd2-6bec-34c9",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Skyshield Landing Pad",
@@ -51,7 +139,33 @@
         "import": true,
         "targetId": "3644-c337-5b5a-0989",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "4727-27b8-d7f6-e59a", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "4727-27b8-d7f6-e59a",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Aegis Defense Line",
@@ -60,7 +174,33 @@
         "import": true,
         "targetId": "3392-062b-5d07-f582",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "b9a4-f469-07a5-958f", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "b9a4-f469-07a5-958f",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Firestorm Redoubt",
@@ -69,7 +209,33 @@
         "import": true,
         "targetId": "678d-c2e3-37db-e237",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "1152-28cb-9fcd-6d46", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "1152-28cb-9fcd-6d46",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Fortress of Redemption",
@@ -78,7 +244,33 @@
         "import": true,
         "targetId": "c0a4-0923-d916-65e9",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "1ab5-c9ec-f0e6-7a8e", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "1ab5-c9ec-f0e6-7a8e",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Aquila Strongpoint",
@@ -87,7 +279,33 @@
         "import": true,
         "targetId": "d951-9ca5-8382-07bd",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "c2bf-bcb5-6a36-1a0c", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "c2bf-bcb5-6a36-1a0c",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Primus Redoubt",
@@ -96,7 +314,33 @@
         "import": true,
         "targetId": "6b30-ad4c-7736-5aa8",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Fortification", "id": "4443-a6e4-856b-f5ec", "primary": true, "targetId": "7e2f-62cf-4e42-9e13"}]
+        "categoryLinks": [
+          {
+            "name": "Fortification",
+            "id": "4443-a6e4-856b-f5ec",
+            "primary": true,
+            "targetId": "7e2f-62cf-4e42-9e13"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Armoured Spearhead restrictions",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d51",
+                "field": "forces",
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
       }
     ],
     "forceEntries": [
@@ -111,10 +355,28 @@
             "id": "a650-e68d-cae9-d6e8",
             "hidden": false,
             "targetId": "7e2f-62cf-4e42-9e13",
-            "constraints": [{"id": "ee93-5b3e-2e3b-34cc", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}]
+            "constraints": [
+              {
+                "id": "ee93-5b3e-2e3b-34cc",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ]
           }
         ],
-        "constraints": [{"id": "9b21-d233-152b-0297", "field": "forces", "scope": "roster", "shared": true, "type": "max", "value": 1}]
+        "constraints": [
+          {
+            "id": "9b21-d233-152b-0297",
+            "field": "forces",
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -164,11 +426,31 @@
         "sortIndex": 2,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 150},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 150
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -178,18 +460,58 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Fortification Model Type", "id": "7731-538b-9c10-13d4", "primary": false, "targetId": "ae5b-4e74-db76-fa25"},
-              {"name": "Emplacement Model Sub-Type", "id": "1e29-56fd-4fd1-04f6", "primary": false, "targetId": "d1e7-50c0-0764-9de5"}
+              {
+                "name": "Fortification Model Type",
+                "id": "7731-538b-9c10-13d4",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              },
+              {
+                "name": "Emplacement Model Sub-Type",
+                "id": "1e29-56fd-4fd1-04f6",
+                "primary": false,
+                "targetId": "d1e7-50c0-0764-9de5"
+              }
             ],
             "constraints": [
-              {"id": "c893-e6fa-098e-7394-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "c893-e6fa-098e-7394-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "c893-e6fa-098e-7394-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c893-e6fa-098e-7394-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "entryLinks": [
               {
@@ -200,13 +522,41 @@
                 "targetId": "a4e2-e284-30e1-f05a",
                 "type": "selectionEntry",
                 "constraints": [
-                  {"id": "c982-cf98-ad8d-882a", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "3d26-b733-7445-f7e3", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "c982-cf98-ad8d-882a",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "3d26-b733-7445-f7e3",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
-                "modifiers": [{"field": "name", "type": "set", "value": "Turret Mounted Hyperios missile launcher"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Turret Mounted Hyperios missile launcher"
+                  }
+                ]
               }
             ],
-            "infoLinks": [{"name": "Forward Deployment", "id": "4aeb-9d11-f975-dd5c", "hidden": false, "targetId": "c343-1439-994e-862e", "type": "rule"}],
+            "infoLinks": [
+              {
+                "name": "Forward Deployment",
+                "id": "4aeb-9d11-f975-dd5c",
+                "hidden": false,
+                "targetId": "c343-1439-994e-862e",
+                "type": "rule"
+              }
+            ],
             "profiles": [
               {
                 "name": "Hammerfall Bunker",
@@ -215,11 +565,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "11", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "6", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "2", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "-", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Emplacement)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "11",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "6",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "2",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "-",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Emplacement)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ],
@@ -230,8 +600,22 @@
                 "defaultSelectionEntryId": "9c6f-5be6-26e9-733f",
                 "hidden": false,
                 "constraints": [
-                  {"id": "f8c2-13d3-5073-40c4", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "f7a8-1206-3b3d-41da", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "f8c2-13d3-5073-40c4",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "f7a8-1206-3b3d-41da",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "entryLinks": [
                   {
@@ -242,8 +626,23 @@
                     "sortIndex": 1,
                     "targetId": "8f95-bf03-083b-5a7e",
                     "type": "selectionEntry",
-                    "constraints": [{"id": "26c9-237d-ae8e-267f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Hull Mounted Heavy bolter array"}]
+                    "constraints": [
+                      {
+                        "id": "26c9-237d-ae8e-267f",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Hull Mounted Heavy bolter array"
+                      }
+                    ]
                   },
                   {
                     "name": "Heavy flamer array",
@@ -253,8 +652,23 @@
                     "sortIndex": 2,
                     "targetId": "75f1-8fb3-1fc1-3839",
                     "type": "selectionEntry",
-                    "constraints": [{"id": "e234-f334-672d-821b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Hull Mounted Heavy flamer array"}]
+                    "constraints": [
+                      {
+                        "id": "e234-f334-672d-821b",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Hull Mounted Heavy flamer array"
+                      }
+                    ]
                   }
                 ]
               }
@@ -297,10 +711,26 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "infoLinks": [
           {
@@ -309,7 +739,13 @@
             "hidden": false,
             "targetId": "8687-05f8-7034-412c",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Blast (7\")"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Blast (7\")"
+              }
+            ]
           },
           {
             "name": "Barrage (X)",
@@ -317,7 +753,13 @@
             "hidden": false,
             "targetId": "85f5-3a91-69f4-c3b7",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Barrage (3)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Barrage (3)"
+              }
+            ]
           },
           {
             "name": "Stun (X)",
@@ -325,9 +767,21 @@
             "hidden": false,
             "targetId": "c7c1-bbc9-f852-6f71",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Stun (3)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Stun (3)"
+              }
+            ]
           },
-          {"name": "Macro", "id": "2708-5557-65b7-0bce", "hidden": false, "targetId": "5bd4-e5a6-81d5-b652", "type": "rule"}
+          {
+            "name": "Macro",
+            "id": "2708-5557-65b7-0bce",
+            "hidden": false,
+            "targetId": "5bd4-e5a6-81d5-b652",
+            "type": "rule"
+          }
         ],
         "profiles": [
           {
@@ -337,13 +791,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "216", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "12", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "3", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Blast (7\"), Barrage (3), Stun (3), Minimum Range (24), Macro", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "-", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "216",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "12",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "3",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Blast (7\"), Barrage (3), Stun (3), Minimum Range (24), Macro",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ],
@@ -353,7 +835,13 @@
             "id": "7259-0f03-d857-36ab",
             "description": "A Model with this Special Rule may only be used to attack an enemy Unit that is at a range equal to or greater than the value of X attached to the specific variant of this Special Rule that it has.",
             "hidden": false,
-            "modifiers": [{"field": "name", "type": "set", "value": "Minimum Range (24)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Minimum Range (24)"
+              }
+            ]
           }
         ]
       },
@@ -364,16 +852,34 @@
         "import": true,
         "type": "upgrade",
         "infoLinks": [
-          {"name": "Macro", "id": "1402-11b9-b7cd-15cb", "hidden": false, "targetId": "5bd4-e5a6-81d5-b652", "type": "rule"},
+          {
+            "name": "Macro",
+            "id": "1402-11b9-b7cd-15cb",
+            "hidden": false,
+            "targetId": "5bd4-e5a6-81d5-b652",
+            "type": "rule"
+          },
           {
             "name": "Blast (X)",
             "id": "129c-db41-b6bd-458b",
             "hidden": false,
             "targetId": "8687-05f8-7034-412c",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Blast (3\")"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Blast (3\")"
+              }
+            ]
           },
-          {"name": "Armourbane", "id": "38a6-3de1-8846-fbe5", "hidden": false, "targetId": "36ee-4c54-bced-a696", "type": "rule"}
+          {
+            "name": "Armourbane",
+            "id": "38a6-3de1-8846-fbe5",
+            "hidden": false,
+            "targetId": "36ee-4c54-bced-a696",
+            "type": "rule"
+          }
         ],
         "profiles": [
           {
@@ -383,13 +889,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "96", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "12", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "2", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "4", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Blast (3\"), Armourbane, Macro", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Las", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "96",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "12",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "4",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Blast (3\"), Armourbane, Macro",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Las",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -407,7 +941,13 @@
             "hidden": false,
             "targetId": "8687-05f8-7034-412c",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Blast (3\")"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Blast (3\")"
+              }
+            ]
           },
           {
             "name": "Pinning (X)",
@@ -415,7 +955,13 @@
             "hidden": false,
             "targetId": "88b6-6493-e4d7-1805",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Pinning (1)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Pinning (1)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -426,13 +972,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "48", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "8", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Blast (3\"), Pinning (1)", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Auto", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "48",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "8",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "3",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Blast (3\"), Pinning (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -444,10 +1018,26 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "infoLinks": [
           {
@@ -456,7 +1046,13 @@
             "hidden": false,
             "targetId": "001f-53f3-4d87-4b43",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Suppressive (1)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Suppressive (1)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -467,13 +1063,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "36", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "5", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "6", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Suppressive (1)", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Auto", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "36",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "5",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "6",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "3",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Suppressive (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -491,9 +1115,21 @@
             "hidden": false,
             "targetId": "bc30-3b33-2683-01a2",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Heavy (FP)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Heavy (FP)"
+              }
+            ]
           },
-          {"name": "Weapons Array", "id": "4986-3657-28ee-209a", "hidden": false, "targetId": "770d-05ec-12b7-6d51", "type": "rule"}
+          {
+            "name": "Weapons Array",
+            "id": "4986-3657-28ee-209a",
+            "hidden": false,
+            "targetId": "770d-05ec-12b7-6d51",
+            "type": "rule"
+          }
         ],
         "profiles": [
           {
@@ -503,13 +1139,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "36", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "6", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "5", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Heavy (FP), Weapons Array", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Bolt", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "36",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "3",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Heavy (FP), Weapons Array",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Bolt",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -521,16 +1185,34 @@
         "import": true,
         "type": "upgrade",
         "infoLinks": [
-          {"name": "Template", "id": "4156-6b57-ddbe-0d51", "hidden": false, "targetId": "7df2-9e88-3285-cf6a", "type": "rule"},
+          {
+            "name": "Template",
+            "id": "4156-6b57-ddbe-0d51",
+            "hidden": false,
+            "targetId": "7df2-9e88-3285-cf6a",
+            "type": "rule"
+          },
           {
             "name": "Panic (X)",
             "id": "294f-9b0b-8d87-456a",
             "hidden": false,
             "targetId": "82a7-f471-3fda-6ca1",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Panic (2)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Panic (2)"
+              }
+            ]
           },
-          {"name": "Weapons Array", "id": "c69b-7514-0a37-d855", "hidden": false, "targetId": "770d-05ec-12b7-6d51", "type": "rule"}
+          {
+            "name": "Weapons Array",
+            "id": "c69b-7514-0a37-d855",
+            "hidden": false,
+            "targetId": "770d-05ec-12b7-6d51",
+            "type": "rule"
+          }
         ],
         "profiles": [
           {
@@ -540,13 +1222,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "Template", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "5", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Template, Panic (2), Weapons Array", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Flame", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "Template",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Template, Panic (2), Weapons Array",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Flame",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -558,8 +1268,20 @@
         "import": true,
         "type": "upgrade",
         "infoLinks": [
-          {"name": "Skyfire", "id": "a5dc-3725-00a4-1d8c", "hidden": false, "targetId": "8ff3-b6fe-c75b-1d52", "type": "rule"},
-          {"name": "Armourbane", "id": "0bbd-27ab-fbbf-ec5c", "hidden": false, "targetId": "36ee-4c54-bced-a696", "type": "rule"}
+          {
+            "name": "Skyfire",
+            "id": "a5dc-3725-00a4-1d8c",
+            "hidden": false,
+            "targetId": "8ff3-b6fe-c75b-1d52",
+            "type": "rule"
+          },
+          {
+            "name": "Armourbane",
+            "id": "0bbd-27ab-fbbf-ec5c",
+            "hidden": false,
+            "targetId": "36ee-4c54-bced-a696",
+            "type": "rule"
+          }
         ],
         "profiles": [
           {
@@ -569,13 +1291,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "48", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "2", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "9", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "2", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Skyfire, Armourbane", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Las", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "48",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "2",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "9",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Skyfire, Armourbane",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Las",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -587,8 +1337,20 @@
         "import": true,
         "type": "upgrade",
         "infoLinks": [
-          {"name": "Skyfire", "id": "6eff-2ee8-6ee4-2278", "hidden": false, "targetId": "8ff3-b6fe-c75b-1d52", "type": "rule"},
-          {"name": "Armourbane", "id": "2285-c0de-ed2d-17a7", "hidden": false, "targetId": "36ee-4c54-bced-a696", "type": "rule"}
+          {
+            "name": "Skyfire",
+            "id": "6eff-2ee8-6ee4-2278",
+            "hidden": false,
+            "targetId": "8ff3-b6fe-c75b-1d52",
+            "type": "rule"
+          },
+          {
+            "name": "Armourbane",
+            "id": "2285-c0de-ed2d-17a7",
+            "hidden": false,
+            "targetId": "36ee-4c54-bced-a696",
+            "type": "rule"
+          }
         ],
         "profiles": [
           {
@@ -598,13 +1360,41 @@
             "typeId": "c591-09ed-3e6f-eb2b",
             "typeName": "Ranged Weapon",
             "characteristics": [
-              {"name": "R", "$text": "48", "typeId": "cdb0-8654-6840-1037"},
-              {"name": "FP", "$text": "2", "typeId": "5037-1f27-1790-e355"},
-              {"name": "RS", "$text": "9", "typeId": "b9da-ee13-79f9-fa63"},
-              {"name": "AP", "$text": "2", "typeId": "7a23-0248-2b94-5951"},
-              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
-              {"name": "Special Rules", "$text": "Skyfire, Armourbane", "typeId": "5aad-137a-8ee2-63fd"},
-              {"name": "Traits", "$text": "Las", "typeId": "1247-79d2-6cc1-8a03"}
+              {
+                "name": "R",
+                "$text": "48",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "2",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "9",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Skyfire, Armourbane",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Las",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
             ]
           }
         ]
@@ -617,11 +1407,31 @@
         "sortIndex": 1,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 100},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 100
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -631,18 +1441,58 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Fortification Model Type", "id": "5eef-39e6-319a-7016", "primary": false, "targetId": "ae5b-4e74-db76-fa25"},
-              {"name": "Emplacement Model Sub-Type", "id": "5d22-3b08-5614-438f", "primary": false, "targetId": "d1e7-50c0-0764-9de5"}
+              {
+                "name": "Fortification Model Type",
+                "id": "5eef-39e6-319a-7016",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              },
+              {
+                "name": "Emplacement Model Sub-Type",
+                "id": "5d22-3b08-5614-438f",
+                "primary": false,
+                "targetId": "d1e7-50c0-0764-9de5"
+              }
             ],
             "constraints": [
-              {"id": "4453-5a92-8aad-1f67-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "4453-5a92-8aad-1f67-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "4453-5a92-8aad-1f67-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "4453-5a92-8aad-1f67-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "profiles": [
               {
@@ -652,11 +1502,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "11", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "6", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "2", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "-", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Emplacement)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "11",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "6",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "2",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "-",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Emplacement)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ],
@@ -667,8 +1537,22 @@
                 "defaultSelectionEntryId": "aeac-d3dc-42aa-dc61",
                 "hidden": false,
                 "constraints": [
-                  {"id": "b866-53f9-d18d-6bf4", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "3923-d068-be9d-5863", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "b866-53f9-d18d-6bf4",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "3923-d068-be9d-5863",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "entryLinks": [
                   {
@@ -679,8 +1563,23 @@
                     "sortIndex": 1,
                     "targetId": "ea0f-6006-df88-9587",
                     "type": "selectionEntry",
-                    "constraints": [{"id": "7407-a9dc-bb0a-58cf", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Turret Mounted Vengeance battlecannon"}]
+                    "constraints": [
+                      {
+                        "id": "7407-a9dc-bb0a-58cf",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Turret Mounted Vengeance battlecannon"
+                      }
+                    ]
                   },
                   {
                     "name": "Avenger bolt cannon",
@@ -690,9 +1589,30 @@
                     "sortIndex": 2,
                     "targetId": "1347-aa5a-79ca-f102",
                     "type": "selectionEntry",
-                    "constraints": [{"id": "161a-9940-2b7b-7bcc", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Turret Mounted Avenger bolt cannon"}]
+                    "constraints": [
+                      {
+                        "id": "161a-9940-2b7b-7bcc",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Point(s)",
+                        "typeId": "9893-c379-920b-8982",
+                        "value": 15
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Turret Mounted Avenger bolt cannon"
+                      }
+                    ]
                   }
                 ]
               }
@@ -708,11 +1628,31 @@
         "sortIndex": 3,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 120},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 120
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -722,18 +1662,59 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Structure Model Sub-Type", "id": "db2e-16ca-9a10-ee1f", "hidden": false, "primary": false, "targetId": "2893-a655-1074-9831"},
-              {"name": "Fortification Model Type", "id": "6fdc-0621-89b7-3548", "primary": false, "targetId": "ae5b-4e74-db76-fa25"}
+              {
+                "name": "Structure Model Sub-Type",
+                "id": "db2e-16ca-9a10-ee1f",
+                "hidden": false,
+                "primary": false,
+                "targetId": "2893-a655-1074-9831"
+              },
+              {
+                "name": "Fortification Model Type",
+                "id": "6fdc-0621-89b7-3548",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              }
             ],
             "constraints": [
-              {"id": "4d6c-2be9-a125-d3b1-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "4d6c-2be9-a125-d3b1-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "4d6c-2be9-a125-d3b1-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "4d6c-2be9-a125-d3b1-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "entryLinks": [
               {
@@ -744,8 +1725,22 @@
                 "targetId": "313a-da54-3bd2-45f5",
                 "type": "selectionEntry",
                 "constraints": [
-                  {"id": "54fb-9fc3-d6d0-a87d-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "54fb-9fc3-d6d0-a87d-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "54fb-9fc3-d6d0-a87d-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "54fb-9fc3-d6d0-a87d-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ]
               }
             ],
@@ -757,11 +1752,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "11", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "8", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "-", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "-", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Structure)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "11",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "8",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "-",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "-",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Structure)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ]
@@ -776,11 +1791,31 @@
         "sortIndex": 4,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 100},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 100
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -790,20 +1825,69 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Structure Model Sub-Type", "id": "1990-fb9f-a698-bcf3", "hidden": false, "primary": false, "targetId": "2893-a655-1074-9831"},
-              {"name": "Fortification Model Type", "id": "b0b4-1e86-b463-19fe", "primary": false, "targetId": "ae5b-4e74-db76-fa25"}
+              {
+                "name": "Structure Model Sub-Type",
+                "id": "1990-fb9f-a698-bcf3",
+                "hidden": false,
+                "primary": false,
+                "targetId": "2893-a655-1074-9831"
+              },
+              {
+                "name": "Fortification Model Type",
+                "id": "b0b4-1e86-b463-19fe",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              }
             ],
             "constraints": [
-              {"id": "6121-3579-ddf8-0395-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "6121-3579-ddf8-0395-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "6121-3579-ddf8-0395-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "6121-3579-ddf8-0395-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
-            "infoLinks": [{"name": "Forward Deployment", "id": "21b5-c233-a0b5-7fb8", "hidden": false, "targetId": "c343-1439-994e-862e", "type": "rule"}],
+            "infoLinks": [
+              {
+                "name": "Forward Deployment",
+                "id": "21b5-c233-a0b5-7fb8",
+                "hidden": false,
+                "targetId": "c343-1439-994e-862e",
+                "type": "rule"
+              }
+            ],
             "profiles": [
               {
                 "name": "Skyshield Landing Pad",
@@ -812,11 +1896,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "11", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "6", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "-", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "-", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Structure)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "11",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "6",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "-",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "-",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Structure)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ],
@@ -845,11 +1949,31 @@
         "sortIndex": 5,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 70},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 70
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -859,18 +1983,60 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Structure Model Sub-Type", "id": "3108-a84d-5dd8-a115", "hidden": false, "primary": false, "targetId": "2893-a655-1074-9831"},
-              {"name": "Fortification Model Type", "id": "afcd-869e-1242-d64a", "hidden": false, "primary": false, "targetId": "ae5b-4e74-db76-fa25"}
+              {
+                "name": "Structure Model Sub-Type",
+                "id": "3108-a84d-5dd8-a115",
+                "hidden": false,
+                "primary": false,
+                "targetId": "2893-a655-1074-9831"
+              },
+              {
+                "name": "Fortification Model Type",
+                "id": "afcd-869e-1242-d64a",
+                "hidden": false,
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              }
             ],
             "constraints": [
-              {"id": "2b98-8308-2269-1af8-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "2b98-8308-2269-1af8-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "2b98-8308-2269-1af8-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "2b98-8308-2269-1af8-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "profiles": [
               {
@@ -880,11 +2046,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "11", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "3", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "-", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "-", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Structure)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "11",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "3",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "-",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "-",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Structure)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ],
@@ -911,21 +2097,57 @@
                 "sortIndex": 1,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "f247-f318-8025-72e3", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "7cb8-180a-89f0-c9d2", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "f247-f318-8025-72e3",
+                    "automatic": true,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "7cb8-180a-89f0-c9d2",
+                    "automatic": true,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
                 "modifiers": [
                   {
                     "field": "f247-f318-8025-72e3",
                     "type": "set",
                     "value": 2,
-                    "conditions": [{"childId": "7842-bddd-6705-3254", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}]
+                    "conditions": [
+                      {
+                        "childId": "7842-bddd-6705-3254",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   },
                   {
                     "field": "7cb8-180a-89f0-c9d2",
                     "type": "set",
                     "value": 2,
-                    "conditions": [{"childId": "7842-bddd-6705-3254", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}]
+                    "conditions": [
+                      {
+                        "childId": "7842-bddd-6705-3254",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -937,21 +2159,57 @@
                 "sortIndex": 2,
                 "type": "upgrade",
                 "constraints": [
-                  {"id": "2c46-6d03-3350-db2a", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 6},
-                  {"id": "2732-ac0f-1ce3-74b6", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 6}
+                  {
+                    "id": "2c46-6d03-3350-db2a",
+                    "automatic": true,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 6
+                  },
+                  {
+                    "id": "2732-ac0f-1ce3-74b6",
+                    "automatic": true,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 6
+                  }
                 ],
                 "modifiers": [
                   {
                     "field": "2c46-6d03-3350-db2a",
                     "type": "set",
                     "value": 12,
-                    "conditions": [{"childId": "7842-bddd-6705-3254", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}]
+                    "conditions": [
+                      {
+                        "childId": "7842-bddd-6705-3254",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   },
                   {
                     "field": "2732-ac0f-1ce3-74b6",
                     "type": "set",
                     "value": 12,
-                    "conditions": [{"childId": "7842-bddd-6705-3254", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}]
+                    "conditions": [
+                      {
+                        "childId": "7842-bddd-6705-3254",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -961,13 +2219,42 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "constraints": [{"id": "9a1d-aeb0-7ac5-d87d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "constraints": [
+                  {
+                    "id": "9a1d-aeb0-7ac5-d87d",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
                 "costs": [
-                  {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 50},
-                  {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-                  {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-                  {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-                  {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+                  {
+                    "name": "Point(s)",
+                    "typeId": "9893-c379-920b-8982",
+                    "value": 50
+                  },
+                  {
+                    "name": "Asset Point(s)",
+                    "typeId": "57e3-1031-7d4d-5ae3",
+                    "value": 0
+                  },
+                  {
+                    "name": "Reaction Point(s)",
+                    "typeId": "c9ba-097e-c47f-ecc2",
+                    "value": 0
+                  },
+                  {
+                    "name": "Auxiliary Detachment(s)",
+                    "typeId": "3e8e-05ee-be52-12d6",
+                    "value": 0
+                  },
+                  {
+                    "name": "Apex Detachment(s)",
+                    "typeId": "159d-855c-533d-f592",
+                    "value": 0
+                  }
                 ]
               }
             ]
@@ -982,11 +2269,31 @@
         "sortIndex": 6,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 200},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 200
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -996,19 +2303,66 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Emplacement Model Sub-Type", "id": "ab77-1f18-ad9d-0ab8", "hidden": false, "primary": false, "targetId": "d1e7-50c0-0764-9de5"},
-              {"name": "Bunker Model Sub-Type", "id": "acea-0c9e-2bb2-751e", "hidden": false, "primary": false, "targetId": "7caa-3c9a-875c-5bca"},
-              {"name": "Fortification Model Type", "id": "43be-30c4-4b81-23cd", "primary": false, "targetId": "ae5b-4e74-db76-fa25"}
+              {
+                "name": "Emplacement Model Sub-Type",
+                "id": "ab77-1f18-ad9d-0ab8",
+                "hidden": false,
+                "primary": false,
+                "targetId": "d1e7-50c0-0764-9de5"
+              },
+              {
+                "name": "Bunker Model Sub-Type",
+                "id": "acea-0c9e-2bb2-751e",
+                "hidden": false,
+                "primary": false,
+                "targetId": "7caa-3c9a-875c-5bca"
+              },
+              {
+                "name": "Fortification Model Type",
+                "id": "43be-30c4-4b81-23cd",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              }
             ],
             "constraints": [
-              {"id": "d185-c82e-a12a-2f6a-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "d185-c82e-a12a-2f6a-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "d185-c82e-a12a-2f6a-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "d185-c82e-a12a-2f6a-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "entryLinks": [
               {
@@ -1019,10 +2373,30 @@
                 "targetId": "dc75-57f4-7f72-53a5",
                 "type": "selectionEntry",
                 "constraints": [
-                  {"id": "a5db-5db0-6248-ed09-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
-                  {"id": "a5db-5db0-6248-ed09-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
+                  {
+                    "id": "a5db-5db0-6248-ed09-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 2
+                  },
+                  {
+                    "id": "a5db-5db0-6248-ed09-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
                 ],
-                "modifiers": [{"field": "name", "type": "set", "value": "Turret Mounted Icarus lascannon array"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Turret Mounted Icarus lascannon array"
+                  }
+                ]
               }
             ],
             "infoLinks": [
@@ -1032,9 +2406,21 @@
                 "hidden": false,
                 "targetId": "2972-b461-0893-9b0d",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Firing Point (3)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Firing Point (3)"
+                  }
+                ]
               },
-              {"name": "Battlements", "id": "22b7-e240-0a2c-0624", "hidden": false, "targetId": "93ef-cbc4-214e-b44a", "type": "rule"}
+              {
+                "name": "Battlements",
+                "id": "22b7-e240-0a2c-0624",
+                "hidden": false,
+                "targetId": "93ef-cbc4-214e-b44a",
+                "type": "rule"
+              }
             ],
             "profiles": [
               {
@@ -1044,11 +2430,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "12", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "8", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "2", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "10", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Emplacement, Bunker)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "12",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "8",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "2",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "10",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Emplacement, Bunker)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ]
@@ -1063,11 +2469,31 @@
         "sortIndex": 7,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 300},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 300
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -1077,19 +2503,66 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Emplacement Model Sub-Type", "id": "53c5-123f-3fc1-ac53", "hidden": false, "primary": false, "targetId": "d1e7-50c0-0764-9de5"},
-              {"name": "Bunker Model Sub-Type", "id": "05a4-26d2-09d9-0364", "hidden": false, "primary": false, "targetId": "7caa-3c9a-875c-5bca"},
-              {"name": "Fortification Model Type", "id": "57e9-e53d-c8c2-930f", "primary": false, "targetId": "ae5b-4e74-db76-fa25"}
+              {
+                "name": "Emplacement Model Sub-Type",
+                "id": "53c5-123f-3fc1-ac53",
+                "hidden": false,
+                "primary": false,
+                "targetId": "d1e7-50c0-0764-9de5"
+              },
+              {
+                "name": "Bunker Model Sub-Type",
+                "id": "05a4-26d2-09d9-0364",
+                "hidden": false,
+                "primary": false,
+                "targetId": "7caa-3c9a-875c-5bca"
+              },
+              {
+                "name": "Fortification Model Type",
+                "id": "57e9-e53d-c8c2-930f",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              }
             ],
             "constraints": [
-              {"id": "7b6c-fbde-b7e6-d796-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "7b6c-fbde-b7e6-d796-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "7b6c-fbde-b7e6-d796-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7b6c-fbde-b7e6-d796-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "entryLinks": [
               {
@@ -1100,15 +2573,47 @@
                 "targetId": "9f11-d4c3-5927-fa66",
                 "type": "selectionEntry",
                 "constraints": [
-                  {"id": "b4ef-8f75-0280-cd7e-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "b4ef-8f75-0280-cd7e-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "b4ef-8f75-0280-cd7e-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "b4ef-8f75-0280-cd7e-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
-                "modifiers": [{"field": "name", "type": "set", "value": "Turret Mounted twin Icarus lascannon"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Turret Mounted twin Icarus lascannon"
+                  }
+                ]
               }
             ],
             "infoLinks": [
-              {"name": "Orbital Defence", "id": "ea84-011f-992c-19ec", "hidden": false, "targetId": "2622-fa77-aad6-c649", "type": "rule"},
-              {"name": "Battlements", "id": "8ce9-db63-b71a-e97d", "hidden": false, "targetId": "93ef-cbc4-214e-b44a", "type": "rule"}
+              {
+                "name": "Orbital Defence",
+                "id": "ea84-011f-992c-19ec",
+                "hidden": false,
+                "targetId": "2622-fa77-aad6-c649",
+                "type": "rule"
+              },
+              {
+                "name": "Battlements",
+                "id": "8ce9-db63-b71a-e97d",
+                "hidden": false,
+                "targetId": "93ef-cbc4-214e-b44a",
+                "type": "rule"
+              }
             ],
             "profiles": [
               {
@@ -1118,11 +2623,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "12", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "10", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "2", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "22", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Emplacement, Bunker)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "12",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "10",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "2",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "22",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Emplacement, Bunker)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ]
@@ -1137,11 +2662,31 @@
         "sortIndex": 8,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 100},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 100
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -1151,29 +2696,88 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Emplacement Model Sub-Type", "id": "d077-0987-b89b-67be", "hidden": false, "primary": false, "targetId": "d1e7-50c0-0764-9de5"},
-              {"name": "Bunker Model Sub-Type", "id": "9019-2e99-3de4-61f3", "hidden": false, "primary": false, "targetId": "7caa-3c9a-875c-5bca"},
-              {"name": "Fortification Model Type", "id": "fa3d-a078-2661-394c", "primary": false, "targetId": "ae5b-4e74-db76-fa25"}
+              {
+                "name": "Emplacement Model Sub-Type",
+                "id": "d077-0987-b89b-67be",
+                "hidden": false,
+                "primary": false,
+                "targetId": "d1e7-50c0-0764-9de5"
+              },
+              {
+                "name": "Bunker Model Sub-Type",
+                "id": "9019-2e99-3de4-61f3",
+                "hidden": false,
+                "primary": false,
+                "targetId": "7caa-3c9a-875c-5bca"
+              },
+              {
+                "name": "Fortification Model Type",
+                "id": "fa3d-a078-2661-394c",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              }
             ],
             "constraints": [
-              {"id": "c09f-6749-ca61-af80-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "c09f-6749-ca61-af80-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "c09f-6749-ca61-af80-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c09f-6749-ca61-af80-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "infoLinks": [
-              {"name": "Battlements", "id": "5c4f-003b-d7ab-dc44", "hidden": false, "targetId": "93ef-cbc4-214e-b44a", "type": "rule"},
+              {
+                "name": "Battlements",
+                "id": "5c4f-003b-d7ab-dc44",
+                "hidden": false,
+                "targetId": "93ef-cbc4-214e-b44a",
+                "type": "rule"
+              },
               {
                 "name": "Firing Point (X)",
                 "id": "2ca0-5ca0-71ba-bd1d",
                 "hidden": false,
                 "targetId": "2972-b461-0893-9b0d",
                 "type": "rule",
-                "modifiers": [{"field": "name", "type": "set", "value": "Firing Point (3)"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Firing Point (3)"
+                  }
+                ]
               }
             ],
             "profiles": [
@@ -1184,11 +2788,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "12", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "8", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "2", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "17", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Emplacement, Bunker)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "12",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "8",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "2",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "17",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Emplacement, Bunker)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ],
@@ -1198,7 +2822,16 @@
                 "id": "af49-8b3b-c366-4222",
                 "defaultSelectionEntryId": "cc43-b33e-180d-e9b0",
                 "hidden": false,
-                "constraints": [{"id": "cd51-d403-0128-4110", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "constraints": [
+                  {
+                    "id": "cd51-d403-0128-4110",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
                 "entryLinks": [
                   {
                     "name": "Aquila macro-cannon",
@@ -1208,9 +2841,30 @@
                     "sortIndex": 2,
                     "targetId": "9766-66f7-011e-a689",
                     "type": "selectionEntry",
-                    "constraints": [{"id": "1551-81a7-53e7-df32", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 200}],
-                    "modifiers": [{"field": "name", "type": "set", "value": "Turret Mounted Aquila macro-cannon"}]
+                    "constraints": [
+                      {
+                        "id": "1551-81a7-53e7-df32",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {
+                        "name": "Point(s)",
+                        "typeId": "9893-c379-920b-8982",
+                        "value": 200
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "name",
+                        "type": "set",
+                        "value": "Turret Mounted Aquila macro-cannon"
+                      }
+                    ]
                   }
                 ],
                 "selectionEntries": [
@@ -1221,15 +2875,52 @@
                     "import": true,
                     "sortIndex": 1,
                     "type": "upgrade",
-                    "constraints": [{"id": "b15d-e361-ad25-91c2", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "costs": [
-                      {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 100},
-                      {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-                      {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-                      {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-                      {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+                    "constraints": [
+                      {
+                        "id": "b15d-e361-ad25-91c2",
+                        "field": "selections",
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
                     ],
-                    "infoLinks": [{"name": "Orbital Defence", "id": "dc2a-2d60-14d0-b0c3", "hidden": false, "targetId": "2622-fa77-aad6-c649", "type": "rule"}]
+                    "costs": [
+                      {
+                        "name": "Point(s)",
+                        "typeId": "9893-c379-920b-8982",
+                        "value": 100
+                      },
+                      {
+                        "name": "Asset Point(s)",
+                        "typeId": "57e3-1031-7d4d-5ae3",
+                        "value": 0
+                      },
+                      {
+                        "name": "Reaction Point(s)",
+                        "typeId": "c9ba-097e-c47f-ecc2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Auxiliary Detachment(s)",
+                        "typeId": "3e8e-05ee-be52-12d6",
+                        "value": 0
+                      },
+                      {
+                        "name": "Apex Detachment(s)",
+                        "typeId": "159d-855c-533d-f592",
+                        "value": 0
+                      }
+                    ],
+                    "infoLinks": [
+                      {
+                        "name": "Orbital Defence",
+                        "id": "dc2a-2d60-14d0-b0c3",
+                        "hidden": false,
+                        "targetId": "2622-fa77-aad6-c649",
+                        "type": "rule"
+                      }
+                    ]
                   }
                 ]
               }
@@ -1245,11 +2936,31 @@
         "sortIndex": 9,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 400},
-          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 400
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "57e3-1031-7d4d-5ae3",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          }
         ],
         "selectionEntries": [
           {
@@ -1259,9 +2970,26 @@
             "import": true,
             "type": "model",
             "categoryLinks": [
-              {"name": "Emplacement Model Sub-Type", "id": "8bdc-7bcb-171e-3535", "hidden": false, "primary": false, "targetId": "d1e7-50c0-0764-9de5"},
-              {"name": "Bunker Model Sub-Type", "id": "0866-39fb-ae0a-fe57", "hidden": false, "primary": false, "targetId": "7caa-3c9a-875c-5bca"},
-              {"name": "Fortification Model Type", "id": "296e-c78e-be77-b757", "primary": false, "targetId": "ae5b-4e74-db76-fa25"}
+              {
+                "name": "Emplacement Model Sub-Type",
+                "id": "8bdc-7bcb-171e-3535",
+                "hidden": false,
+                "primary": false,
+                "targetId": "d1e7-50c0-0764-9de5"
+              },
+              {
+                "name": "Bunker Model Sub-Type",
+                "id": "0866-39fb-ae0a-fe57",
+                "hidden": false,
+                "primary": false,
+                "targetId": "7caa-3c9a-875c-5bca"
+              },
+              {
+                "name": "Fortification Model Type",
+                "id": "296e-c78e-be77-b757",
+                "primary": false,
+                "targetId": "ae5b-4e74-db76-fa25"
+              }
             ],
             "constraints": [
               {
@@ -1274,14 +3002,44 @@
                 "type": "max",
                 "value": 1
               },
-              {"id": "0c25-3d37-6d4e-5faf-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "0c25-3d37-6d4e-5faf-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "0c25-3d37-6d4e-5faf-min",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0c25-3d37-6d4e-5faf-max",
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "costs": [
-              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0},
-              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0}
+              {
+                "name": "Asset Point(s)",
+                "typeId": "57e3-1031-7d4d-5ae3",
+                "value": 0
+              },
+              {
+                "name": "Reaction Point(s)",
+                "typeId": "c9ba-097e-c47f-ecc2",
+                "value": 0
+              },
+              {
+                "name": "Auxiliary Detachment(s)",
+                "typeId": "3e8e-05ee-be52-12d6",
+                "value": 0
+              },
+              {
+                "name": "Apex Detachment(s)",
+                "typeId": "159d-855c-533d-f592",
+                "value": 0
+              }
             ],
             "entryLinks": [
               {
@@ -1292,13 +3050,41 @@
                 "targetId": "7e2a-b3cf-ae02-4b8c",
                 "type": "selectionEntry",
                 "constraints": [
-                  {"id": "b4c9-88ec-8e6f-5bc0-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "b4c9-88ec-8e6f-5bc0-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {
+                    "id": "b4c9-88ec-8e6f-5bc0-min",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "b4c9-88ec-8e6f-5bc0-max",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
                 ],
-                "modifiers": [{"field": "name", "type": "set", "value": "Turret Mounted Primus turbo laser"}]
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "Turret Mounted Primus turbo laser"
+                  }
+                ]
               }
             ],
-            "infoLinks": [{"name": "Battlements", "id": "2549-fc70-8238-1d88", "hidden": false, "targetId": "93ef-cbc4-214e-b44a", "type": "rule"}],
+            "infoLinks": [
+              {
+                "name": "Battlements",
+                "id": "2549-fc70-8238-1d88",
+                "hidden": false,
+                "targetId": "93ef-cbc4-214e-b44a",
+                "type": "rule"
+              }
+            ],
             "profiles": [
               {
                 "name": "Primus Redoubt",
@@ -1307,11 +3093,31 @@
                 "typeId": "f47c-65e0-5690-738e",
                 "typeName": "Battlefield fortification",
                 "characteristics": [
-                  {"name": "Armour", "$text": "14", "typeId": "5be5-04db-c14c-12be"},
-                  {"name": "HP", "$text": "8", "typeId": "4501-2c2a-d089-210e"},
-                  {"name": "BS", "$text": "3", "typeId": "e2af-22db-e8a2-5ebc"},
-                  {"name": "Transport Capacity", "$text": "12", "typeId": "ca35-9ed8-337e-cb3e"},
-                  {"name": "Type", "$text": "Fortification (Emplacement, Bunker)", "typeId": "869d-8fb8-f39f-4575"}
+                  {
+                    "name": "Armour",
+                    "$text": "14",
+                    "typeId": "5be5-04db-c14c-12be"
+                  },
+                  {
+                    "name": "HP",
+                    "$text": "8",
+                    "typeId": "4501-2c2a-d089-210e"
+                  },
+                  {
+                    "name": "BS",
+                    "$text": "3",
+                    "typeId": "e2af-22db-e8a2-5ebc"
+                  },
+                  {
+                    "name": "Transport Capacity",
+                    "$text": "12",
+                    "typeId": "ca35-9ed8-337e-cb3e"
+                  },
+                  {
+                    "name": "Type",
+                    "$text": "Fortification (Emplacement, Bunker)",
+                    "typeId": "869d-8fb8-f39f-4575"
+                  }
                 ]
               }
             ]

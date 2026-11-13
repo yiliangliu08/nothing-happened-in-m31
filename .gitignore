@@ -27,3 +27,17 @@
 
 # Don't ignore .yml for CI build definitions
 !*.yml
+
+# Local rulebook sources — never commit (overrides whitelist above)
+books/
+books/**
+
+# Local tooling / scratch (overrides !*.json whitelist)
+.tmp_pdf/
+.tmp_pdf/**
+node_modules/
+node_modules/**
+package.json
+package-lock.json
+playwright-report/
+test-results/
