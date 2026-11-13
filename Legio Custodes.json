@@ -938,11 +938,17 @@
             "id": "ca97-d9f5-7a97-04ca",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
+          },
+          {
+            "name": "Orbital Drop Assault Transport",
+            "id": "36cd-9463-fa92-32be",
+            "primary": false,
+            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
           {
-            "name": "Orbital Drop Transport Slot(s)",
+            "name": "Orbital Drop Assault Transport",
             "typeId": "oda1-7c2e-trns-s10t",
             "value": 0
           }

@@ -1348,11 +1348,17 @@
             "id": "8d19-9a46-e0fa-57f6",
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
+          },
+          {
+            "name": "Orbital Drop Assault Transport",
+            "id": "531c-4919-9beb-9dda",
+            "primary": false,
+            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
           {
-            "name": "Orbital Drop Transport Slot(s)",
+            "name": "Orbital Drop Assault Transport",
             "typeId": "oda1-7c2e-trns-s10t",
             "value": 0
           }
@@ -1389,6 +1395,12 @@
             "id": "887d-0526-fd90-a6c0",
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
+          },
+          {
+            "name": "Orbital Drop Assault Transport",
+            "id": "8a2c-db32-ed38-e6e6",
+            "primary": false,
+            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "infoLinks": [
@@ -1451,7 +1463,7 @@
         ],
         "costs": [
           {
-            "name": "Orbital Drop Transport Slot(s)",
+            "name": "Orbital Drop Assault Transport",
             "typeId": "oda1-7c2e-trns-s10t",
             "value": 0
           }
@@ -2267,11 +2279,17 @@
             "hidden": false,
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
+          },
+          {
+            "name": "Orbital Drop Assault Transport",
+            "id": "6728-5a7b-f7d0-5450",
+            "primary": false,
+            "targetId": "oda1-7c2e-catg-trns"
           }
         ],
         "costs": [
           {
-            "name": "Orbital Drop Transport Slot(s)",
+            "name": "Orbital Drop Assault Transport",
             "typeId": "oda1-7c2e-trns-s10t",
             "value": 0
           }

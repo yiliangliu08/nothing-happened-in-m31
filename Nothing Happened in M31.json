@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 67,
+    "revision": 68,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -104,6 +104,12 @@
         "name": "Support",
         "id": "345f-9ba6-9b02-ed5c",
         "hidden": false
+      },
+      {
+        "name": "Orbital Drop Assault Transport",
+        "id": "oda1-7c2e-catg-trns",
+        "hidden": false,
+        "comment": "Pooled Transport + Heavy Transport slots for Orbital Drop Assault"
       },
       {
         "name": "Transport",
@@ -2580,11 +2586,19 @@
         "hidden": true
       },
       {
-        "name": "Orbital Drop Transport Slot(s)",
+        "name": "Orbital Drop Assault Transport",
         "id": "oda1-7c2e-trns-s10t",
         "comment": "Shared Transport/Heavy Transport capacity for Orbital Drop Assault",
         "defaultCostLimit": -1,
-        "hidden": true
+        "hidden": true,
+        "modifiers": [
+          {
+            "comment": "Hidden from new list screen, but displays count",
+            "field": "hidden",
+            "type": "set",
+            "value": false
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -12726,180 +12740,27 @@
                 "id": "b293-bc91-ff6e-eed2",
                 "hidden": false,
                 "targetId": "d162-4711-5d60-0a48",
-                "constraints": [
-                  {
-                    "id": "562b-b055-f0e4-d767",
-                    "field": "selections",
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 0
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "d9a6-9b5f-b18a-4d63",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "6dbf-654a-f06f-2d69",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "a38e-50ff-310f-f19e",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "3235-bd79-e9b1-60fa",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "88e6-d373-4152-0dd8",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "5d5e-958f-e388-50b5",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "345f-9ba6-9b02-ed5c",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "562b-b055-f0e4-d767",
-                    "type": "increment",
-                    "value": 1,
-                    "repeats": [
-                      {
-                        "childId": "2b65-a3f2-620a-dc58",
-                        "field": "selections",
-                        "includeChildForces": true,
-                        "includeChildSelections": true,
-                        "repeats": 1,
-                        "roundUp": false,
-                        "scope": "roster",
-                        "shared": true,
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
+                "comment": "Unit picker only; pooled limit is Orbital Drop Assault Transport"
               },
               {
                 "name": "Heavy Transport",
                 "id": "018b-9208-2def-3fdd",
                 "hidden": false,
                 "targetId": "52d0-8b78-439e-18e5",
+                "comment": "Unit picker only; pooled limit is Orbital Drop Assault Transport"
+              },
+              {
+                "name": "Orbital Drop Assault Transport",
+                "id": "oda1-7c2e-clnk-trns",
+                "hidden": false,
+                "targetId": "oda1-7c2e-catg-trns",
+                "tracked": true,
+                "comment": "Counts Transport + Heavy Transport selections in this Detachment",
                 "constraints": [
                   {
-                    "id": "7f93-998c-06e4-066a",
+                    "id": "oda1-7c2e-cmax-trns",
                     "field": "selections",
+                    "includeChildSelections": true,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -12909,7 +12770,7 @@
                 "modifiers": [
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -12928,7 +12789,7 @@
                   },
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -12947,7 +12808,7 @@
                   },
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -12966,7 +12827,7 @@
                   },
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -12985,7 +12846,7 @@
                   },
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -13004,7 +12865,7 @@
                   },
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -13023,7 +12884,7 @@
                   },
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -13042,7 +12903,7 @@
                   },
                   {
                     "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
-                    "field": "7f93-998c-06e4-066a",
+                    "field": "oda1-7c2e-cmax-trns",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
