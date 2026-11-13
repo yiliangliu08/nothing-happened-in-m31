@@ -7,9 +7,9 @@
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
-    "gameSystemRevision": 64,
+    "gameSystemRevision": 65,
     "library": false,
-    "revision": 39,
+    "revision": 40,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -1349,6 +1349,31 @@
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
           }
+        ],
+        "costs": [
+          {
+            "name": "Orbital Drop Transport Slot(s)",
+            "typeId": "oda1-7c2e-trns-s10t",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
+            "field": "oda1-7c2e-trns-s10t",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d55",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -1420,6 +1445,31 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Orbital Drop Transport Slot(s)",
+            "typeId": "oda1-7c2e-trns-s10t",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
+            "field": "oda1-7c2e-trns-s10t",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d55",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -2217,6 +2267,31 @@
             "hidden": false,
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Orbital Drop Transport Slot(s)",
+            "typeId": "oda1-7c2e-trns-s10t",
+            "value": 0
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orbital Drop Assault pooled Transport/Heavy Transport slot",
+            "field": "oda1-7c2e-trns-s10t",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d55",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
