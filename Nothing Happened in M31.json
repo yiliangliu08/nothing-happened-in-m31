@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
-    "revision": 61,
+    "revision": 62,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -9889,16 +9889,28 @@
             ],
             "rules": [
               {
-                "name": "Squadron Tactics",
-                "id": "8586-01b6-f066-767e",
+                "name": "Armoured Spearhead Overview",
+                "id": "7c66-72e1-527e-ac36",
                 "hidden": false,
-                "description": "Models with the Vehicle Type in an Army using this Primary Detachment gain the Squadron Tactics Special Rule. While a Model with this Special Rule is within 6\" of another Model with this Special Rule, the Controlling Player may add 2 to Repair Rolls made for that Model."
+                "description": "Across the Legions, numerous storied formations of vehicles were deployed en-masse to crush their enemies. From the Iron Hands Subjugator Battalions, to the Desert Lions of the Ultramarines or the Night Lords' infamous Black Knights battalion, each utilised their own bespoke tactics and formations, but all were equally deadly, whether pummelling foes with their massed firepower or grinding them beneath iron treads."
+              },
+              {
+                "name": "Armoured Spearhead Benefits",
+                "id": "ebd3-24fe-3920-6f87",
+                "hidden": false,
+                "description": "• Models with the Vehicle Type in an Army using this Primary Detachment gain the Squadron Tactics Special Rule.\n• Models with the Decurion Magna upgrade may be used to fill High Command Slots in this Detachment. Models with other Decurion upgrades may be used to fill Command Slots in this Detachment."
+              },
+              {
+                "name": "Squadron Tactics",
+                "id": "5dd7-28b8-63ec-7995",
+                "hidden": false,
+                "description": "Legiones Astartes vehicles frequently operate in tight-knit squadrons, each vehicle providing support to its fellows. When operating in close formation, vehicles will often work to shield their squadron-mates or provide covering fire, allowing crews under fire to recover or effect emergency repairs.\n\nWhile a Model with this Special Rule is within 6\" of another Model with this Special Rule, the Controlling Player may add 2 to Repair Rolls made for that Model."
               },
               {
                 "name": "Armoured Spearhead Restrictions",
-                "id": "2ef1-f8f9-6910-0af5",
+                "id": "b390-72f1-9548-8a09",
                 "hidden": false,
-                "description": "Prime Advantages which add additional Battlefield Role Slots to a Detachment may not be selected. Only the following additional Detachments may be selected: Armoured Support, Combat Pioneer, First Strike, Techmarine Covenant, Armoured Fist, Lord of War. Models without the Vehicle Type may only be included if they have the Battlesmith (X) Special Rule. Units that include any Models with a Move Characteristic of '0' or '-' may not be selected. Decurion Magna may fill High Command Slots; other Decurion upgrades may fill Command Slots."
+                "description": "• Prime Advantages which add additional Battlefield Role Slots to a Detachment may not be selected.\n• Only the following additional Detachments may be selected:\n  - Armoured Support\n  - Combat Pioneer\n  - First Strike\n  - Techmarine Covenant\n  - Armoured Fist\n  - Lord of War\n• Models without the Vehicle Type may only be included in an Army that uses this Primary Detachment if they have the Battlesmith (X) Special Rule.\n• Units that include any Models with a Move Characteristic of '0' or '-' may not be selected."
               }
             ],
             "profiles": [
@@ -10812,16 +10824,22 @@
             ],
             "rules": [
               {
-                "name": "Pride of the Legion Benefits",
-                "id": "bb3e-9a78-d548-f14e",
+                "name": "Pride of the Legion Overview",
+                "id": "2909-221d-a647-3b89",
                 "hidden": false,
-                "description": "For each Retinue, Heavy Assault or Elites Battlefield Role Slot filled, one Heavy Transport Slot may be added to this Detachment. When adding a Unit in this Detachment to an Army Roster, all Models in that Unit with the Vanguard (X) Special Rule may have it exchanged for the Line (1) Special Rule."
+                "description": "Every Legion featured entire companies of more experienced warriors, veterans from the earliest days of the Great Crusade whose skills in battle were the stuff of legends even among their own brothers. Many of these would be utilised by their Primarch as honour guards while others were given access to the finest equipment and deployed to conflicts that were deemed insurmountable, only to add another honorific to their already lengthy roll of victories."
+              },
+              {
+                "name": "Pride of the Legion Benefits",
+                "id": "4712-208b-3495-9130",
+                "hidden": false,
+                "description": "• For each Retinue, Heavy Assault or Elites Battlefield Role Slot filled, one Heavy Transport Slot may be added to this Detachment.\n• When adding a Unit in this Detachment to an Army Roster, all Models in that Unit with the Vanguard (X) Special Rule may have it exchanged for the Line (1) Special Rule."
               },
               {
                 "name": "Pride of the Legion Restrictions",
-                "id": "9d06-0711-c36d-b5c1",
+                "id": "d3a8-1d9d-cdb7-7a37",
                 "hidden": false,
-                "description": "An Army using this Primary Detachment must include at least one Model with the Master of the Legion Trait. Prime Advantages which add additional Battlefield Role Slots may not be selected. Only Officer Cadre, Shock Assault, Heavy Support, Warlord, and Lord of War (Transport Sub-Type only) may be selected as additional Detachments. Each time a Unit with the Elites or Heavy Assault Battlefield Role is Destroyed, the opponent scores 1 Victory Point."
+                "description": "• An Army using this Primary Detachment must include at least one Model with the Master of the Legion Trait.\n• Prime Advantages which add additional Battlefield Role Slots to a Detachment may not be selected.\n• Only the following additional Detachments may be selected:\n  - Officer Cadre\n  - Shock Assault\n  - Heavy Support\n  - Warlord\n  - Lord of War (may only be used to select Models with the Transport Sub-Type)\n• Each time a Unit with the Elites or Heavy Assault Battlefield Roles in an Army with this Primary Detachment is Destroyed, the Controlling Player's Opponent scores 1 Victory Point."
               }
             ],
             "profiles": [
@@ -11631,16 +11649,28 @@
             ],
             "rules": [
               {
-                "name": "Ancient of War",
-                "id": "77e4-f8dd-ae6d-beb5",
+                "name": "Fury of the Ancients Overview",
+                "id": "ecd8-b219-b774-8138",
                 "hidden": false,
-                "description": "Prime Slots in this Detachment may have the Ancient of War Prime Advantage selected for them. This Prime Advantage may only be selected for a Battlefield Role slot that contains a Model with the Walker Type that does not have the Malefic Sub-Type. Models in a Unit selected to fill a Slot with this Prime Advantage gain the Eternal Warrior (1) Special Rule."
+                "description": "In an endeavour as demanding as the Great Crusade, there was no shortage of mortally wounded Legionaries whose records in battle and physical fortitude made them ideal candidates to be interred within a Dreadnought's sarcophagus. As the Horus Heresy pitted Legion against Legion, many battles saw heavy assault cadres utilising Dreadnoughts in concentrated force, led to battle by veteran warriors who have had many years to acclimatise to fighting within these deadly ceramite colossi."
+              },
+              {
+                "name": "Fury of the Ancients Benefits",
+                "id": "dc06-7ca9-e22b-c8c5",
+                "hidden": false,
+                "description": "• Prime Slots in this Detachment may have the Ancient of War Prime Advantage selected for them."
+              },
+              {
+                "name": "Ancient of War",
+                "id": "2091-2691-4d24-1b8d",
+                "hidden": false,
+                "description": "Some veterans adapt quickly to being interred within a Dreadnought. Utilising skills accumulated throughout the Great Crusade, such warriors lead their brethren into battle, the formidable protection afforded by their armoured chassis allowing them to shrug off all but the most deadly attacks.\n\nThis Prime Advantage may only be selected for a Battlefield Role slot that contains a Model with the Walker Type that does not have the Malefic Sub-Type. Models in a Unit selected to fill a Slot with this Prime Advantage gain the Eternal Warrior (1) Special Rule."
               },
               {
                 "name": "Fury of the Ancients Restrictions",
-                "id": "04ec-1e34-f79d-c727",
+                "id": "0ebd-0d6b-e8ac-d43f",
                 "hidden": false,
-                "description": "Models with the Command and Specialist Sub-Types may only be selected if they also have the Battlesmith (X) Special Rule. Prime Advantages which add additional Battlefield Role Slots may not be selected, unless that Battlefield Role is War-engine. Only Techmarine Covenant, Heavy Support, and Lord of War (Transport Sub-Type only) may be selected as additional Detachments. Each time a War-engine Unit is Destroyed, the opponent scores 1 Victory Point."
+                "description": "• Models with the Command and Specialist Sub-Types may only be selected if they also have the Battlesmith (X) Special Rule.\n• Prime Advantages which add additional Battlefield Role Slots to a Detachment may not be selected, unless that Battlefield Role is War-engine.\n• Only the following additional Detachments may be selected:\n  - Techmarine Covenant\n  - Heavy Support\n  - Lord of War (may only be used to select Models with the Transport Sub-Type)\n• Each time a Unit with the War-engine Battlefield Role in an Army with this Primary Detachment is Destroyed, the Controlling Player's Opponent scores 1 Victory Point."
               }
             ],
             "profiles": [
@@ -12450,16 +12480,28 @@
             ],
             "rules": [
               {
-                "name": "Skilled Riders",
-                "id": "eb81-6d0c-4fe0-d404",
+                "name": "Sky-Hunter Phalanx Overview",
+                "id": "a2bb-42d1-cec5-52ca",
                 "hidden": false,
-                "description": "Prime Slots in this Detachment may have the Skilled Riders Prime Advantage selected for them. Models with the Cavalry Type in a Unit selected to fill a Slot with this Prime Advantage gain the Shrouded (6+) and Move Through Cover Special Rules. If this Detachment is from the White Scars Faction: any number of Retinue Slots may each be exchanged for one Elites Slot that may only be filled with Golden Keshig Units; any number of Fast Attack Slots may each be exchanged for one Support Slot that may only be filled with Kyzagan Assault Speeder Units."
+                "description": "Primarily utilised for rapid-reaction strikes, as well as scouting and outrider duties, the Legions maintained formations of warriors skilled in the use of antigrav craft, able to weave their way through the tumult of battle before deploying heavy firepower where it was required before withdrawing. While some Legions saw such warriors as rash or headstrong, others, notably the Vth and VIIIth, actively encouraged this proclivity, on occasion deploying entire companies in such a fashion."
+              },
+              {
+                "name": "Sky-Hunter Phalanx Benefits",
+                "id": "5e3c-b86f-608c-e481",
+                "hidden": false,
+                "description": "• Prime Slots in this Detachment may have the Skilled Riders Prime Advantage selected for them.\n• If this Detachment is from the White Scars Faction:\n  - Any number of Retinue Slots may each be exchanged for one Elites Slot that may only be filled with Golden Keshig Units.\n  - Any number of Fast Attack Slots may each be exchanged for one Support Slot that may only be filled with Kyzagan Assault Speeder Units."
+              },
+              {
+                "name": "Skilled Riders",
+                "id": "aa32-07b1-eeaf-282d",
+                "hidden": false,
+                "description": "Those with the most experience in their antigrav craft had an almost preternatural sense for danger, guiding their craft skilfully to avoid obstacles and enemy fire alike.\n\nModels with the Cavalry Type in a Unit selected to fill a Slot with this Prime Advantage gain the Shrouded (6+) and Move Through Cover Special Rules."
               },
               {
                 "name": "Sky-Hunter Phalanx Restrictions",
-                "id": "76f1-7928-a195-ba26",
+                "id": "f0db-1298-56d8-8c39",
                 "hidden": false,
-                "description": "Prime Advantages which add additional Battlefield Role Slots may not be selected. Only First Strike, Combat Pioneer, and Lord of War may be selected as additional Detachments. Every Unit in an Army with this Primary Detachment must only include Models with the Antigrav or Flyer Sub-Type or begin the Battle Embarked on a Transport with the Flyer Sub-Type. Any other Units may not be Deployed and are Removed as Casualties."
+                "description": "• Prime Advantages which add additional Battlefield Role Slots to a Detachment may not be selected.\n• Only the following additional Detachments may be selected:\n  - First Strike\n  - Combat Pioneer\n  - Lord of War\n• Every Unit in an Army with this Primary Detachment must only include Models with the Antigrav or Flyer Sub-Type or begin the Battle Embarked on a Transport with the Flyer Sub-Type. Any other Units may not be Deployed and are Removed as Casualties."
               }
             ],
             "profiles": [
@@ -13630,22 +13672,34 @@
             ],
             "rules": [
               {
-                "name": "Orbital Drop Assault Benefits",
-                "id": "7cac-e2ed-cb07-a7e6",
+                "name": "Orbital Drop Assault Overview",
+                "id": "6142-af20-8c14-b9fd",
                 "hidden": false,
-                "description": "For each non-Vehicle Unit in an Army using this Primary Detachment, one Transport or Heavy Transport Slot may be added to this Detachment. There are no base Transport/Heavy Transport slots; they unlock from non-Vehicle Units. Transport and Heavy Transport maxima each track non-Vehicle selections in this Detachment — total Transport + Heavy Transport taken should not exceed the number of non-Vehicle Units."
+                "description": "It was not for nothing that the Legiones Astartes were known as the 'Angels of Death'. A favoured deployment tactic would be to strike from orbit, entire companies of elite warriors plunging from the skies into the heart of their foes. Before the enemy even knew they were under attack, Legion warriors would already be striking them down, shattering their resolve.\n\nDesigner's note: This Primary Detachment includes substantial additional deployment rules and skews the narrative of the battle. It is recommended for pre-arranged games rather than standard pick-up games, and is included as a placeholder until a full Mission Pack for planetary assaults is published."
               },
               {
-                "name": "Orbital Drop Protocols",
-                "id": "e735-7990-2351-c561",
+                "name": "Orbital Drop Assault Benefits",
+                "id": "9ba8-18fb-55ca-734b",
                 "hidden": false,
-                "description": "All Units in an Army which uses this Primary Detachment must use the Orbital Drop Protocols deployment method. During Reserves declaration: (1) Units with Deep Strike or Orbital Assault Vehicle must be placed into Reserves; (2) Flyer Sub-Type Units into Aerial Reserves; (3) all other Units must Embark on an eligible Transport in Reserves/Aerial Reserves or are Destroyed; (4) empty Orbital Assault Vehicle Transports are Destroyed. See the Legiones Astartes Primary Detachments PDF for full deployment sequence and Orbital Drop Table."
+                "description": "• For each non-Vehicle Unit in an Army using this Primary Detachment, one Transport or Heavy Transport Slot may be added to this Detachment."
               },
               {
                 "name": "Orbital Drop Assault Restrictions",
-                "id": "dff7-2123-9b6d-75ec",
+                "id": "958f-c7a8-9668-0676",
                 "hidden": false,
-                "description": "Prime Advantages which add additional Battlefield Role Slots may not be selected. Only Tactical Support, First Strike (maximum of 1), Shock Assault, Heavy Support, Warlord, and Lord of War may be selected as additional Detachments."
+                "description": "• Prime Advantages which add additional Battlefield Role Slots to a Detachment may not be selected.\n• Only the following other Detachments may be selected:\n  - Tactical Support\n  - First Strike (maximum of 1)\n  - Shock Assault\n  - Heavy Support\n  - Warlord\n  - Lord of War\n• All Units in an Army which uses this Primary Detachment must use the Orbital Drop Protocols deployment method, as described below."
+              },
+              {
+                "name": "Orbital Drop Protocols",
+                "id": "b537-7308-15b0-d810",
+                "hidden": false,
+                "description": "The Legiones Astartes have long specialised in massed drop assaults, coordinating hundreds of assets even as they plunge from orbit, their landing sites allocated for maximum tactical advantage.\n\nDuring the Mission Step in which Reserves are declared, an Army using the Orbital Drop Protocols deployment method must use the following sequence:\n1. Units with the Deep Strike or Orbital Assault Vehicle Special Rule must be placed into Reserves.\n2. Units with the Flyer Sub-Type must be placed into Aerial Reserves.\n3. All Units without the Deep Strike or Orbital Assault Vehicle Special Rules or the Flyer Sub-Type (along with any Models joined to them) must then be Embarked onto a Transport they are eligible to Embark upon which is in Reserves or Aerial Reserves. Any such Unit which cannot Embark upon an eligible Transport is Destroyed.\n4. Any Models with the Orbital Assault Vehicle Special Rule and the Transport Sub-Type which do not have a Unit Embarked upon them are Destroyed.\n\nDuring the Deploy Armies Step, if one Player is using Orbital Drop Protocols, that Player must always deploy their Army second, without a roll being made. When deploying, they must use the following sequence:\n1. Any Deathstorm Drop Pods are removed from Reserves one at a time and set up on the Battlefield as if using the Deep Strike Special Rule. After each Model is placed, a roll on the Orbital Drop Table is made for it, with a +1 Modifier.\n2. Each Model makes Shooting Attacks as per the Deathstorm Special Rule. After these have been resolved, enemy Units must have any Pinning or Panic Checks required made for them as if it were the Shooting Phase.\n3. Each remaining Model with the Orbital Assault Vehicle Special Rule is removed from Reserves one at a time, and set up on the Battlefield as if using the Deep Strike Special Rule. A roll on the Orbital Drop Table is made for each one, with a +1 Modifier.\n\nSimultaneous Orbital Drops\nIf both Players are using Orbital Drop Protocols, then during each of the steps above, Players must instead alternate setting up Units one at a time. If one Player finishes first, the other may continue to set up such Units until all have been set up. The Players then roll off to determine who takes the first Battle Turn. The Battle then proceeds as normal.\n\nDuring each of their Player Turns, a Player whose Army is using Orbital Drop Protocols can select Combat Assignments as usual for Units in Aerial Reserves.\n\nAll Units in Reserves may only arrive on the Battlefield using the Deep Strike Special Rule, subject to the usual restrictions, with the exception that any number of Units in an Army using Orbital Drop Protocols may attempt a Deep Strike in a given Player's Turn. Each time such a Unit would be set up, after placing the first Model, a roll on the Orbital Drop Table must be made for that Unit."
+              },
+              {
+                "name": "Orbital Drop Table",
+                "id": "2106-6452-53d1-45b0",
+                "hidden": false,
+                "description": "D6 Result\n\n1 — Transponder Signal Lost\nThe relay uplink to the ship conducting the orbital drop is temporarily interrupted.\nThe Unit is returned to Reserves and no further Units may arrive from Reserves or Aerial Reserves this Turn.\n\n2 — Combat Drop Delayed\nBattle readiness of the ship conducting orbital drop asset is not achieved. Combat deployment is delayed.\nThe Unit is returned to Reserves.\n\n3 — High Deviation Rate\nIncoming enemy fire forces evasive manoeuvres, leading to deviation from the target location.\nScatter the first Model 3D6\", using the direction indicated by the small arrow. If the result is HIT, then place any remaining Models as normal.\n\n4 — Atmospheric Turbulence\nViolent thermal updraughts and electrical storms disrupt the accuracy of the descent.\nScatter the first Model 2D6\", using the direction indicated by the small arrow. If the result is HIT, then place any remaining Models as normal.\n\n5 — Insufficient Retrothrust\nDamaged or malfunctioning altitude trackers results in inadequate deceleration before landing.\nAfter setting up all Models from this Unit, the Unit gains the Stunned Status. If any Units Disembark from this Unit after it was set up, all Models in those Units also gain the Stunned Status.\n\n6 — Clean Drop\nAn acceptable combat insertion is achieved.\nThe Unit arrives on target with no additional effects.\n\n7+ — Precise Coordination\nThe orbital drop pattern falls through a sector of unusually calm atmosphere and the insertion is more successful than simulations predicted.\nThe Unit arrives on target. Add 2 to the result of the next roll on this table this turn.\n\nModifiers\nEach time a Roll is made on the Orbital Drop Table, the following Modifiers can be applied:\n• If the first Model placed is within 9\" of a friendly Model with a command vox or nuncio-vox, add 1 to the result.\n• If the first Model placed is within 9\" of a friendly Model with a strato-vox, add 2 to the result.\n\nScattering Units\nWhen a result on the Orbital Drop Table requires a Model to be Scattered, move the Model as far as possible in the direction indicated, without moving it within 1\" of any enemy Models or into Impassable Terrain. If any part of the Model crosses the edge of the Battlefield when scattered, the Model and its Unit are not set up and are returned to Reserves."
               }
             ],
             "profiles": [
@@ -138877,7 +138931,7 @@
                 "name": "Ancient of War",
                 "id": "7bf3-30c5-38e2-d33f",
                 "hidden": false,
-                "description": "This Prime Advantage may only be selected for a Battlefield Role slot that contains a Model with the Walker Type that does not have the Malefic Sub-Type. Models in a Unit selected to fill a Slot with this Prime Advantage gain the Eternal Warrior (1) Special Rule."
+                "description": "Some veterans adapt quickly to being interred within a Dreadnought. Utilising skills accumulated throughout the Great Crusade, such warriors lead their brethren into battle, the formidable protection afforded by their armoured chassis allowing them to shrug off all but the most deadly attacks.\n\nThis Prime Advantage may only be selected for a Battlefield Role slot that contains a Model with the Walker Type that does not have the Malefic Sub-Type. Models in a Unit selected to fill a Slot with this Prime Advantage gain the Eternal Warrior (1) Special Rule."
               }
             ]
           },
@@ -138930,7 +138984,7 @@
                 "name": "Skilled Riders",
                 "id": "a490-0a8b-c80b-2fef",
                 "hidden": false,
-                "description": "Models with the Cavalry Type in a Unit selected to fill a Slot with this Prime Advantage gain the Shrouded (6+) and Move Through Cover Special Rules."
+                "description": "Those with the most experience in their antigrav craft had an almost preternatural sense for danger, guiding their craft skilfully to avoid obstacles and enemy fire alike.\n\nModels with the Cavalry Type in a Unit selected to fill a Slot with this Prime Advantage gain the Shrouded (6+) and Move Through Cover Special Rules."
               }
             ]
           }
