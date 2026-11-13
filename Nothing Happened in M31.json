@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 70,
+    "revision": 71,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -11765,13 +11765,107 @@
                 "targetId": "a38e-50ff-310f-f19e",
                 "constraints": [
                   {
-                    "id": "ab67-2cf0-23ac-125a",
+                    "id": "sky1-retn-max0-0001",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
                     "value": 2
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Sky-Hunter Phalanx White Scars slot exchange",
+                    "field": "sky1-retn-max0-0001",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "5d5e-958f-e388-50b5",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "f7b4-2531-0962-1379",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Elites",
+                "id": "sky1-elit-clnk-0001",
+                "hidden": true,
+                "targetId": "5d5e-958f-e388-50b5",
+                "comment": "White Scars Sky-Hunter: exchange Retinue for Golden Keshig Elites",
+                "constraints": [
+                  {
+                    "id": "sky1-elit-max0-0001",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Visible for White Scars Sky-Hunter Phalanx",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "f7b4-2531-0962-1379",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Sky-Hunter Phalanx White Scars slot exchange",
+                    "field": "sky1-elit-max0-0001",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "a38e-50ff-310f-f19e",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "f7b4-2531-0962-1379",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -11782,13 +11876,107 @@
                 "targetId": "cf96-8891-3f9a-8921",
                 "constraints": [
                   {
-                    "id": "c8bd-09bf-7e53-f4be",
+                    "id": "sky1-fast-max0-0001",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
                     "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Sky-Hunter Phalanx White Scars slot exchange",
+                    "field": "sky1-fast-max0-0001",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "345f-9ba6-9b02-ed5c",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "f7b4-2531-0962-1379",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Support",
+                "id": "sky1-supp-clnk-0001",
+                "hidden": true,
+                "targetId": "345f-9ba6-9b02-ed5c",
+                "comment": "White Scars Sky-Hunter: exchange Fast Attack for Kyzagan Support",
+                "constraints": [
+                  {
+                    "id": "sky1-supp-max0-0001",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "Visible for White Scars Sky-Hunter Phalanx",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "f7b4-2531-0962-1379",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Sky-Hunter Phalanx White Scars slot exchange",
+                    "field": "sky1-supp-max0-0001",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "cf96-8891-3f9a-8921",
+                        "field": "selections",
+                        "includeChildSelections": false,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "f7b4-2531-0962-1379",
+                        "field": "selections",
+                        "scope": "primary-catalogue",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
@@ -12524,7 +12712,7 @@
                 "characteristics": [
                   {
                     "name": "Detachment Composition",
-                    "$text": "1 High Command\n2 Command (1 Prime)\n2 Retinue\n10 Fast Attack (2 Prime)",
+                    "$text": "1 High Command\n2 Command (1 Prime)\n2 Retinue\n10 Fast Attack (2 Prime)\nWhite Scars: Retinue may be exchanged for Elites (Golden Keshig); Fast Attack may be exchanged for Support (Kyzagan Assault Speeder)",
                     "typeId": "ec3f-877b-f887-18b2"
                   }
                 ]
@@ -153324,15 +153512,6 @@
                 "shared": true,
                 "type": "max",
                 "value": 1
-              },
-              {
-                "id": "e359-6073-c699-00b0",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "max",
-                "value": 1
               }
             ],
             "modifiers": [
@@ -153341,15 +153520,28 @@
                 "field": "hidden",
                 "type": "set",
                 "value": false,
-                "conditions": [
+                "conditionGroups": [
                   {
-                    "childId": "a1f3-7c2e-9b84-0d54",
-                    "field": "forces",
-                    "includeChildSelections": true,
-                    "scope": "roster",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-9b84-0d54",
+                        "field": "forces",
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-9b84-0d54",
+                        "field": "forces",
+                        "scope": "force",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }

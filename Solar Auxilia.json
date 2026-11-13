@@ -648,6 +648,22 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -755,6 +771,22 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -890,6 +922,22 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -950,6 +998,22 @@
                 "childId": "371d-e9ef-7bf9-47de",
                 "field": "selections",
                 "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
                 "shared": true,
                 "type": "instanceOf",
                 "value": 1
@@ -1068,6 +1132,22 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -1298,6 +1378,22 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -2262,6 +2358,22 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -2444,6 +2556,24 @@
             "hidden": false,
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -2734,6 +2864,22 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -3998,6 +4144,24 @@
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -4078,6 +4242,22 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -4424,6 +4604,22 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -4505,6 +4701,22 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
@@ -4734,6 +4946,22 @@
                 ]
               }
             ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -4912,6 +5140,22 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "comment": "Hidden by Primary - Sky-Hunter Phalanx: WS exchange slots only",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a1f3-7c2e-9b84-0d54",
+                "field": "forces",
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
               }
             ]
           }
