@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 81,
+    "revision": 82,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -154408,24 +154408,24 @@
                         "type": "and",
                         "conditions": [
                           {
-                            "comment": "This unit must be Walker Type (not a sibling Walker in the force)",
+                            "comment": "Walker is on the model child entry — count within this unit only (not ancestor/force siblings)",
                             "childId": "38d4-d720-8009-acd3",
                             "field": "selections",
                             "includeChildSelections": true,
                             "scope": "unit",
                             "shared": true,
-                            "type": "instanceOf",
+                            "type": "atLeast",
                             "value": 1
                           },
                           {
-                            "comment": "This unit must not have Malefic Sub-Type",
+                            "comment": "No Malefic Sub-Type on models in this unit",
                             "childId": "2de1-ddd6-ebb4-10df",
                             "field": "selections",
                             "includeChildSelections": true,
                             "scope": "unit",
                             "shared": true,
-                            "type": "notInstanceOf",
-                            "value": 1
+                            "type": "equalTo",
+                            "value": 0
                           }
                         ]
                       }
