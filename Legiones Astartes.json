@@ -37895,6 +37895,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "01ee-0aa6-651e-5ba3",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -38023,6 +38031,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -58195,6 +58234,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "e939-5ffb-f6f0-db15",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -58323,6 +58370,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -101333,6 +101411,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "aabf-2dfd-ead3-444f",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -101461,6 +101547,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -106455,6 +106572,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "c118-8617-299c-842c",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -106567,6 +106692,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -130934,6 +131090,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "b3dc-3d8b-e9f3-62db",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -131054,6 +131218,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -217721,6 +217916,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "f89b-890a-007c-8f85",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -217807,6 +218010,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -225403,6 +225637,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "ddbe-d48d-9c25-7575",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -225513,6 +225755,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -227380,6 +227653,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "1415-82e5-f93f-1f91",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -227490,6 +227771,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -230992,6 +231304,14 @@
               }
             ],
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "a9f7-fb78-a737-3d91",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -231086,6 +231406,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -235245,6 +235596,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "a9d0-c1d2-8ee4-a40a",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -235363,6 +235722,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []
@@ -255359,6 +255749,14 @@
             "targetId": "fd0c-8569-5b52-0ce8",
             "type": "selectionEntryGroup",
             "categoryLinks": []
+          },
+          {
+            "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+            "id": "7972-62cc-4999-0b8a",
+            "hidden": false,
+            "import": true,
+            "targetId": "a1f3-7c2e-vang-line",
+            "type": "selectionEntry"
           }
         ],
         "infoLinks": [
@@ -255462,6 +255860,37 @@
                   }
                 ],
                 "categoryLinks": []
+              },
+              {
+                "comment": "Hidden when Pride of the Legion: Exchange Vanguard for Line (1) is selected",
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {
+                        "childId": "a1f3-7c2e-vang-line",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "categoryLinks": []

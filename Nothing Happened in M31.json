@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 74,
+    "revision": 75,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -152139,6 +152139,80 @@
             "id": "2056-c856-fa48-29ad",
             "description": "\"Doorways are bulkheads or openings in Walls, and may be opened and closed during the Battle.\"\n\n\nDoorways may be designated in gaps between Walls that are between 2\" and 4\" in width. Doorways have the Fortification Type so may be targeted by Shooting Attacks and attacked in Combat, and have an Armour Value of 12 on all facings and 3 Hull Points.\n\n\n**Attacking Doorways**\nWhen determining if a Doorway can be targeted by a Shooting Attack, Charged and fought in Combat, or affected by a Special Rule, treat the Doorway as a Vehicle unless it is specifically stated otherwise. When attacking a Doorway, make Hit Tests and Armour Penetration Tests as if it were a Stationary Vehicle. In Combat, Doorways are hit automatically and treated as having a Movement Characteristic of 0 and can be attacked with Weapons that have the Detonation Special Rule. If a Doorway suffers a Glancing Hit then it suffers 1 point of Damage regardless of the Damage Characteristic of the Hit. If a Doorway suffers a Penetrating Hit, then that Doorway suffers Damage equal to the Damage Characteristic of the Hit. When a Doorway has its Hull Points Characteristic reduced to 0, its State is immediately changed to Open and cannot be changed again for the remainder of the Battle.\n\n\n**Doorways and Combat**\nA Doorway can be the target if a Charge and can be Engaged and attacked during the Assault Phase. However, a Doorway may never make attacks of any kind during the Assault Phase and cannot lock an enemy Unit in Combat. In the Resolution Sub-Phase of the Assault Phase, if one side of the Combat is always the winner, regardless of how many Combat Resolution Points are scored. However, a Doorway never takes Panic Checks and has no Aftermath option selected for it - any Units on the opposing side have Aftermath options selected as normal. If a side in a Combat has both Doorways and Models with other Types then the winner of the Combat is determined normally - but any Doorways cannot have Aftermath options chosen for them. Additional Rules for operating Doorways are detailed in the Doorways (X) Special Rule.",
             "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Pride of the Legion: Exchange Vanguard for Line (1)",
+        "id": "a1f3-7c2e-vang-line",
+        "hidden": true,
+        "import": true,
+        "type": "upgrade",
+        "comment": "Pride of the Legion benefit: exchange Vanguard (X) for Line (1)",
+        "constraints": [
+          {
+            "id": "c9ef-8079-aebf-ea27",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Visible only for units in Primary - Pride of the Legion",
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d52",
+                    "field": "forces",
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a1f3-7c2e-9b84-0d52",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Line (X)",
+            "id": "0f6a-ea69-2950-3f99",
+            "hidden": false,
+            "targetId": "1b5d-ceec-802a-c611",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Line (1)"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Pride of the Legion",
+            "id": "5aea-9e0e-94a8-9795",
+            "hidden": false,
+            "description": "When this option is selected, all Models in this Unit exchange the Vanguard (X) Special Rule for the Line (1) Special Rule."
           }
         ]
       }
