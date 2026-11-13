@@ -2,11 +2,11 @@
   "gameSystem": {
     "name": "Nothing Happened in M31",
     "id": "sys-9fe4-1dc3-b7c2-73cf",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
+    "authorContact": "https://github.com/yiliangliu08/nothing-happened-in-m31/issues",
     "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
+    "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 62,
+    "revision": 64,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -136305,7 +136305,7 @@
         "name": "Github",
         "id": "e0e7-6fcd-7ee7-448d",
         "hidden": false,
-        "publisherUrl": "https://github.com/BSData/horus-heresy-3rd-edition",
+        "publisherUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31",
         "shortName": "Github"
       },
       {

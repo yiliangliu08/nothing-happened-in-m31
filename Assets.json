@@ -2,24 +2,37 @@
   "catalogue": {
     "name": "Battlefield Assets",
     "id": "5334-5605-242c-d75e",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
+    "authorContact": "https://github.com/yiliangliu08/nothing-happened-in-m31/issues",
     "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
+    "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 2,
+    "revision": 3,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
-    "catalogueLinks": [{"name": "Special Rules", "id": "b2c2-5ac2-a2af-1f89", "targetId": "106b-693b-99f2-00c3", "type": "catalogue"}],
+    "catalogueLinks": [
+      {
+        "name": "Special Rules",
+        "id": "b2c2-5ac2-a2af-1f89",
+        "targetId": "106b-693b-99f2-00c3",
+        "type": "catalogue"
+      }
+    ],
     "costTypes": [
       {
         "name": "Asset Point(s)",
         "id": "29b4-fb27-da17-1e21",
         "defaultCostLimit": -1,
         "hidden": true,
-        "modifiers": [{"field": "hidden", "type": "set", "value": false}]
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -30,8 +43,23 @@
         "import": true,
         "targetId": "9f06-57fd-b80a-1172",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "7e73-4d58-50c9-5a81", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
-        "infoLinks": [{"name": "The Attacker Asset Trait", "id": "047d-9bbf-268a-743e", "hidden": false, "targetId": "dcb6-3210-cd5a-9d00", "type": "rule"}]
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "7e73-4d58-50c9-5a81",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "The Attacker Asset Trait",
+            "id": "047d-9bbf-268a-743e",
+            "hidden": false,
+            "targetId": "dcb6-3210-cd5a-9d00",
+            "type": "rule"
+          }
+        ]
       },
       {
         "name": "Strategic Cogitator Array",
@@ -40,7 +68,14 @@
         "import": true,
         "targetId": "a9df-6474-667c-6aee",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "896f-9cd0-cd68-2862", "primary": true, "targetId": "b720-ea51-7339-6a08"}]
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "896f-9cd0-cd68-2862",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ]
       },
       {
         "name": "Graviton Snares",
@@ -49,10 +84,29 @@
         "import": true,
         "targetId": "0196-e7d7-7a49-8e00",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "20c4-862b-3b5d-f84d", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "20c4-862b-3b5d-f84d",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "infoLinks": [
-          {"name": "The Defender Asset Trait", "id": "f96d-304a-700d-4b0b", "hidden": false, "targetId": "ad11-1191-3191-7509", "type": "rule"},
-          {"name": "The Minefield Asset Trait", "id": "e608-5519-803d-c4a7", "hidden": false, "targetId": "1d82-cb03-376e-f062", "type": "rule"}
+          {
+            "name": "The Defender Asset Trait",
+            "id": "f96d-304a-700d-4b0b",
+            "hidden": false,
+            "targetId": "ad11-1191-3191-7509",
+            "type": "rule"
+          },
+          {
+            "name": "The Minefield Asset Trait",
+            "id": "e608-5519-803d-c4a7",
+            "hidden": false,
+            "targetId": "1d82-cb03-376e-f062",
+            "type": "rule"
+          }
         ]
       },
       {
@@ -62,8 +116,23 @@
         "import": true,
         "targetId": "aae5-1bb5-e4c1-595e",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "1596-adb0-c8d9-5b5c", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
-        "infoLinks": [{"name": "The Explosive Asset Trait", "id": "c6d7-717c-a2ae-0129", "hidden": false, "targetId": "29af-b990-5cfb-cf20", "type": "rule"}]
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "1596-adb0-c8d9-5b5c",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "The Explosive Asset Trait",
+            "id": "c6d7-717c-a2ae-0129",
+            "hidden": false,
+            "targetId": "29af-b990-5cfb-cf20",
+            "type": "rule"
+          }
+        ]
       },
       {
         "name": "Auto-Repair Servitor Clade",
@@ -72,8 +141,23 @@
         "import": true,
         "targetId": "2f1a-ca50-8f54-abfb",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "e4cb-da99-cb9c-ca41", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
-        "infoLinks": [{"name": "The Defender Asset Trait", "id": "bda5-3c58-5709-2753", "hidden": false, "targetId": "ad11-1191-3191-7509", "type": "rule"}]
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "e4cb-da99-cb9c-ca41",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "The Defender Asset Trait",
+            "id": "bda5-3c58-5709-2753",
+            "hidden": false,
+            "targetId": "ad11-1191-3191-7509",
+            "type": "rule"
+          }
+        ]
       },
       {
         "name": "Contingency Device",
@@ -82,10 +166,29 @@
         "import": true,
         "targetId": "41b1-f4a4-fb8a-cdb7",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "d6fd-267d-8a3f-6f0a", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "d6fd-267d-8a3f-6f0a",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "infoLinks": [
-          {"name": "The Defender Asset Trait", "id": "b0d5-9255-f879-7a29", "hidden": false, "targetId": "ad11-1191-3191-7509", "type": "rule"},
-          {"name": "The Explosive Asset Trait", "id": "83f0-cd34-dd9c-887d", "hidden": false, "targetId": "29af-b990-5cfb-cf20", "type": "rule"}
+          {
+            "name": "The Defender Asset Trait",
+            "id": "b0d5-9255-f879-7a29",
+            "hidden": false,
+            "targetId": "ad11-1191-3191-7509",
+            "type": "rule"
+          },
+          {
+            "name": "The Explosive Asset Trait",
+            "id": "83f0-cd34-dd9c-887d",
+            "hidden": false,
+            "targetId": "29af-b990-5cfb-cf20",
+            "type": "rule"
+          }
         ]
       },
       {
@@ -95,10 +198,29 @@
         "import": true,
         "targetId": "70c6-7a69-afd3-6044",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "c04f-b897-b6f2-b0fb", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "c04f-b897-b6f2-b0fb",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "infoLinks": [
-          {"name": "The Defender Asset Trait", "id": "448c-1f7c-7070-5270", "hidden": false, "targetId": "ad11-1191-3191-7509", "type": "rule"},
-          {"name": "The Minefield Asset Trait", "id": "987e-e2d0-ec32-0828", "hidden": false, "targetId": "1d82-cb03-376e-f062", "type": "rule"}
+          {
+            "name": "The Defender Asset Trait",
+            "id": "448c-1f7c-7070-5270",
+            "hidden": false,
+            "targetId": "ad11-1191-3191-7509",
+            "type": "rule"
+          },
+          {
+            "name": "The Minefield Asset Trait",
+            "id": "987e-e2d0-ec32-0828",
+            "hidden": false,
+            "targetId": "1d82-cb03-376e-f062",
+            "type": "rule"
+          }
         ]
       },
       {
@@ -108,10 +230,29 @@
         "import": true,
         "targetId": "5244-e331-d959-02db",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "978f-120c-6063-0ab8", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "978f-120c-6063-0ab8",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "infoLinks": [
-          {"name": "The Defender Asset Trait", "id": "4c90-1a19-ff08-1bf6", "hidden": false, "targetId": "ad11-1191-3191-7509", "type": "rule"},
-          {"name": "The Minefield Asset Trait", "id": "6d63-2c83-b37a-d0ce", "hidden": false, "targetId": "1d82-cb03-376e-f062", "type": "rule"}
+          {
+            "name": "The Defender Asset Trait",
+            "id": "4c90-1a19-ff08-1bf6",
+            "hidden": false,
+            "targetId": "ad11-1191-3191-7509",
+            "type": "rule"
+          },
+          {
+            "name": "The Minefield Asset Trait",
+            "id": "6d63-2c83-b37a-d0ce",
+            "hidden": false,
+            "targetId": "1d82-cb03-376e-f062",
+            "type": "rule"
+          }
         ]
       },
       {
@@ -121,10 +262,29 @@
         "import": true,
         "targetId": "a74f-010a-42ac-9d13",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "0101-2433-7a8c-0f3c", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "0101-2433-7a8c-0f3c",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "infoLinks": [
-          {"name": "The Defender Asset Trait", "id": "4047-963c-726e-e9cd", "hidden": false, "targetId": "ad11-1191-3191-7509", "type": "rule"},
-          {"name": "The Minefield Asset Trait", "id": "6516-c9c5-c81a-ab8a", "hidden": false, "targetId": "1d82-cb03-376e-f062", "type": "rule"}
+          {
+            "name": "The Defender Asset Trait",
+            "id": "4047-963c-726e-e9cd",
+            "hidden": false,
+            "targetId": "ad11-1191-3191-7509",
+            "type": "rule"
+          },
+          {
+            "name": "The Minefield Asset Trait",
+            "id": "6516-c9c5-c81a-ab8a",
+            "hidden": false,
+            "targetId": "1d82-cb03-376e-f062",
+            "type": "rule"
+          }
         ]
       },
       {
@@ -134,8 +294,23 @@
         "import": true,
         "targetId": "02e0-ca11-ac55-0228",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "bff0-ab70-3e90-5cd6", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
-        "infoLinks": [{"name": "The Attacker Asset Trait", "id": "e769-b398-512f-9d59", "hidden": false, "targetId": "dcb6-3210-cd5a-9d00", "type": "rule"}]
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "bff0-ab70-3e90-5cd6",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "The Attacker Asset Trait",
+            "id": "e769-b398-512f-9d59",
+            "hidden": false,
+            "targetId": "dcb6-3210-cd5a-9d00",
+            "type": "rule"
+          }
+        ]
       },
       {
         "name": "Tank Traps",
@@ -144,8 +319,23 @@
         "import": true,
         "targetId": "6a6b-ab2e-2570-ff12",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "766b-1041-f97e-d2ee", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
-        "infoLinks": [{"name": "The Defender Asset Trait", "id": "9fde-7ecc-cc6e-5d7b", "hidden": false, "targetId": "ad11-1191-3191-7509", "type": "rule"}]
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "766b-1041-f97e-d2ee",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "The Defender Asset Trait",
+            "id": "9fde-7ecc-cc6e-5d7b",
+            "hidden": false,
+            "targetId": "ad11-1191-3191-7509",
+            "type": "rule"
+          }
+        ]
       },
       {
         "name": "Wayfinder Device",
@@ -154,8 +344,23 @@
         "import": true,
         "targetId": "897a-1ca7-ce3c-c361",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Asset", "id": "fac0-21df-b488-fba0", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
-        "infoLinks": [{"name": "The Attacker Asset Trait", "id": "234f-893f-c2ff-726d", "hidden": false, "targetId": "dcb6-3210-cd5a-9d00", "type": "rule"}]
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "fac0-21df-b488-fba0",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "The Attacker Asset Trait",
+            "id": "234f-893f-c2ff-726d",
+            "hidden": false,
+            "targetId": "dcb6-3210-cd5a-9d00",
+            "type": "rule"
+          }
+        ]
       }
     ],
     "forceEntries": [
@@ -164,7 +369,15 @@
         "id": "10ac-064d-70cc-cc99",
         "hidden": false,
         "constraints": [
-          {"id": "a697-3899-b304-6cb9", "field": "forces", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1},
+          {
+            "id": "a697-3899-b304-6cb9",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
           {
             "id": "8009-17d9-2a5c-684f",
             "field": "29b4-fb27-da17-1e21",
@@ -182,13 +395,44 @@
             "id": "d68d-6aff-7d56-4312",
             "hidden": true,
             "categoryLinks": [
-              {"name": "Allegiance", "id": "95b9-8c82-2889-fb8b", "hidden": false, "targetId": "c408-52f1-b632-4c82"},
-              {"name": "Army Configuration", "id": "9ad5-bc0f-1944-fee6", "hidden": false, "targetId": "abfa-86ab-1726-077a"},
-              {"name": "Asset", "id": "5ddf-c70c-c587-b43c", "hidden": false, "targetId": "b720-ea51-7339-6a08"}
+              {
+                "name": "Allegiance",
+                "id": "95b9-8c82-2889-fb8b",
+                "hidden": false,
+                "targetId": "c408-52f1-b632-4c82"
+              },
+              {
+                "name": "Army Configuration",
+                "id": "9ad5-bc0f-1944-fee6",
+                "hidden": false,
+                "targetId": "abfa-86ab-1726-077a"
+              },
+              {
+                "name": "Asset",
+                "id": "5ddf-c70c-c587-b43c",
+                "hidden": false,
+                "targetId": "b720-ea51-7339-6a08"
+              }
             ],
             "constraints": [
-              {"id": "3513-b756-b04d-ab69", "field": "forces", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "a304-1aec-f10e-4607", "field": "forces", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "3513-b756-b04d-ab69",
+                "field": "forces",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "a304-1aec-f10e-4607",
+                "field": "forces",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "modifiers": [
               {
@@ -196,7 +440,15 @@
                 "type": "set",
                 "value": false,
                 "conditions": [
-                  {"childId": "5334-5605-242c-d75e", "childName": "Assets", "field": "selections", "scope": "primary-catalogue", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "5334-5605-242c-d75e",
+                    "childName": "Assets",
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "5334-5605-242c-d75e",
                     "childName": "Battlefield Assets",
@@ -415,10 +667,33 @@
         "import": true,
         "sortIndex": 2,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Army Configuration", "id": "211e-b596-6ae3-7363", "primary": true, "targetId": "abfa-86ab-1726-077a"}],
+        "categoryLinks": [
+          {
+            "name": "Army Configuration",
+            "id": "211e-b596-6ae3-7363",
+            "primary": true,
+            "targetId": "abfa-86ab-1726-077a"
+          }
+        ],
         "constraints": [
-          {"id": "6f04-2f85-3121-77c8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-          {"id": "2f3a-1e2e-18fe-a76f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+          {
+            "id": "6f04-2f85-3121-77c8",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "2f3a-1e2e-18fe-a76f",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
         ],
         "modifiers": [
           {
@@ -444,12 +719,40 @@
             "id": "d254-a2e6-0b71-2345",
             "hidden": false,
             "constraints": [
-              {"id": "8b48-af13-deec-0872", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "17d3-8cbb-0fce-a53d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "8b48-af13-deec-0872",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "17d3-8cbb-0fce-a53d",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "selectionEntries": [
-              {"name": "Attacker", "id": "affa-726d-7fee-f272", "hidden": false, "import": true, "type": "upgrade"},
-              {"name": "Defender", "id": "81e6-a6ec-25e5-68ff", "hidden": false, "import": true, "type": "upgrade"}
+              {
+                "name": "Attacker",
+                "id": "affa-726d-7fee-f272",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade"
+              },
+              {
+                "name": "Defender",
+                "id": "81e6-a6ec-25e5-68ff",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade"
+              }
             ]
           }
         ]
@@ -461,10 +764,33 @@
         "import": true,
         "sortIndex": 1,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Army Configuration", "id": "b932-350f-624d-4176", "primary": true, "targetId": "abfa-86ab-1726-077a"}],
+        "categoryLinks": [
+          {
+            "name": "Army Configuration",
+            "id": "b932-350f-624d-4176",
+            "primary": true,
+            "targetId": "abfa-86ab-1726-077a"
+          }
+        ],
         "constraints": [
-          {"id": "ae19-90d5-1ee3-830a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-          {"id": "b489-2a28-7306-56bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+          {
+            "id": "ae19-90d5-1ee3-830a",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "b489-2a28-7306-56bf",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
         ],
         "modifiers": [
           {
@@ -491,14 +817,58 @@
             "defaultSelectionEntryId": "695d-27a5-1c3e-5cb2",
             "hidden": false,
             "constraints": [
-              {"id": "c848-135c-2e16-0372", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "ade2-c362-a777-3e08", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+              {
+                "id": "c848-135c-2e16-0372",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "ade2-c362-a777-3e08",
+                "field": "selections",
+                "includeChildSelections": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
             ],
             "selectionEntries": [
-              {"name": "0-1500", "id": "695d-27a5-1c3e-5cb2", "hidden": false, "import": true, "sortIndex": 1, "type": "upgrade"},
-              {"name": "1501-3500", "id": "6c42-8151-9658-9a25", "hidden": false, "import": true, "sortIndex": 2, "type": "upgrade"},
-              {"name": "3501-5000", "id": "e70a-ceeb-e5df-474f", "hidden": false, "import": true, "sortIndex": 3, "type": "upgrade"},
-              {"name": "5001+", "id": "7a51-848e-4e60-d050", "hidden": false, "import": true, "sortIndex": 4, "type": "upgrade"}
+              {
+                "name": "0-1500",
+                "id": "695d-27a5-1c3e-5cb2",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade"
+              },
+              {
+                "name": "1501-3500",
+                "id": "6c42-8151-9658-9a25",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "type": "upgrade"
+              },
+              {
+                "name": "3501-5000",
+                "id": "e70a-ceeb-e5df-474f",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 3,
+                "type": "upgrade"
+              },
+              {
+                "name": "5001+",
+                "id": "7a51-848e-4e60-d050",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 4,
+                "type": "upgrade"
+              }
             ]
           }
         ]
@@ -540,13 +910,41 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 3}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 3
+          }
         ],
         "modifiers": [
           {
@@ -577,7 +975,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "Disruption Emitters apply a negative modifier to certain characteristics of nearby models.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "Disruption Emitters apply a negative modifier to certain characteristics of nearby models.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Disruption Emitter Marker must be set up by the Player that selected it at the start of the Deploy Armies Step. It must be set up with the centre of the Marker anywhere on the Battlefield that is not within their Opponent's deployment zone.",
@@ -593,7 +995,11 @@
                 "$text": "At the end of each Battle Turn, the player that selected it rolls one Dice for each Disruption Emitter Marker they set up. On a 1, that Disruption Emitter Marker is removed from the Battlefield.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Attacker", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Attacker",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -605,13 +1011,41 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 2}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 2
+          }
         ],
         "profiles": [
           {
@@ -621,7 +1055,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "A Unit near a Forward Ammunition Drop may gain a benefit when making certain Shooting Attacks.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "A Unit near a Forward Ammunition Drop may gain a benefit when making certain Shooting Attacks.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Forward Ammunition Drop Marker is set up by the Player that selected it at the start of the Deploy Armies Step. It must be set up with the centre of the Marker anywhere on the Battlefield more than 6\" away from that Player's Deployment Zone.",
@@ -637,7 +1075,11 @@
                 "$text": "After that Shooting Attack has been resolved, the Controlling Player of the Unit making the Shooting Attack rolls one Dice. On a 4+, the Forward Ammunition Drop Marker is removed from the Battlefield.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Explosive", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Explosive",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -649,13 +1091,41 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 1}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 1
+          }
         ],
         "modifiers": [
           {
@@ -686,7 +1156,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "Models close to a Graviton Snare risk becoming Pinned.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "Models close to a Graviton Snare risk becoming Pinned.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Graviton Snare Marker must be set up by the Player that selected it at the end of the Prepare the Battlefield Step of the Mission Sequence.",
@@ -697,8 +1171,16 @@
                 "$text": "If a Unit is selected to move in the Movement Phase or make a Charge Move while any Models from that Unit are within 6\" of the centre of a Graviton Snare Marker, the Controlling Player of that Unit must roll one Dice for each Model from that Unit that is within 6\" of the centre of that Graviton Snare Marker. On a 1, that Model triggers the snare and the Unit that includes that Model gains the Pinned Tactical Status, and that Graviton Snare Marker is removed from the Battlefield.",
                 "typeId": "bbd3-5482-ed3a-a3b3"
               },
-              {"name": "How To Destroy", "$text": "Removed when triggered (see above).", "typeId": "6888-e488-df3f-edcf"},
-              {"name": "Traits", "$text": "Defender, Minefield", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "How To Destroy",
+                "$text": "Removed when triggered (see above).",
+                "typeId": "6888-e488-df3f-edcf"
+              },
+              {
+                "name": "Traits",
+                "$text": "Defender, Minefield",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -710,13 +1192,41 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 1}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 1
+          }
         ],
         "profiles": [
           {
@@ -726,7 +1236,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "A Strategic Cogitator Array allows a Player to increase the value of a Secondary Objective.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "A Strategic Cogitator Array allows a Player to increase the value of a Secondary Objective.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Strategic Cogitator Array is set up by the Player that selected it at the start of the Deploy Armies Step. It must be set up with the centre of the Marker anywhere within that Player's Deployment Zone.",
@@ -737,8 +1251,16 @@
                 "$text": "If the Active Player has a Model with the Command Sub-Type within 3\" of the centre of a Strategic Cogitator Array Marker at the end of their Movement Phase, they can request new orders. If they do so, that Player rolls one Dice. If the result is higher than the current Battle Turn number, the request is successful and that Player may select one Secondary Objective in use in that Battle and increate the value of X on that Secondary Objective by 1, and then the Strategic Cogitator Array Marker is removed from the Battlefield. Each Model with the Command Sub-Type can only request new orders once per Turn, and each Secondary Objective can only have its value increased once in this manner",
                 "typeId": "bbd3-5482-ed3a-a3b3"
               },
-              {"name": "How To Destroy", "$text": "Removed when used successfully (see above).", "typeId": "6888-e488-df3f-edcf"},
-              {"name": "Traits", "$text": "-", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "How To Destroy",
+                "$text": "Removed when used successfully (see above).",
+                "typeId": "6888-e488-df3f-edcf"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -749,15 +1271,50 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Asset", "id": "94b6-3dd7-6b23-8348", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "94b6-3dd7-6b23-8348",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 2}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 2
+          }
         ],
         "modifiers": [
           {
@@ -788,7 +1345,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "Melta Mines may be triggered by larger war machines.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "Melta Mines may be triggered by larger war machines.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Melta Minefield Marker must be set up by the Player that selected it at the end of the Prepare the Battlefield Step of the Mission Sequence.",
@@ -804,7 +1365,11 @@
                 "$text": "Once these its have been resolved, the Controlling Player of the Unit whose move triggered a mine rolls a Dice. On a 4+, that Melta Minefield Marker is removed from the Battlefield.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Defender, Minefield", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Defender, Minefield",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -815,15 +1380,50 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Asset", "id": "e779-a38b-6cc9-58df", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "e779-a38b-6cc9-58df",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 2}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 2
+          }
         ],
         "modifiers": [
           {
@@ -854,7 +1454,10 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Frag Minefield Marker must be set up by the Player that selected it at the end of the Prepare the Battlefield Step of the Mission Sequence.",
@@ -870,7 +1473,11 @@
                 "$text": "Once these its have been resolved, the Controlling Player of the Moving Unit rolls a Dice. On a 4+, that Frag Minefield Marker is removed from the Battlefield.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Defender, Minefield", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Defender, Minefield",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -881,15 +1488,50 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Asset", "id": "e10a-f5f2-36c5-84d3", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "e10a-f5f2-36c5-84d3",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 2}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 2
+          }
         ],
         "modifiers": [
           {
@@ -920,7 +1562,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "A Contingency Device may be detonated when a nearby Unit falls back.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "A Contingency Device may be detonated when a nearby Unit falls back.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Contingency Device Marker is set up by the Player that selected it at the start of the Deploy Armies Step. It must be set up with the centre of the Marker anywhere within that Payer's Deployment Zone.",
@@ -936,7 +1582,11 @@
                 "$text": "Once these Hits have been resolved, that Contingency Device Marker is removed from the Battlefield and the Panic Check is made for the Unit as normal.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Defender, Explosive", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Defender, Explosive",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -947,15 +1597,50 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Asset", "id": "3eaf-4045-9bc9-08e3", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "3eaf-4045-9bc9-08e3",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 1}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 1
+          }
         ],
         "modifiers": [
           {
@@ -986,7 +1671,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "Tank Traps block the Movement of Vehicles.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "Tank Traps block the Movement of Vehicles.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Tank Traps Marker must be a maximum of 60mm wide and be set up by the Player that selected it at the start of the Deploy Armies Step. It must be set up with the centre of the Marker anywhere on the Battlefield that is not within their Opponent's Deployment Zone.",
@@ -1002,7 +1691,11 @@
                 "$text": "Each Tank Traps Marker can be selected as the Target of Charges and of Ranged and Melee Attacks, and is treated as a Model with the Vehicle Type with a single Facing with an Armour Value of 14 and a Hull Points Characteristic of 2. A Each Tank Traps Marker cannot gain any Tactical Statuses.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Defender", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Defender",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -1014,13 +1707,41 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 1}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 1
+          }
         ],
         "modifiers": [
           {
@@ -1051,7 +1772,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "When triggered, Shroud Canisters can provide the Shrouded (X) Special Rule to Models nearby.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "When triggered, Shroud Canisters can provide the Shrouded (X) Special Rule to Models nearby.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Shroud Canister Marker must be set up by the Player that selected it at the end of the Prepare the Battlefield Step of the Mission Sequence.",
@@ -1067,7 +1792,11 @@
                 "$text": "In the Effects Sub-Phase of the End Phase of the next Player Turn, a triggered Shroud Canister is removed from the Battlefield.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Attacker", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Attacker",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -1078,15 +1807,50 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Asset", "id": "1a65-e6ba-025e-3161", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "1a65-e6ba-025e-3161",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 1}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 1
+          }
         ],
         "modifiers": [
           {
@@ -1132,8 +1896,16 @@
                 "$text": "If a Unit is selected to move in the Movement Phase or make a Charge Move while any Models from that Unit with the Vehicle or Walker Type are within 6\" of the centre of a Neutron Bomb Marker, the Controlling Player of that Unit must roll one Dice for each Model from that Unit which is within 6\" of the centre of a Neutron Bomb Marker. On a 4+, that Model triggers the Neutron Bomb and the Unit that includes that Model gains the Suppressed Tactical Status, and that Neutron Bomb Marker is removed from the Battlefield.",
                 "typeId": "bbd3-5482-ed3a-a3b3"
               },
-              {"name": "How To Destroy", "$text": "Removed when triggered (see above).", "typeId": "6888-e488-df3f-edcf"},
-              {"name": "Traits", "$text": "Defender, Minefield", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "How To Destroy",
+                "$text": "Removed when triggered (see above).",
+                "typeId": "6888-e488-df3f-edcf"
+              },
+              {
+                "name": "Traits",
+                "$text": "Defender, Minefield",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -1144,15 +1916,50 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Asset", "id": "acf4-e204-704c-120e", "primary": true, "targetId": "b720-ea51-7339-6a08"}],
+        "categoryLinks": [
+          {
+            "name": "Asset",
+            "id": "acf4-e204-704c-120e",
+            "primary": true,
+            "targetId": "b720-ea51-7339-6a08"
+          }
+        ],
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 2}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 2
+          }
         ],
         "infoLinks": [
           {
@@ -1162,7 +1969,13 @@
             "hidden": false,
             "targetId": "3973-ed50-1482-ff4a",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "set", "value": "Auto-Repair (4+)"}]
+            "modifiers": [
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Auto-Repair (4+)"
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -1214,7 +2027,11 @@
                 "$text": "If a Blast Marker covers the centre of an Auto-Repair Servitor Clade Marker, then after that Shooting Attack has been resolved, the Controlling Player of the Unit making the Shooting Attack must roll one Dice. On a 4+, that Auto-Repair Servitor Clade Marker is removed.",
                 "typeId": "6888-e488-df3f-edcf"
               },
-              {"name": "Traits", "$text": "Defender", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "Traits",
+                "$text": "Defender",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]
@@ -1226,13 +2043,41 @@
         "import": true,
         "type": "upgrade",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
-          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
-          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
-          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
-          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
-          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
-          {"name": "Asset Point(s)", "typeId": "29b4-fb27-da17-1e21", "value": 2}
+          {
+            "name": "Point(s)",
+            "typeId": "9893-c379-920b-8982",
+            "value": 0
+          },
+          {
+            "name": "Reaction Point(s)",
+            "typeId": "c9ba-097e-c47f-ecc2",
+            "value": 0
+          },
+          {
+            "name": "Auxiliary Detachment(s)",
+            "typeId": "3e8e-05ee-be52-12d6",
+            "value": 0
+          },
+          {
+            "name": "Apex Detachment(s)",
+            "typeId": "159d-855c-533d-f592",
+            "value": 0
+          },
+          {
+            "name": "Combined Warlord and Lord of War Points",
+            "typeId": "14bd-cad0-cd3d-8b23",
+            "value": 0
+          },
+          {
+            "name": "Mech LB",
+            "typeId": "7275-cbe8-a563-7152",
+            "value": 0
+          },
+          {
+            "name": "Asset Point(s)",
+            "typeId": "29b4-fb27-da17-1e21",
+            "value": 2
+          }
         ],
         "modifiers": [
           {
@@ -1263,7 +2108,11 @@
             "typeId": "7ae0-de68-04c6-8d8f",
             "typeName": "Asset",
             "characteristics": [
-              {"name": "Summary", "$text": "A Wayfinder Device can grant nearby Models the Move Through Cover Special Rule.", "typeId": "3dcf-9034-fc2d-cd56"},
+              {
+                "name": "Summary",
+                "$text": "A Wayfinder Device can grant nearby Models the Move Through Cover Special Rule.",
+                "typeId": "3dcf-9034-fc2d-cd56"
+              },
               {
                 "name": "Setup",
                 "$text": "Each Wayfinder Device Marker must be set up by the Player that selected it at the start of the Deploy Armies Step. It must be set up with the centre of the Marker anywhere on the Battlefield that is not within their Opponent's Deployment Zone.",
@@ -1274,8 +2123,16 @@
                 "$text": "In the Effects Sub-Phase of their Player Turn, the Player who set up a Wayfinder Device can select to trigger it. If they do, they can select one Area of Difficult or Dangerous Terrain that is wholly within 12\" of the centre of that Wayfinder Device Marker. Models from that Player's Army are treated as having the Move Through Cover Special Rule while moving through the selected Area Terrain during that Turn.",
                 "typeId": "bbd3-5482-ed3a-a3b3"
               },
-              {"name": "How To Destroy", "$text": "N/A", "typeId": "6888-e488-df3f-edcf"},
-              {"name": "Traits", "$text": "Attacker", "typeId": "a1e3-4f30-fa22-d127"}
+              {
+                "name": "How To Destroy",
+                "$text": "N/A",
+                "typeId": "6888-e488-df3f-edcf"
+              },
+              {
+                "name": "Traits",
+                "$text": "Attacker",
+                "typeId": "a1e3-4f30-fa22-d127"
+              }
             ]
           }
         ]

@@ -1,10 +1,9 @@
-Horus Heresy 3rd Edition
+Nothing Happened in M31
 ==================
 
-[![Open bugs](https://img.shields.io/github/issues/BSData/horus-heresy-3rd-edition/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/horus-heresy-3rd-edition/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/horus-heresy-3rd-edition.svg?style=flat-square)](https://github.com/BSData/horus-heresy-3rd-edition/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/horus-heresy-3rd-edition.svg?style=flat-square)](https://github.com/BSData/horus-heresy-3rd-edition/pulse/monthly)
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+[![Open bugs](https://img.shields.io/github/issues/yiliangliu08/nothing-happened-in-m31/bug.svg?style=flat-square&label=bugs)](https://github.com/yiliangliu08/nothing-happened-in-m31/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Contributors](https://img.shields.io/github/contributors/yiliangliu08/nothing-happened-in-m31.svg?style=flat-square)](https://github.com/yiliangliu08/nothing-happened-in-m31/graphs/contributors)
+[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/yiliangliu08/nothing-happened-in-m31.svg?style=flat-square)](https://github.com/yiliangliu08/nothing-happened-in-m31/pulse/monthly)
 
 # 1. Implementation Plan
 ## 1.1 Generic Catalogues
@@ -186,5 +185,4 @@ LA_PRIME_BENEFIT_SLOT_UPGRADES = {
 
 
 
-[BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/TemplateDataRepo/issues/new/choose
+[bug report]: https://github.com/yiliangliu08/nothing-happened-in-m31/issues/new/choose

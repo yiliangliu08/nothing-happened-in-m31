@@ -2,14 +2,14 @@
   "catalogue": {
     "name": "                       XIX - Raven Guard",
     "id": "340c-1d4f-1f31-fb70",
-    "authorContact": "https://github.com/BSData/horus-heresy-3rd-edition/issues",
+    "authorContact": "https://github.com/yiliangliu08/nothing-happened-in-m31/issues",
     "authorName": "The4D6",
-    "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
+    "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 56,
     "library": false,
-    "revision": 9,
+    "revision": 10,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
