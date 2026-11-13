@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/BSData/horus-heresy-3rd-edition/",
     "battleScribeVersion": 2.03,
-    "revision": 58,
+    "revision": 61,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -9139,17 +9139,18 @@
             "name": "Primary - Armoured Spearhead",
             "id": "a1f3-7c2e-9b84-0d51",
             "hidden": true,
-            "sortIndex": 40,
+            "sortIndex": 2,
             "categoryLinks": [
               {
                 "name": "High Command",
-                "id": "ae03-eadd-7300-e99c",
+                "id": "54e7-03fe-7039-5a1f",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
                 "constraints": [
                   {
-                    "id": "b04b-a487-b059-b094",
+                    "id": "1c41-e409-8cb0-693d",
                     "field": "selections",
+                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9159,13 +9160,14 @@
               },
               {
                 "name": "Command",
-                "id": "4538-b8e1-7490-2372",
+                "id": "7fae-1f17-5bf8-96e4",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
                 "constraints": [
                   {
-                    "id": "d295-dbb8-d58f-25b7",
+                    "id": "c030-afb0-67e9-148c",
                     "field": "selections",
+                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9175,13 +9177,14 @@
               },
               {
                 "name": "Transport",
-                "id": "18cb-5381-c9a5-1dc9",
+                "id": "7150-9e58-5d49-54a7",
                 "hidden": false,
                 "targetId": "d162-4711-5d60-0a48",
                 "constraints": [
                   {
-                    "id": "4a20-2785-6294-98a0",
+                    "id": "b6a3-e041-12c9-dc8a",
                     "field": "selections",
+                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9191,13 +9194,14 @@
               },
               {
                 "name": "Armour",
-                "id": "fa0c-4618-f4b0-8168",
+                "id": "ff78-ec54-6385-7c41",
                 "hidden": false,
                 "targetId": "643a-1012-bd51-6537",
                 "constraints": [
                   {
-                    "id": "e5e1-dc6f-818c-3307",
+                    "id": "faa7-8b16-abbd-19be",
                     "field": "selections",
+                    "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
@@ -9207,7 +9211,7 @@
               },
               {
                 "name": "Paragon of Malevolence",
-                "id": "2c88-0e67-766f-eab0",
+                "id": "6faa-b0e3-b077-976b",
                 "hidden": false,
                 "targetId": "708b-b2ff-1a14-2901"
               }
@@ -9918,16 +9922,16 @@
             "name": "Primary - Pride of the Legion",
             "id": "a1f3-7c2e-9b84-0d52",
             "hidden": true,
-            "sortIndex": 41,
+            "sortIndex": 3,
             "categoryLinks": [
               {
                 "name": "High Command",
-                "id": "d662-56b7-45fa-12b6",
+                "id": "602d-faf2-5269-5d92",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
                 "constraints": [
                   {
-                    "id": "1bd6-1f0e-46dd-8e38",
+                    "id": "c111-1742-591e-85a6",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -9939,12 +9943,12 @@
               },
               {
                 "name": "Command",
-                "id": "d5e1-2a5f-8453-3568",
+                "id": "7186-25e1-5de3-328a",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
                 "constraints": [
                   {
-                    "id": "ba21-ce4b-8967-ba84",
+                    "id": "0cc3-7b42-86e5-db7b",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -9956,12 +9960,12 @@
               },
               {
                 "name": "Prime Command",
-                "id": "f92a-8c76-62d8-940e",
+                "id": "d7b1-2039-3300-73db",
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "constraints": [
                   {
-                    "id": "b55b-91a6-c208-d845",
+                    "id": "fc4c-b8be-e43b-c62b",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -9974,12 +9978,12 @@
               },
               {
                 "name": "Retinue",
-                "id": "7b06-bd0f-a03f-1341",
+                "id": "ba92-341f-3161-1a69",
                 "hidden": false,
                 "targetId": "a38e-50ff-310f-f19e",
                 "constraints": [
                   {
-                    "id": "9436-93e1-f2ce-addc",
+                    "id": "619f-d282-7cae-7d6f",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -9990,48 +9994,13 @@
                 ]
               },
               {
-                "name": "Elites",
-                "id": "02dc-5955-16ae-e048",
-                "hidden": false,
-                "targetId": "5d5e-958f-e388-50b5",
-                "constraints": [
-                  {
-                    "id": "acef-b988-f481-d09a",
-                    "field": "selections",
-                    "includeChildSelections": false,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 5
-                  }
-                ]
-              },
-              {
-                "name": "Prime Elites",
-                "id": "8795-92b9-a7dc-dece",
-                "hidden": false,
-                "targetId": "276f-7a07-a56c-affd",
-                "constraints": [
-                  {
-                    "id": "e8b9-5455-0515-aaa3",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "parent",
-                    "shared": true,
-                    "type": "max",
-                    "value": 1
-                  }
-                ],
-                "tracked": true
-              },
-              {
                 "name": "Heavy Assault",
-                "id": "e8cf-8dbf-330a-943d",
+                "id": "a1b9-33e0-630a-3594",
                 "hidden": false,
                 "targetId": "3235-bd79-e9b1-60fa",
                 "constraints": [
                   {
-                    "id": "1b60-76bc-c945-98a6",
+                    "id": "5fbf-40d4-ad67-4235",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -10043,12 +10012,47 @@
               },
               {
                 "name": "Prime Heavy Assault",
-                "id": "f778-4369-b6fb-d518",
+                "id": "b274-0f60-05cc-1c14",
                 "hidden": false,
                 "targetId": "1e95-35f0-1353-ffa1",
                 "constraints": [
                   {
-                    "id": "9e41-eeda-0b21-185d",
+                    "id": "e62b-cb5a-43ff-3706",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "tracked": true
+              },
+              {
+                "name": "Elites",
+                "id": "e3d8-28e4-5e71-7cdb",
+                "hidden": false,
+                "targetId": "5d5e-958f-e388-50b5",
+                "constraints": [
+                  {
+                    "id": "a757-7242-3682-77d6",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 5
+                  }
+                ]
+              },
+              {
+                "name": "Prime Elites",
+                "id": "01a2-32df-33eb-7402",
+                "hidden": false,
+                "targetId": "276f-7a07-a56c-affd",
+                "constraints": [
+                  {
+                    "id": "ae60-06ac-ad32-607a",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -10061,12 +10065,12 @@
               },
               {
                 "name": "Heavy Transport",
-                "id": "1207-2171-2e8d-47ac",
+                "id": "0302-e288-3cd4-975d",
                 "hidden": false,
                 "targetId": "52d0-8b78-439e-18e5",
                 "constraints": [
                   {
-                    "id": "e3da-e4e9-c5c6-10fe",
+                    "id": "5cce-0a89-1210-0196",
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
@@ -10076,7 +10080,7 @@
                 ],
                 "modifiers": [
                   {
-                    "field": "e3da-e4e9-c5c6-10fe",
+                    "field": "5cce-0a89-1210-0196",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -10093,7 +10097,7 @@
                     ]
                   },
                   {
-                    "field": "e3da-e4e9-c5c6-10fe",
+                    "field": "5cce-0a89-1210-0196",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -10110,7 +10114,7 @@
                     ]
                   },
                   {
-                    "field": "e3da-e4e9-c5c6-10fe",
+                    "field": "5cce-0a89-1210-0196",
                     "type": "increment",
                     "value": 1,
                     "repeats": [
@@ -10130,7 +10134,7 @@
               },
               {
                 "name": "Paragon of Malevolence",
-                "id": "25b4-ee21-3834-d65e",
+                "id": "9fbe-9220-ca2d-e4ee",
                 "hidden": false,
                 "targetId": "708b-b2ff-1a14-2901"
               }
@@ -10830,7 +10834,7 @@
                 "characteristics": [
                   {
                     "name": "Detachment Composition",
-                    "$text": "1 High Command\n2 Command (1 Prime)\n3 Retinue\n5 Elites (1 Prime)\n5 Heavy Assault (1 Prime)\n+1 Heavy Transport per Retinue/Elites/Heavy Assault Slot filled",
+                    "$text": "1 High Command\n2 Command (1 Prime)\n3 Retinue\n5 Heavy Assault (1 Prime)\n5 Elites (1 Prime)\n+1 Heavy Transport per Retinue/Elites/Heavy Assault Slot filled",
                     "typeId": "ec3f-877b-f887-18b2"
                   }
                 ]
@@ -10841,16 +10845,33 @@
             "name": "Primary - Fury of the Ancients",
             "id": "a1f3-7c2e-9b84-0d53",
             "hidden": true,
-            "sortIndex": 42,
+            "sortIndex": 4,
             "categoryLinks": [
               {
                 "name": "High Command",
-                "id": "5fb0-7352-1cea-3c97",
+                "id": "18c9-7a1e-10c5-b52b",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
                 "constraints": [
                   {
-                    "id": "ef4f-7049-dea0-a989",
+                    "id": "823d-e1da-b286-e0ea",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Retinue",
+                "id": "4390-0517-f6e5-2816",
+                "hidden": false,
+                "targetId": "a38e-50ff-310f-f19e",
+                "constraints": [
+                  {
+                    "id": "5a67-b486-6acb-19fa",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -10862,12 +10883,12 @@
               },
               {
                 "name": "Command",
-                "id": "b65f-af24-5a7e-d28f",
+                "id": "26c5-5c8b-f690-6512",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
                 "constraints": [
                   {
-                    "id": "9916-1d3b-24fc-f532",
+                    "id": "d957-4bdf-0919-0adf",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -10879,12 +10900,12 @@
               },
               {
                 "name": "Prime Command",
-                "id": "fdc5-3330-b7f9-4585",
+                "id": "6ca3-9521-5e19-6a1c",
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "constraints": [
                   {
-                    "id": "89cd-a77f-7b31-f8d3",
+                    "id": "eee9-c502-2f20-2875",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -10897,12 +10918,12 @@
               },
               {
                 "name": "War-engine",
-                "id": "0e8c-c327-5af6-2235",
+                "id": "e9f0-cb57-eb83-bb98",
                 "hidden": false,
                 "targetId": "2499-7239-685f-8465",
                 "constraints": [
                   {
-                    "id": "c3ea-f653-4e64-373b",
+                    "id": "fce8-6e3a-9003-db11",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -10914,12 +10935,12 @@
               },
               {
                 "name": "Prime War-engine",
-                "id": "624d-4a19-132d-115b",
+                "id": "5409-415f-a84c-37f6",
                 "hidden": false,
                 "targetId": "9699-67c9-2c0b-e64b",
                 "constraints": [
                   {
-                    "id": "1ab8-e6b5-09a5-53ff",
+                    "id": "244f-8337-f567-2ba3",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -10932,7 +10953,7 @@
               },
               {
                 "name": "Paragon of Malevolence",
-                "id": "511f-2444-dfe5-c504",
+                "id": "aa0a-b7af-1c2c-2ab2",
                 "hidden": false,
                 "targetId": "708b-b2ff-1a14-2901"
               }
@@ -11632,7 +11653,7 @@
                 "characteristics": [
                   {
                     "name": "Detachment Composition",
-                    "$text": "1 High Command\n2 Command (1 Prime)\n10 War-engine (2 Prime)",
+                    "$text": "1 High Command\n1 Retinue\n2 Command (1 Prime)\n10 War-engine (2 Prime)",
                     "typeId": "ec3f-877b-f887-18b2"
                   }
                 ]
@@ -11643,16 +11664,16 @@
             "name": "Primary - Sky-Hunter Phalanx",
             "id": "a1f3-7c2e-9b84-0d54",
             "hidden": true,
-            "sortIndex": 43,
+            "sortIndex": 5,
             "categoryLinks": [
               {
                 "name": "High Command",
-                "id": "cb5b-1c89-7c08-f10b",
+                "id": "bb45-91b3-9216-6524",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
                 "constraints": [
                   {
-                    "id": "70ce-1cdf-c797-f824",
+                    "id": "3c70-0711-0165-dff0",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -11664,12 +11685,12 @@
               },
               {
                 "name": "Command",
-                "id": "70f5-7ee7-e28f-54ef",
+                "id": "b9c1-7b72-5309-1c80",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
                 "constraints": [
                   {
-                    "id": "1baf-63cf-9d17-8618",
+                    "id": "d60e-24e4-111d-fa6b",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -11681,12 +11702,12 @@
               },
               {
                 "name": "Prime Command",
-                "id": "9d27-6371-781f-549a",
+                "id": "b3c7-41b1-7532-e05d",
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "constraints": [
                   {
-                    "id": "63e6-f25c-8bcb-a8a0",
+                    "id": "7595-1ff4-80a6-9dfe",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -11699,12 +11720,12 @@
               },
               {
                 "name": "Retinue",
-                "id": "a11a-3497-3f43-7970",
+                "id": "9d62-6dcc-1e34-c873",
                 "hidden": false,
                 "targetId": "a38e-50ff-310f-f19e",
                 "constraints": [
                   {
-                    "id": "95ea-04b6-aca9-50b1",
+                    "id": "ab67-2cf0-23ac-125a",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -11716,12 +11737,12 @@
               },
               {
                 "name": "Fast Attack",
-                "id": "c1d4-6309-f865-1d4c",
+                "id": "bdb2-7234-898a-b6b5",
                 "hidden": false,
                 "targetId": "cf96-8891-3f9a-8921",
                 "constraints": [
                   {
-                    "id": "4283-4bf4-85e8-9b7f",
+                    "id": "c8bd-09bf-7e53-f4be",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -11733,12 +11754,12 @@
               },
               {
                 "name": "Prime Fast Attack",
-                "id": "9dfe-ab9f-b30d-ce15",
+                "id": "a058-7623-869d-d50e",
                 "hidden": false,
                 "targetId": "c291-144b-3da6-37ed",
                 "constraints": [
                   {
-                    "id": "04eb-b257-55a6-cd75",
+                    "id": "5190-5b58-fda3-d5d9",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -11751,7 +11772,7 @@
               },
               {
                 "name": "Paragon of Malevolence",
-                "id": "7a15-3f32-5476-af73",
+                "id": "dab9-ea2b-fb28-02ce",
                 "hidden": false,
                 "targetId": "708b-b2ff-1a14-2901"
               }
@@ -12462,16 +12483,16 @@
             "name": "Primary - Orbital Drop Assault",
             "id": "a1f3-7c2e-9b84-0d55",
             "hidden": true,
-            "sortIndex": 44,
+            "sortIndex": 6,
             "categoryLinks": [
               {
                 "name": "High Command",
-                "id": "e28e-948f-bad2-f8c7",
+                "id": "142b-4e83-86e3-ce2d",
                 "hidden": false,
                 "targetId": "d9a6-9b5f-b18a-4d63",
                 "constraints": [
                   {
-                    "id": "3081-e857-60df-5751",
+                    "id": "c2e1-83f8-429d-39a6",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -12483,12 +12504,12 @@
               },
               {
                 "name": "Command",
-                "id": "5c1e-635e-53c8-40da",
+                "id": "7953-f4d4-a74f-7dbf",
                 "hidden": false,
                 "targetId": "6dbf-654a-f06f-2d69",
                 "constraints": [
                   {
-                    "id": "3908-d5d4-8b82-cadd",
+                    "id": "f259-e9c5-d56d-a4e9",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -12500,12 +12521,12 @@
               },
               {
                 "name": "Prime Command",
-                "id": "59f7-0270-e4b7-f298",
+                "id": "52cc-dccb-d253-c6d2",
                 "hidden": false,
                 "targetId": "c85c-2963-658f-1bb9",
                 "constraints": [
                   {
-                    "id": "31e4-3d9f-694e-3c89",
+                    "id": "7ede-8a48-30c8-3343",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -12518,12 +12539,12 @@
               },
               {
                 "name": "Retinue",
-                "id": "8f6d-3b4c-ff6d-7a3e",
+                "id": "aedc-f5fc-6a8a-3d3b",
                 "hidden": false,
                 "targetId": "a38e-50ff-310f-f19e",
                 "constraints": [
                   {
-                    "id": "371a-3d23-713c-c7f6",
+                    "id": "f5a8-15b7-04c1-5626",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -12534,48 +12555,48 @@
                 ]
               },
               {
-                "name": "Elites",
-                "id": "7193-b4ec-04df-5f2e",
+                "name": "Heavy Assault",
+                "id": "530e-71a8-100d-5302",
                 "hidden": false,
-                "targetId": "5d5e-958f-e388-50b5",
+                "targetId": "3235-bd79-e9b1-60fa",
                 "constraints": [
                   {
-                    "id": "2870-6343-5d3b-dde5",
+                    "id": "96e7-3eef-38a5-d0b6",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 4
+                    "value": 2
                   }
                 ]
               },
               {
-                "name": "Prime Elites",
-                "id": "c609-c3d6-c05b-84c4",
+                "name": "Prime Heavy Assault",
+                "id": "283a-f913-6656-0ae7",
                 "hidden": false,
-                "targetId": "276f-7a07-a56c-affd",
+                "targetId": "1e95-35f0-1353-ffa1",
                 "constraints": [
                   {
-                    "id": "e86b-0824-4372-6d5b",
+                    "id": "d033-6541-bbc5-5d0d",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
-                    "value": 2
+                    "value": 1
                   }
                 ],
                 "tracked": true
               },
               {
                 "name": "Troops",
-                "id": "c5e4-b384-c003-6eea",
+                "id": "0a22-8991-481a-cc09",
                 "hidden": false,
                 "targetId": "88e6-d373-4152-0dd8",
                 "constraints": [
                   {
-                    "id": "85d8-5a65-1e12-c192",
+                    "id": "ebb2-cbe5-86ad-9dd9",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -12587,12 +12608,12 @@
               },
               {
                 "name": "Prime Troops",
-                "id": "c022-9e74-bcb4-ede8",
+                "id": "2f68-05c8-9e50-e547",
                 "hidden": false,
                 "targetId": "c3f9-a7f3-984b-3fda",
                 "constraints": [
                   {
-                    "id": "20e3-e557-05dc-c58d",
+                    "id": "be4a-fb81-c395-7673",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "parent",
@@ -12604,13 +12625,13 @@
                 "tracked": true
               },
               {
-                "name": "Transport",
-                "id": "9d9b-8360-fc87-7aec",
+                "name": "Elites",
+                "id": "6e30-c868-6f31-9c14",
                 "hidden": false,
-                "targetId": "d162-4711-5d60-0a48",
+                "targetId": "5d5e-958f-e388-50b5",
                 "constraints": [
                   {
-                    "id": "6b13-fcce-acc1-e9bf",
+                    "id": "227f-0b4a-aaf5-9d98",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
@@ -12621,25 +12642,317 @@
                 ]
               },
               {
-                "name": "Heavy Transport",
-                "id": "be60-0e9a-a0a8-0128",
+                "name": "Prime Elites",
+                "id": "7448-d5b4-44bb-1ee3",
                 "hidden": false,
-                "targetId": "52d0-8b78-439e-18e5",
+                "targetId": "276f-7a07-a56c-affd",
                 "constraints": [
                   {
-                    "id": "cd0a-6960-b12a-ed63",
+                    "id": "1d54-9cf7-5677-d433",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "tracked": true
+              },
+              {
+                "name": "Support",
+                "id": "26e6-b245-3b80-0da7",
+                "hidden": false,
+                "targetId": "345f-9ba6-9b02-ed5c",
+                "constraints": [
+                  {
+                    "id": "90d9-dcf5-b79b-7ff4",
                     "field": "selections",
                     "includeChildSelections": false,
                     "scope": "parent",
                     "shared": true,
                     "type": "max",
+                    "value": 2
+                  }
+                ]
+              },
+              {
+                "name": "Transport",
+                "id": "cb23-ac7c-4e6e-38f2",
+                "hidden": false,
+                "targetId": "d162-4711-5d60-0a48",
+                "constraints": [
+                  {
+                    "id": "cbaf-db83-f9be-34ab",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
                     "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "cbaf-db83-f9be-34ab",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "d9a6-9b5f-b18a-4d63",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "cbaf-db83-f9be-34ab",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "6dbf-654a-f06f-2d69",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "cbaf-db83-f9be-34ab",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "a38e-50ff-310f-f19e",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "cbaf-db83-f9be-34ab",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "3235-bd79-e9b1-60fa",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "cbaf-db83-f9be-34ab",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "88e6-d373-4152-0dd8",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "cbaf-db83-f9be-34ab",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "5d5e-958f-e388-50b5",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "cbaf-db83-f9be-34ab",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "345f-9ba6-9b02-ed5c",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Heavy Transport",
+                "id": "b73b-f6dc-ff27-d499",
+                "hidden": false,
+                "targetId": "52d0-8b78-439e-18e5",
+                "constraints": [
+                  {
+                    "id": "5498-31e0-e779-f2e4",
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "5498-31e0-e779-f2e4",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "d9a6-9b5f-b18a-4d63",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5498-31e0-e779-f2e4",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "6dbf-654a-f06f-2d69",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5498-31e0-e779-f2e4",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "a38e-50ff-310f-f19e",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5498-31e0-e779-f2e4",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "3235-bd79-e9b1-60fa",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5498-31e0-e779-f2e4",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "88e6-d373-4152-0dd8",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5498-31e0-e779-f2e4",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "5d5e-958f-e388-50b5",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5498-31e0-e779-f2e4",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "345f-9ba6-9b02-ed5c",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "force",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "name": "Paragon of Malevolence",
-                "id": "44c2-cadd-3ee9-d3b9",
+                "id": "aab2-06c8-3506-1909",
                 "hidden": false,
                 "targetId": "708b-b2ff-1a14-2901"
               }
@@ -13320,7 +13633,7 @@
                 "name": "Orbital Drop Assault Benefits",
                 "id": "7cac-e2ed-cb07-a7e6",
                 "hidden": false,
-                "description": "For each non-Vehicle Unit in an Army using this Primary Detachment, one Transport or Heavy Transport Slot may be added to this Detachment. Additional Transport/Heavy Transport slots beyond the base 2 Transport should be added by the player following this Benefit (soft enforcement)."
+                "description": "For each non-Vehicle Unit in an Army using this Primary Detachment, one Transport or Heavy Transport Slot may be added to this Detachment. There are no base Transport/Heavy Transport slots; they unlock from non-Vehicle Units. Transport and Heavy Transport maxima each track non-Vehicle selections in this Detachment — total Transport + Heavy Transport taken should not exceed the number of non-Vehicle Units."
               },
               {
                 "name": "Orbital Drop Protocols",
@@ -13345,7 +13658,7 @@
                 "characteristics": [
                   {
                     "name": "Detachment Composition",
-                    "$text": "1 High Command\n2 Command (1 Prime)\n1 Retinue\n4 Elites (2 Prime)\n2 Troops (1 Prime)\n2 Transport\n+1 Transport or Heavy Transport per non-Vehicle Unit in the Army",
+                    "$text": "1 High Command\n2 Command (1 Prime)\n1 Retinue\n2 Heavy Assault (1 Prime)\n2 Troops (1 Prime)\n2 Elites (1 Prime)\n2 Support\n+1 Transport or Heavy Transport per non-Vehicle Unit",
                     "typeId": "ec3f-877b-f887-18b2"
                   }
                 ]
@@ -13356,7 +13669,7 @@
             "name": "Warlord Detachment",
             "id": "50c3-ba24-7471-3d32",
             "hidden": true,
-            "sortIndex": 3,
+            "sortIndex": 13,
             "categoryLinks": [
               {
                 "name": "Warlord",
@@ -14149,7 +14462,7 @@
             "name": "Auxiliary - Armoured Fist",
             "id": "cc51-fdce-8a34-dbcf",
             "hidden": true,
-            "sortIndex": 4,
+            "sortIndex": 14,
             "categoryLinks": [
               {
                 "name": "Transport",
@@ -15876,7 +16189,7 @@
             "name": "Auxiliary - Tactical Support",
             "id": "2965-5682-3cbc-8b47",
             "hidden": true,
-            "sortIndex": 5,
+            "sortIndex": 15,
             "categoryLinks": [
               {
                 "name": "Troops",
@@ -17732,7 +18045,7 @@
             "name": "Auxiliary - Armoured Support",
             "id": "4a2f-ac9e-195e-77cf",
             "hidden": true,
-            "sortIndex": 6,
+            "sortIndex": 16,
             "categoryLinks": [
               {
                 "name": "Armour",
@@ -77721,7 +78034,7 @@
             "name": "Mech - Logistical Benefits Detachment",
             "id": "8c2c-1dac-5e49-d2e5",
             "hidden": true,
-            "sortIndex": 2,
+            "sortIndex": 12,
             "categoryLinks": [
               {
                 "name": "Retinue",
@@ -99620,7 +99933,7 @@
             "name": "Auxiliary - Tank Commander Armoured Support",
             "id": "3624-6932-6197-19af",
             "hidden": true,
-            "sortIndex": 6,
+            "sortIndex": 16,
             "categoryLinks": [
               {
                 "name": "Armour",
