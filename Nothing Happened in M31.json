@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 82,
+    "revision": 83,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -12986,7 +12986,7 @@
                 ],
                 "modifiers": [
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per High Command unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -12994,18 +12994,18 @@
                       {
                         "childId": "d9a6-9b5f-b18a-4d63",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Command unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13013,18 +13013,18 @@
                       {
                         "childId": "6dbf-654a-f06f-2d69",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Retinue unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13032,18 +13032,18 @@
                       {
                         "childId": "a38e-50ff-310f-f19e",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Heavy Assault unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13051,18 +13051,18 @@
                       {
                         "childId": "3235-bd79-e9b1-60fa",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Troops unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13070,18 +13070,18 @@
                       {
                         "childId": "88e6-d373-4152-0dd8",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Elites unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13089,18 +13089,18 @@
                       {
                         "childId": "5d5e-958f-e388-50b5",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Support unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13108,18 +13108,18 @@
                       {
                         "childId": "345f-9ba6-9b02-ed5c",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Recon unit (Vehicle subtracted below)",
                     "field": "oda1-trns-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13127,13 +13127,146 @@
                       {
                         "childId": "2b65-a3f2-620a-dc58",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Fast Attack unit (Vehicle subtracted below)",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "cf96-8891-3f9a-8921",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Armour unit (Vehicle subtracted below)",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "643a-1012-bd51-6537",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per War-engine unit (Vehicle subtracted below)",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "2499-7239-685f-8465",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Transport unit (Vehicle subtracted below)",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "d162-4711-5d60-0a48",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Heavy Transport unit (Vehicle subtracted below)",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "52d0-8b78-439e-18e5",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Lord of War unit (Vehicle subtracted below)",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "a46f-a465-0ead-d6b8",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: exclude Vehicle Type units from pool",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "aa5a-c9fd-1eb1-7a45",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
@@ -13175,7 +13308,7 @@
                 ],
                 "modifiers": [
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per High Command unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13183,18 +13316,18 @@
                       {
                         "childId": "d9a6-9b5f-b18a-4d63",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Command unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13202,18 +13335,18 @@
                       {
                         "childId": "6dbf-654a-f06f-2d69",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Retinue unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13221,18 +13354,18 @@
                       {
                         "childId": "a38e-50ff-310f-f19e",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Heavy Assault unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13240,18 +13373,18 @@
                       {
                         "childId": "3235-bd79-e9b1-60fa",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Troops unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13259,18 +13392,18 @@
                       {
                         "childId": "88e6-d373-4152-0dd8",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Elites unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13278,18 +13411,18 @@
                       {
                         "childId": "5d5e-958f-e388-50b5",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Support unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13297,18 +13430,18 @@
                       {
                         "childId": "345f-9ba6-9b02-ed5c",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
                   {
-                    "comment": "Orbital Drop Assault: pool size from non-Vehicle Units",
+                    "comment": "Orbital Drop Assault: +1 pool per Recon unit (Vehicle subtracted below)",
                     "field": "oda1-htrn-dyn-max01",
                     "type": "increment",
                     "value": 1,
@@ -13316,13 +13449,146 @@
                       {
                         "childId": "2b65-a3f2-620a-dc58",
                         "field": "selections",
-                        "includeChildForces": true,
                         "includeChildSelections": true,
                         "repeats": 1,
                         "roundUp": false,
                         "scope": "roster",
                         "shared": true,
-                        "value": 1
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Fast Attack unit (Vehicle subtracted below)",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "cf96-8891-3f9a-8921",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Armour unit (Vehicle subtracted below)",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "643a-1012-bd51-6537",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per War-engine unit (Vehicle subtracted below)",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "2499-7239-685f-8465",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Transport unit (Vehicle subtracted below)",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "d162-4711-5d60-0a48",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Heavy Transport unit (Vehicle subtracted below)",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "52d0-8b78-439e-18e5",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Lord of War unit (Vehicle subtracted below)",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "a46f-a465-0ead-d6b8",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: exclude Vehicle Type units from pool",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "decrement",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "aa5a-c9fd-1eb1-7a45",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1,
+                        "includeChildForces": true
                       }
                     ]
                   },
