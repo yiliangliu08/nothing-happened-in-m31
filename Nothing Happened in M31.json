@@ -6,7 +6,7 @@
     "authorName": "The4D6",
     "authorUrl": "https://github.com/yiliangliu08/nothing-happened-in-m31/",
     "battleScribeVersion": 2.03,
-    "revision": 83,
+    "revision": 84,
     "type": "gameSystem",
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "categoryEntries": [
@@ -13252,6 +13252,25 @@
                     ]
                   },
                   {
+                    "comment": "Orbital Drop Assault: +1 pool per Warlord unit (Vehicle subtracted below)",
+                    "field": "oda1-trns-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "22ee-7208-4089-b005",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
                     "comment": "Orbital Drop Assault: exclude Vehicle Type units from pool",
                     "field": "oda1-trns-dyn-max01",
                     "type": "decrement",
@@ -13570,6 +13589,25 @@
                         "shared": true,
                         "value": 1,
                         "includeChildForces": true
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Orbital Drop Assault: +1 pool per Warlord unit (Vehicle subtracted below)",
+                    "field": "oda1-htrn-dyn-max01",
+                    "type": "increment",
+                    "value": 1,
+                    "repeats": [
+                      {
+                        "childId": "22ee-7208-4089-b005",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "includeChildForces": true,
+                        "repeats": 1,
+                        "roundUp": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "value": 1
                       }
                     ]
                   },
